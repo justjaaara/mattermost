@@ -1,0 +1,3217 @@
+{
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/__mocks__/monaco-editor.ts": {
+    "mtime": 1781015891.1750114,
+    "ast_hash": "282af03ff19e6f701bda8324888cd145",
+    "semantic_hash": "282af03ff19e6f701bda8324888cd145"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/editors/cel_editor/editor.tsx": {
+    "mtime": 1781015891.175227,
+    "ast_hash": "ed9bb59ee44fe74b9dc1e8243fb3fa83",
+    "semantic_hash": "ed9bb59ee44fe74b9dc1e8243fb3fa83"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/editors/cel_editor/language_provider.tsx": {
+    "mtime": 1781015891.175227,
+    "ast_hash": "82f7c660b6cb4ce5e103c833de38764b",
+    "semantic_hash": "82f7c660b6cb4ce5e103c833de38764b"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/editors/shared.test.tsx": {
+    "mtime": 1781015891.175227,
+    "ast_hash": "88ff1d5ce69ddf64ecc3eabb40eca4c8",
+    "semantic_hash": "88ff1d5ce69ddf64ecc3eabb40eca4c8"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/editors/shared.tsx": {
+    "mtime": 1781015891.175227,
+    "ast_hash": "0190381f7af6e40f742f1e4d419ef0d0",
+    "semantic_hash": "0190381f7af6e40f742f1e4d419ef0d0"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/editors/table_editor/attribute_selector_menu.tsx": {
+    "mtime": 1781015891.175227,
+    "ast_hash": "826ecbdc333b8c4157937f7f2b5fedfe",
+    "semantic_hash": "826ecbdc333b8c4157937f7f2b5fedfe"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/editors/table_editor/masked_chip.test.tsx": {
+    "mtime": 1781015891.1755297,
+    "ast_hash": "83c21f3ee9473d5294d1d001d1fe81e4",
+    "semantic_hash": "83c21f3ee9473d5294d1d001d1fe81e4"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/editors/table_editor/masked_chip.tsx": {
+    "mtime": 1781015891.1755297,
+    "ast_hash": "47e189aef8930c8868f0564f33e1147b",
+    "semantic_hash": "47e189aef8930c8868f0564f33e1147b"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/editors/table_editor/multi_value_selector_menu.tsx": {
+    "mtime": 1781015891.1755297,
+    "ast_hash": "f2c083592c2cb988087f73a3aab2b9ec",
+    "semantic_hash": "f2c083592c2cb988087f73a3aab2b9ec"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/editors/table_editor/operator_selector_menu.test.tsx": {
+    "mtime": 1781015891.1755297,
+    "ast_hash": "800686a443c95fc497694e1e6913009f",
+    "semantic_hash": "800686a443c95fc497694e1e6913009f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/editors/table_editor/operator_selector_menu.tsx": {
+    "mtime": 1781015891.1755297,
+    "ast_hash": "7d02931567426c470ae9ae63cc1e8854",
+    "semantic_hash": "7d02931567426c470ae9ae63cc1e8854"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/editors/table_editor/single_value_selector_menu.tsx": {
+    "mtime": 1781015891.1755297,
+    "ast_hash": "d9dcbb9314c9b2afc70b97edb30f4c60",
+    "semantic_hash": "d9dcbb9314c9b2afc70b97edb30f4c60"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/editors/table_editor/table_editor.test.tsx": {
+    "mtime": 1781015891.1755297,
+    "ast_hash": "c4bbf7e0dc0cd7622793b6f6a6a017ac",
+    "semantic_hash": "c4bbf7e0dc0cd7622793b6f6a6a017ac"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/editors/table_editor/table_editor.tsx": {
+    "mtime": 1781015891.1755297,
+    "ast_hash": "a3c364733af3928094f275fc9e408e84",
+    "semantic_hash": "a3c364733af3928094f275fc9e408e84"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/editors/table_editor/table_editor_channel_admin.test.tsx": {
+    "mtime": 1781015891.1755297,
+    "ast_hash": "e30e2c56fbe2d23a96546d7d76445270",
+    "semantic_hash": "e30e2c56fbe2d23a96546d7d76445270"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/editors/table_editor/value_selector_menu.tsx": {
+    "mtime": 1781015891.1755297,
+    "ast_hash": "927b056d96a991f22c765e74ecbfb4a5",
+    "semantic_hash": "927b056d96a991f22c765e74ecbfb4a5"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/index.ts": {
+    "mtime": 1781015891.1755297,
+    "ast_hash": "3789913112f259b308593a7b5748ade5",
+    "semantic_hash": "3789913112f259b308593a7b5748ade5"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/jobs/access_control_sync_job_table.tsx": {
+    "mtime": 1781015891.1761305,
+    "ast_hash": "3dd83632f65509b9189efb2c2833df6f",
+    "semantic_hash": "3dd83632f65509b9189efb2c2833df6f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/jobs/index.ts": {
+    "mtime": 1781015891.1761305,
+    "ast_hash": "759724742e9d3a0436e0ecdcbd576a51",
+    "semantic_hash": "759724742e9d3a0436e0ecdcbd576a51"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/modals/cel_help/cel_help_modal.tsx": {
+    "mtime": 1781015891.1762817,
+    "ast_hash": "bce7c3df3e3965ef32cc808a6a5ece20",
+    "semantic_hash": "bce7c3df3e3965ef32cc808a6a5ece20"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/modals/confirmation/confirmation_modal.tsx": {
+    "mtime": 1781015891.1763635,
+    "ast_hash": "7d07361bb933bf21a3a2ceb24c2678b6",
+    "semantic_hash": "7d07361bb933bf21a3a2ceb24c2678b6"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/modals/job_details/job_details_modal.tsx": {
+    "mtime": 1781015891.1764667,
+    "ast_hash": "feb852128d916e4deddf661c9eabc860",
+    "semantic_hash": "feb852128d916e4deddf661c9eabc860"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/modals/job_details/searchable_sync_job_channel_list.tsx": {
+    "mtime": 1781015891.1764667,
+    "ast_hash": "563e7a84d77ca7609a6f74d51fc3a031",
+    "semantic_hash": "563e7a84d77ca7609a6f74d51fc3a031"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/modals/policy_selection/policy_selection_modal.tsx": {
+    "mtime": 1781015891.1764667,
+    "ast_hash": "01e37703709427f31b45dd8bb671811f",
+    "semantic_hash": "01e37703709427f31b45dd8bb671811f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/modals/policy_test/test_modal.test.tsx": {
+    "mtime": 1781015891.176673,
+    "ast_hash": "eb67b398898cf304f802644537f8952f",
+    "semantic_hash": "eb67b398898cf304f802644537f8952f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/modals/policy_test/test_modal.tsx": {
+    "mtime": 1781015891.176673,
+    "ast_hash": "a59940566b229fa97a4f5cdf4d680124",
+    "semantic_hash": "a59940566b229fa97a4f5cdf4d680124"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/modals/simulate_access/decision_aggregate.test.ts": {
+    "mtime": 1781015891.176673,
+    "ast_hash": "6226bb18678af321f823345fcf397caa",
+    "semantic_hash": "6226bb18678af321f823345fcf397caa"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/modals/simulate_access/decision_aggregate.ts": {
+    "mtime": 1781015891.1767957,
+    "ast_hash": "9d7dc7d30d28179b386f4411d4154b78",
+    "semantic_hash": "9d7dc7d30d28179b386f4411d4154b78"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/modals/simulate_access/decision_chip.tsx": {
+    "mtime": 1781015891.1767957,
+    "ast_hash": "837b8d1cbfaaa630fbc0b6663b6d6d61",
+    "semantic_hash": "837b8d1cbfaaa630fbc0b6663b6d6d61"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/modals/simulate_access/decision_details_modal.tsx": {
+    "mtime": 1781015891.1767957,
+    "ast_hash": "44577fef465b85d6622fa691037dedc3",
+    "semantic_hash": "44577fef465b85d6622fa691037dedc3"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/modals/simulate_access/picker_row.tsx": {
+    "mtime": 1781015891.1767957,
+    "ast_hash": "cb7e4f272e45d3eb99f09e650d706744",
+    "semantic_hash": "cb7e4f272e45d3eb99f09e650d706744"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/modals/simulate_access/role_applicability.test.ts": {
+    "mtime": 1781015891.1767957,
+    "ast_hash": "0179bd214bdaf0a9c42d971527fe4033",
+    "semantic_hash": "0179bd214bdaf0a9c42d971527fe4033"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/modals/simulate_access/role_applicability.ts": {
+    "mtime": 1781015891.1767957,
+    "ast_hash": "25ab2411ab2759d3f9cd0ff0279bec98",
+    "semantic_hash": "25ab2411ab2759d3f9cd0ff0279bec98"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/modals/simulate_access/session_attribute_editor.tsx": {
+    "mtime": 1781015891.1767957,
+    "ast_hash": "badbe71e8985bff2415e3f9af835a534",
+    "semantic_hash": "badbe71e8985bff2415e3f9af835a534"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/modals/simulate_access/session_row.tsx": {
+    "mtime": 1781015891.1767957,
+    "ast_hash": "ae58bba119be928b96a485ef28a7bffe",
+    "semantic_hash": "ae58bba119be928b96a485ef28a7bffe"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/modals/simulate_access/session_state_chip.tsx": {
+    "mtime": 1781015891.1767957,
+    "ast_hash": "903ce9f963b712d58c2ea80d33c446a9",
+    "semantic_hash": "903ce9f963b712d58c2ea80d33c446a9"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/modals/simulate_access/simulate_access_modal.test.tsx": {
+    "mtime": 1781015891.1767957,
+    "ast_hash": "7b0aaabb6ed451b2c68fa9488454beb9",
+    "semantic_hash": "7b0aaabb6ed451b2c68fa9488454beb9"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/modals/simulate_access/simulate_access_modal.tsx": {
+    "mtime": 1781015891.1767957,
+    "ast_hash": "058f8e2a3552188d2b54a499b5e161cc",
+    "semantic_hash": "058f8e2a3552188d2b54a499b5e161cc"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/modals/simulate_access/stacked_decision_chip.tsx": {
+    "mtime": 1781015891.1767957,
+    "ast_hash": "7d6823949b80429fe61cb6cabfd5f560",
+    "semantic_hash": "7d6823949b80429fe61cb6cabfd5f560"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/modals/simulate_access/types.ts": {
+    "mtime": 1781015891.1767957,
+    "ast_hash": "81eeb1247bd1314ba5c13e8f23b7ba43",
+    "semantic_hash": "81eeb1247bd1314ba5c13e8f23b7ba43"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/modals/user_sync/synced_user_list.tsx": {
+    "mtime": 1781015891.1767957,
+    "ast_hash": "807519c0ba4c60a5258f2d282e9e5ca7",
+    "semantic_hash": "807519c0ba4c60a5258f2d282e9e5ca7"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/modals/user_sync/user_sync_modal.tsx": {
+    "mtime": 1781015891.1778765,
+    "ast_hash": "760b444aeddaf7bdb70a0a0d94cfa361",
+    "semantic_hash": "760b444aeddaf7bdb70a0a0d94cfa361"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/policies.test.tsx": {
+    "mtime": 1781015891.1778765,
+    "ast_hash": "e7840a143f3f7d8a806278e94510b913",
+    "semantic_hash": "e7840a143f3f7d8a806278e94510b913"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/policies.tsx": {
+    "mtime": 1781015891.1778765,
+    "ast_hash": "621c6ceae11cadd6f8f0c7bad9a690c6",
+    "semantic_hash": "621c6ceae11cadd6f8f0c7bad9a690c6"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/policy_details/channel_list/channel_list.test.tsx": {
+    "mtime": 1781015891.1781988,
+    "ast_hash": "c1bcfe11fb1a3bbc1073e23909b83e04",
+    "semantic_hash": "c1bcfe11fb1a3bbc1073e23909b83e04"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/policy_details/channel_list/channel_list.tsx": {
+    "mtime": 1781015891.1781988,
+    "ast_hash": "24f41aa5327b37eee5db3c468a2da5c5",
+    "semantic_hash": "24f41aa5327b37eee5db3c468a2da5c5"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/policy_details/channel_list/index.ts": {
+    "mtime": 1781015891.1781988,
+    "ast_hash": "210ab6a268a8eb324571f1f72b7cc225",
+    "semantic_hash": "210ab6a268a8eb324571f1f72b7cc225"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/policy_details/index.ts": {
+    "mtime": 1781015891.1781988,
+    "ast_hash": "c8f46f6a75c053cb69a88f38d7d2af4a",
+    "semantic_hash": "c8f46f6a75c053cb69a88f38d7d2af4a"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/policy_details/policy_details.test.tsx": {
+    "mtime": 1781015891.1781988,
+    "ast_hash": "ff1b188223f7324be515bd7d7f616ca0",
+    "semantic_hash": "ff1b188223f7324be515bd7d7f616ca0"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/access_control/policy_details/policy_details.tsx": {
+    "mtime": 1781015891.1781988,
+    "ast_hash": "3d00cca23fe8b1f6ae2fcb30d35d0e93",
+    "semantic_hash": "3d00cca23fe8b1f6ae2fcb30d35d0e93"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_console.tsx": {
+    "mtime": 1781015891.1781988,
+    "ast_hash": "66352ec82e252553a9cfce1c9e476187",
+    "semantic_hash": "66352ec82e252553a9cfce1c9e476187"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_definition.tsx": {
+    "mtime": 1781015891.1781988,
+    "ast_hash": "66eb1aab843c698cf83dc4081264330e",
+    "semantic_hash": "66eb1aab843c698cf83dc4081264330e"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_definition_allow_download_logs.test.tsx": {
+    "mtime": 1781015891.1786964,
+    "ast_hash": "e4e166bedbcb09acccbe744a2a5482d9",
+    "semantic_hash": "e4e166bedbcb09acccbe744a2a5482d9"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_definition_burn_on_read.test.tsx": {
+    "mtime": 1781015891.1786964,
+    "ast_hash": "09e5ac491798f49a8c4ff00cd66777ba",
+    "semantic_hash": "09e5ac491798f49a8c4ff00cd66777ba"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_definition_constants.tsx": {
+    "mtime": 1781015891.1786964,
+    "ast_hash": "a14ad7b69c319fb147612e84fa72b6ee",
+    "semantic_hash": "a14ad7b69c319fb147612e84fa72b6ee"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_definition_data_spillage.test.tsx": {
+    "mtime": 1781015891.1786964,
+    "ast_hash": "7d4baf6252d91970bd6e9a07b8ad9dc9",
+    "semantic_hash": "7d4baf6252d91970bd6e9a07b8ad9dc9"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_definition_dcr_allowlist.test.tsx": {
+    "mtime": 1781015891.1786964,
+    "ast_hash": "4601116f6b9a9c3950649cfb4c47510a",
+    "semantic_hash": "4601116f6b9a9c3950649cfb4c47510a"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_definition_enable_testing.test.tsx": {
+    "mtime": 1781015891.1786964,
+    "ast_hash": "921f711a7c78cba3fbaebb735985b600",
+    "semantic_hash": "921f711a7c78cba3fbaebb735985b600"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_definition_enable_watermark.test.tsx": {
+    "mtime": 1781015891.1786964,
+    "ast_hash": "9a5853d3a2d4a044df0506c300c959a7",
+    "semantic_hash": "9a5853d3a2d4a044df0506c300c959a7"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_definition_helpers.test.tsx": {
+    "mtime": 1781015891.1786964,
+    "ast_hash": "c8253f128eb4137b328fe38c87ebff10",
+    "semantic_hash": "c8253f128eb4137b328fe38c87ebff10"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_definition_helpers.tsx": {
+    "mtime": 1781015891.1786964,
+    "ast_hash": "02ae14d744c0dffe91304705986e5637",
+    "semantic_hash": "02ae14d744c0dffe91304705986e5637"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_definition_ldap_wizard.tsx": {
+    "mtime": 1781015891.1786964,
+    "ast_hash": "eec30b0b42268cd831a2eee4f2c50d23",
+    "semantic_hash": "eec30b0b42268cd831a2eee4f2c50d23"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_definition_mobile_ephemeral_mode.test.tsx": {
+    "mtime": 1781015891.1786964,
+    "ast_hash": "0816811e84b444c01c4ef8b70f864e45",
+    "semantic_hash": "0816811e84b444c01c4ef8b70f864e45"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_navbar_dropdown/admin_navbar_dropdown.tsx": {
+    "mtime": 1781015891.1786964,
+    "ast_hash": "d603974df711bf16eca311645c3b5ff2",
+    "semantic_hash": "d603974df711bf16eca311645c3b5ff2"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_navbar_dropdown/index.ts": {
+    "mtime": 1781015891.179925,
+    "ast_hash": "fcbe1794841c4b9be1a24b8f1c1f5950",
+    "semantic_hash": "fcbe1794841c4b9be1a24b8f1c1f5950"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_navbar_dropdown/menu_item_blockable_link.test.tsx": {
+    "mtime": 1781015891.179925,
+    "ast_hash": "76795c2b7bb53e0d6262e70d2fd5cd55",
+    "semantic_hash": "76795c2b7bb53e0d6262e70d2fd5cd55"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_navbar_dropdown/menu_item_blockable_link.tsx": {
+    "mtime": 1781015891.179925,
+    "ast_hash": "c4f3da522102c19d13b8884b3e4e09d1",
+    "semantic_hash": "c4f3da522102c19d13b8884b3e4e09d1"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_settings/admin_setting.test.tsx": {
+    "mtime": 1781015891.1800346,
+    "ast_hash": "4008d1bcd2cfdb9da27b348f779e4ec0",
+    "semantic_hash": "4008d1bcd2cfdb9da27b348f779e4ec0"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_settings/admin_settings.tsx": {
+    "mtime": 1781015891.1800346,
+    "ast_hash": "176386d366054c485bb10be47c15f227",
+    "semantic_hash": "176386d366054c485bb10be47c15f227"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_settings/hooks.tsx": {
+    "mtime": 1781015891.1800346,
+    "ast_hash": "57d3c4b83e9b7ce1b8eb08503fff7b94",
+    "semantic_hash": "57d3c4b83e9b7ce1b8eb08503fff7b94"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_settings/types.ts": {
+    "mtime": 1781015891.1800346,
+    "ast_hash": "0c50dfbe2b751cce6db3c4a55fb99634",
+    "semantic_hash": "0c50dfbe2b751cce6db3c4a55fb99634"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_settings/utils.test.ts": {
+    "mtime": 1781015891.1800346,
+    "ast_hash": "88aff662cc9296266716258c542b19b6",
+    "semantic_hash": "88aff662cc9296266716258c542b19b6"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_settings/utils.ts": {
+    "mtime": 1781015891.1800346,
+    "ast_hash": "4c2a6b88837d7706e2ec3e8789d8ed97",
+    "semantic_hash": "4c2a6b88837d7706e2ec3e8789d8ed97"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_sidebar/admin_sidebar.test.tsx": {
+    "mtime": 1781015891.1803265,
+    "ast_hash": "a7cc43cc608552e4104926d57d1cfe5b",
+    "semantic_hash": "a7cc43cc608552e4104926d57d1cfe5b"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_sidebar/admin_sidebar.tsx": {
+    "mtime": 1781015891.1803265,
+    "ast_hash": "2de41b3e2517cc9616cbbcbbebaaeddc",
+    "semantic_hash": "2de41b3e2517cc9616cbbcbbebaaeddc"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_sidebar/admin_sidebar_category.test.tsx": {
+    "mtime": 1781015891.1803265,
+    "ast_hash": "dac59b0b226dea6d09d378004d40be1a",
+    "semantic_hash": "dac59b0b226dea6d09d378004d40be1a"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_sidebar/admin_sidebar_category.tsx": {
+    "mtime": 1781015891.1803265,
+    "ast_hash": "20ef57a720f3efebc219cbb65cf7c8ed",
+    "semantic_hash": "20ef57a720f3efebc219cbb65cf7c8ed"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_sidebar/admin_sidebar_section.tsx": {
+    "mtime": 1781015891.1803265,
+    "ast_hash": "364f33997ddbc4dba06eb1ec6f0bc1f0",
+    "semantic_hash": "364f33997ddbc4dba06eb1ec6f0bc1f0"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_sidebar/index.ts": {
+    "mtime": 1781015891.1803265,
+    "ast_hash": "c9210693a8f9681e56329d4aca988148",
+    "semantic_hash": "c9210693a8f9681e56329d4aca988148"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_sidebar_header/admin_sidebar_header.tsx": {
+    "mtime": 1781015891.1803265,
+    "ast_hash": "80ec6f36679f28c469fd237782b85bfc",
+    "semantic_hash": "80ec6f36679f28c469fd237782b85bfc"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_sidebar_header/index.ts": {
+    "mtime": 1781015891.1812196,
+    "ast_hash": "18361a0ffc816b63220b13574668f1b0",
+    "semantic_hash": "18361a0ffc816b63220b13574668f1b0"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_user_card/admin_user_card.test.tsx": {
+    "mtime": 1781015891.181264,
+    "ast_hash": "bb39da81436cf5cd0d3cbcc163fc516d",
+    "semantic_hash": "bb39da81436cf5cd0d3cbcc163fc516d"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/admin_user_card/admin_user_card.tsx": {
+    "mtime": 1781015891.181264,
+    "ast_hash": "753942fe1e002ca950668992a98d5e34",
+    "semantic_hash": "753942fe1e002ca950668992a98d5e34"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/audit_logging/index.tsx": {
+    "mtime": 1781015891.181264,
+    "ast_hash": "31be20c21ef682b2544a15aa5efaab8d",
+    "semantic_hash": "31be20c21ef682b2544a15aa5efaab8d"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/audits/audits.tsx": {
+    "mtime": 1781015891.181264,
+    "ast_hash": "6a728b854b2c224ba2cd7b64f00d7eb0",
+    "semantic_hash": "6a728b854b2c224ba2cd7b64f00d7eb0"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/audits/index.ts": {
+    "mtime": 1781015891.181592,
+    "ast_hash": "dad536a8ded2c297c947fb56ddb60781",
+    "semantic_hash": "dad536a8ded2c297c947fb56ddb60781"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/banner.tsx": {
+    "mtime": 1781015891.181592,
+    "ast_hash": "22a4f1b3aefc4861d41075a9cb82b2a3",
+    "semantic_hash": "22a4f1b3aefc4861d41075a9cb82b2a3"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/billing/billing_history.test.tsx": {
+    "mtime": 1781015891.18171,
+    "ast_hash": "0d95483f351173e7ab9783e18db95a0f",
+    "semantic_hash": "0d95483f351173e7ab9783e18db95a0f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/billing/billing_history.tsx": {
+    "mtime": 1781015891.18171,
+    "ast_hash": "e963e44348d3dac65cb61cb194e002cc",
+    "semantic_hash": "e963e44348d3dac65cb61cb194e002cc"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/billing/billing_history_modal.tsx": {
+    "mtime": 1781015891.18171,
+    "ast_hash": "ab37743981b90a719ecd2185e2e136d1",
+    "semantic_hash": "ab37743981b90a719ecd2185e2e136d1"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/billing/billing_history_table.tsx": {
+    "mtime": 1781015891.18171,
+    "ast_hash": "e3cc8153f21bafac61942101c7c2442b",
+    "semantic_hash": "e3cc8153f21bafac61942101c7c2442b"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/billing/billing_subscriptions/billing_subscriptions.tsx": {
+    "mtime": 1781015891.1819067,
+    "ast_hash": "389f1ecc3d25bb7fe3996e2337b16b55",
+    "semantic_hash": "389f1ecc3d25bb7fe3996e2337b16b55"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/billing/billing_subscriptions/cancel_subscription.tsx": {
+    "mtime": 1781015891.1819067,
+    "ast_hash": "690eb1443345ab5c8577cfb7ffee6573",
+    "semantic_hash": "690eb1443345ab5c8577cfb7ffee6573"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/billing/billing_subscriptions/cloud_trial_banner.test.tsx": {
+    "mtime": 1781015891.1819067,
+    "ast_hash": "a4fe36f1f6b1e0d6930f4446d5e3184f",
+    "semantic_hash": "a4fe36f1f6b1e0d6930f4446d5e3184f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/billing/billing_subscriptions/cloud_trial_banner.tsx": {
+    "mtime": 1781015891.1819067,
+    "ast_hash": "46ff85a0afbc36a4f6e83bff6c462291",
+    "semantic_hash": "46ff85a0afbc36a4f6e83bff6c462291"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/billing/billing_subscriptions/contact_sales_card.tsx": {
+    "mtime": 1781015891.1819067,
+    "ast_hash": "05cc3bd858749ea8845d22fca3f68c64",
+    "semantic_hash": "05cc3bd858749ea8845d22fca3f68c64"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/billing/billing_subscriptions/index.tsx": {
+    "mtime": 1781015891.1819067,
+    "ast_hash": "656ae085d99d44f1529fd25dce2cca21",
+    "semantic_hash": "656ae085d99d44f1529fd25dce2cca21"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/billing/billing_subscriptions/limit_card.tsx": {
+    "mtime": 1781015891.1819067,
+    "ast_hash": "ba66bdc3e515e00ac6c72b369561ea3c",
+    "semantic_hash": "ba66bdc3e515e00ac6c72b369561ea3c"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/billing/billing_subscriptions/limits.test.tsx": {
+    "mtime": 1781015891.1819067,
+    "ast_hash": "4436cbfe9d7121ebc7f9101e7b36f22e",
+    "semantic_hash": "4436cbfe9d7121ebc7f9101e7b36f22e"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/billing/billing_subscriptions/limits.tsx": {
+    "mtime": 1781015891.1819067,
+    "ast_hash": "025f83a83624d6e161806c8650607f4a",
+    "semantic_hash": "025f83a83624d6e161806c8650607f4a"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/billing/billing_summary/billing_summary.tsx": {
+    "mtime": 1781015891.1825202,
+    "ast_hash": "7ab69c1976adb6b77f89763901f11b5e",
+    "semantic_hash": "7ab69c1976adb6b77f89763901f11b5e"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/billing/billing_summary/index.tsx": {
+    "mtime": 1781015891.1825202,
+    "ast_hash": "d5e014c726caa33d9f03f5108ce687de",
+    "semantic_hash": "d5e014c726caa33d9f03f5108ce687de"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/billing/company_info.tsx": {
+    "mtime": 1781015891.1825202,
+    "ast_hash": "4e6138f4610cecc7cac815ab2d979c91",
+    "semantic_hash": "4e6138f4610cecc7cac815ab2d979c91"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/billing/company_info_display.tsx": {
+    "mtime": 1781015891.1825202,
+    "ast_hash": "29ad447a9d33fcb079038375a3b22417",
+    "semantic_hash": "29ad447a9d33fcb079038375a3b22417"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/billing/company_info_edit.tsx": {
+    "mtime": 1781015891.1825202,
+    "ast_hash": "da812dd8cac59798cf90181689b385f4",
+    "semantic_hash": "da812dd8cac59798cf90181689b385f4"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/billing/delete_workspace/progress_modal.tsx": {
+    "mtime": 1781015891.1828675,
+    "ast_hash": "4436a427b505982b28f874b4a88245e6",
+    "semantic_hash": "4436a427b505982b28f874b4a88245e6"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/billing/delete_workspace/result_modal.tsx": {
+    "mtime": 1781015891.1828675,
+    "ast_hash": "10751c0ac4ee1213d9e50b1c820aa751",
+    "semantic_hash": "10751c0ac4ee1213d9e50b1c820aa751"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/billing/delete_workspace/success_modal.tsx": {
+    "mtime": 1781015891.1828675,
+    "ast_hash": "9c072f66bed6c77b4fd0b602d62ac894",
+    "semantic_hash": "9c072f66bed6c77b4fd0b602d62ac894"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/billing/invoice_user_count.test.tsx": {
+    "mtime": 1781015891.1828675,
+    "ast_hash": "b854fc88ee9453aa853b4728876c83fe",
+    "semantic_hash": "b854fc88ee9453aa853b4728876c83fe"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/billing/invoice_user_count.tsx": {
+    "mtime": 1781015891.1828675,
+    "ast_hash": "9f7e9b5f245c3af403003936bde0f4d7",
+    "semantic_hash": "9f7e9b5f245c3af403003936bde0f4d7"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/billing/plan_details/feature_list.test.tsx": {
+    "mtime": 1781015891.18317,
+    "ast_hash": "7789d022537eb5ceaf1c30cc35cfcdec",
+    "semantic_hash": "7789d022537eb5ceaf1c30cc35cfcdec"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/billing/plan_details/feature_list.tsx": {
+    "mtime": 1781015891.18317,
+    "ast_hash": "48db4f29c0dba1335cb5cc8e992f9036",
+    "semantic_hash": "48db4f29c0dba1335cb5cc8e992f9036"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/billing/plan_details/index.tsx": {
+    "mtime": 1781015891.18317,
+    "ast_hash": "258449e7ee724f99a3d17bc729beb882",
+    "semantic_hash": "258449e7ee724f99a3d17bc729beb882"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/billing/plan_details/plan_details.tsx": {
+    "mtime": 1781015891.18317,
+    "ast_hash": "70c379f430d90dc8b190c8ad012205e4",
+    "semantic_hash": "70c379f430d90dc8b190c8ad012205e4"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/blockable_button/blockable_button.tsx": {
+    "mtime": 1781015891.18317,
+    "ast_hash": "86a5d1606b988d35b887091f0fdba78a",
+    "semantic_hash": "86a5d1606b988d35b887091f0fdba78a"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/blockable_button/index.ts": {
+    "mtime": 1781015891.183483,
+    "ast_hash": "58542b0ef49ad2e19ca083884cedc42c",
+    "semantic_hash": "58542b0ef49ad2e19ca083884cedc42c"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/blockable_link/blockable_link.test.tsx": {
+    "mtime": 1781015891.183483,
+    "ast_hash": "5dbe716410d5c15f71779d70c58a41f7",
+    "semantic_hash": "5dbe716410d5c15f71779d70c58a41f7"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/blockable_link/blockable_link.tsx": {
+    "mtime": 1781015891.1835728,
+    "ast_hash": "6a1fbdf6e3faf26e4d85a874a750f3f1",
+    "semantic_hash": "6a1fbdf6e3faf26e4d85a874a750f3f1"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/blockable_link/index.ts": {
+    "mtime": 1781015891.1835728,
+    "ast_hash": "cf7484a5675b076196e58d160f8eacc7",
+    "semantic_hash": "cf7484a5675b076196e58d160f8eacc7"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/boolean_setting.tsx": {
+    "mtime": 1781015891.1835728,
+    "ast_hash": "1585882ac0b87c98895b0a5e2208926e",
+    "semantic_hash": "1585882ac0b87c98895b0a5e2208926e"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/brand_image_setting/brand_image_setting.test.tsx": {
+    "mtime": 1781015891.1835728,
+    "ast_hash": "f583793dc18768467ea84eba0afdab84",
+    "semantic_hash": "f583793dc18768467ea84eba0afdab84"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/brand_image_setting/brand_image_setting.tsx": {
+    "mtime": 1781015891.1837232,
+    "ast_hash": "a9d5fe60673560649fd5a159d90f5a9a",
+    "semantic_hash": "a9d5fe60673560649fd5a159d90f5a9a"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/checkbox_setting.test.tsx": {
+    "mtime": 1781015891.1837232,
+    "ast_hash": "67d691585d37e4ac5515fbabfe0c4bf2",
+    "semantic_hash": "67d691585d37e4ac5515fbabfe0c4bf2"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/checkbox_setting.tsx": {
+    "mtime": 1781015891.1837232,
+    "ast_hash": "35f7f8f04ecc90a36c354997a7475d8c",
+    "semantic_hash": "35f7f8f04ecc90a36c354997a7475d8c"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/classification_markings/classification_markings.test.tsx": {
+    "mtime": 1781015891.1837232,
+    "ast_hash": "715100386778a49632e721653cece25b",
+    "semantic_hash": "715100386778a49632e721653cece25b"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/classification_markings/classification_markings.tsx": {
+    "mtime": 1781015891.1839485,
+    "ast_hash": "0dae2d5b489fc7b86e88f02b3b57d268",
+    "semantic_hash": "0dae2d5b489fc7b86e88f02b3b57d268"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/classification_markings/classification_markings_styled.tsx": {
+    "mtime": 1781015891.1839485,
+    "ast_hash": "51949a0d91db0b23a261780488de7d14",
+    "semantic_hash": "51949a0d91db0b23a261780488de7d14"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/classification_markings/components/classification_color_input.test.tsx": {
+    "mtime": 1781015891.184103,
+    "ast_hash": "bcca33202f01402ed38b385fbfd7662f",
+    "semantic_hash": "bcca33202f01402ed38b385fbfd7662f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/classification_markings/components/classification_color_input.tsx": {
+    "mtime": 1781015891.184103,
+    "ast_hash": "61bc3adb8c50d74607500e4512d675ba",
+    "semantic_hash": "61bc3adb8c50d74607500e4512d675ba"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/classification_markings/components/classification_levels_table.test.tsx": {
+    "mtime": 1781015891.184103,
+    "ast_hash": "b5b270445beae62852c79d04f7085c31",
+    "semantic_hash": "b5b270445beae62852c79d04f7085c31"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/classification_markings/components/classification_levels_table.tsx": {
+    "mtime": 1781015891.184103,
+    "ast_hash": "96ab9beefa52dbc8f9a38cfef11c6509",
+    "semantic_hash": "96ab9beefa52dbc8f9a38cfef11c6509"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/classification_markings/components/global_classification_indicators.test.tsx": {
+    "mtime": 1781015891.184103,
+    "ast_hash": "bbcd9d40686ede28aada11391a55d2a8",
+    "semantic_hash": "bbcd9d40686ede28aada11391a55d2a8"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/classification_markings/components/global_classification_indicators.tsx": {
+    "mtime": 1781015891.184103,
+    "ast_hash": "209f9624a24470ae98d7cd5cf7f48105",
+    "semantic_hash": "209f9624a24470ae98d7cd5cf7f48105"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/classification_markings/components/level_color_cell.test.tsx": {
+    "mtime": 1781015891.184103,
+    "ast_hash": "9b3476924e5d83674701461fe5a5039a",
+    "semantic_hash": "9b3476924e5d83674701461fe5a5039a"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/classification_markings/components/level_color_cell.tsx": {
+    "mtime": 1781015891.184103,
+    "ast_hash": "db39b48c949b094115ef44b57054a577",
+    "semantic_hash": "db39b48c949b094115ef44b57054a577"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/classification_markings/components/level_name_cell.test.tsx": {
+    "mtime": 1781015891.184103,
+    "ast_hash": "ddb428b69025c2ae2cf4e50e5a03df90",
+    "semantic_hash": "ddb428b69025c2ae2cf4e50e5a03df90"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/classification_markings/components/level_name_cell.tsx": {
+    "mtime": 1781015891.184103,
+    "ast_hash": "a50c88ae82dda65005d5c413c5c7c26a",
+    "semantic_hash": "a50c88ae82dda65005d5c413c5c7c26a"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/classification_markings/index.ts": {
+    "mtime": 1781015891.184103,
+    "ast_hash": "5a125d1165988af5f2f60cf467efa035",
+    "semantic_hash": "5a125d1165988af5f2f60cf467efa035"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/classification_markings/utils/index.ts": {
+    "mtime": 1781015891.184103,
+    "ast_hash": "6f49a958bc14b32fbf4b2e041ad23391",
+    "semantic_hash": "6f49a958bc14b32fbf4b2e041ad23391"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/classification_markings/utils/preset_dropdown_styles.ts": {
+    "mtime": 1781015891.18456,
+    "ast_hash": "19fe2c0cc12b5f37540ef1ae3720517f",
+    "semantic_hash": "19fe2c0cc12b5f37540ef1ae3720517f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/classification_markings/utils/presets.ts": {
+    "mtime": 1781015891.18456,
+    "ast_hash": "14c78aac3c6837a42f3e1d547d48d426",
+    "semantic_hash": "14c78aac3c6837a42f3e1d547d48d426"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/client_side_userids_setting.test.tsx": {
+    "mtime": 1781015891.18456,
+    "ast_hash": "3fa119bfa0d147fdd3c9dca6632bf907",
+    "semantic_hash": "3fa119bfa0d147fdd3c9dca6632bf907"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/client_side_userids_setting.tsx": {
+    "mtime": 1781015891.18456,
+    "ast_hash": "f879672cf49265dd38a8101a2e6c6320",
+    "semantic_hash": "f879672cf49265dd38a8101a2e6c6320"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/cluster_settings.test.tsx": {
+    "mtime": 1781015891.18456,
+    "ast_hash": "0bd33cd451e8c724dc97f047fd8197d3",
+    "semantic_hash": "0bd33cd451e8c724dc97f047fd8197d3"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/cluster_settings.tsx": {
+    "mtime": 1781015891.18456,
+    "ast_hash": "459c7a8791513834940e0e6200311304",
+    "semantic_hash": "459c7a8791513834940e0e6200311304"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/cluster_table.tsx": {
+    "mtime": 1781015891.18456,
+    "ast_hash": "6b10e7058b61cdcdd380ac7bfc7b91db",
+    "semantic_hash": "6b10e7058b61cdcdd380ac7bfc7b91db"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/cluster_table_container.tsx": {
+    "mtime": 1781015891.18456,
+    "ast_hash": "04a8f7f3cc2f8b42116fd7fa8701bc5d",
+    "semantic_hash": "04a8f7f3cc2f8b42116fd7fa8701bc5d"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/color_setting.test.tsx": {
+    "mtime": 1781015891.18456,
+    "ast_hash": "ef85af99d45d692c681119861d02b908",
+    "semantic_hash": "ef85af99d45d692c681119861d02b908"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/color_setting.tsx": {
+    "mtime": 1781015891.18456,
+    "ast_hash": "0f3dc3912d927543a6f33a935da2bd5c",
+    "semantic_hash": "0f3dc3912d927543a6f33a935da2bd5c"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/compliance_reports/compliance_reports.tsx": {
+    "mtime": 1781015891.18456,
+    "ast_hash": "c45d9bebcc31ae98c6ff053f636cc6c3",
+    "semantic_hash": "c45d9bebcc31ae98c6ff053f636cc6c3"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/compliance_reports/index.ts": {
+    "mtime": 1781015891.1850054,
+    "ast_hash": "e1c45e336d62ec49161f6030a6e9de94",
+    "semantic_hash": "e1c45e336d62ec49161f6030a6e9de94"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/content_flagging/additional_settings/additional_settings.test.tsx": {
+    "mtime": 1781015891.1851184,
+    "ast_hash": "4a8803ccaf79237eea455e332c934ec4",
+    "semantic_hash": "4a8803ccaf79237eea455e332c934ec4"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/content_flagging/additional_settings/additional_settings.tsx": {
+    "mtime": 1781015891.1851184,
+    "ast_hash": "b11e9ad8532c4486cfd46a17b7b078f1",
+    "semantic_hash": "b11e9ad8532c4486cfd46a17b7b078f1"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/content_flagging/additional_settings/reason_option.test.tsx": {
+    "mtime": 1781015891.1851184,
+    "ast_hash": "b58cf5d2455fb28d438bab95e121517f",
+    "semantic_hash": "b58cf5d2455fb28d438bab95e121517f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/content_flagging/additional_settings/reason_option.tsx": {
+    "mtime": 1781015891.1851184,
+    "ast_hash": "6c662e600142654cbb0b824f3f4e09ad",
+    "semantic_hash": "6c662e600142654cbb0b824f3f4e09ad"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/content_flagging/content_flagging_settings.tsx": {
+    "mtime": 1781015891.1851184,
+    "ast_hash": "eaf2de296ac4abc8bef917c9b37c54fd",
+    "semantic_hash": "eaf2de296ac4abc8bef917c9b37c54fd"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/content_flagging/content_reviewers/content_reviewers.test.tsx": {
+    "mtime": 1781015891.1855035,
+    "ast_hash": "cc41144e8b4e2f887463860462c49a69",
+    "semantic_hash": "cc41144e8b4e2f887463860462c49a69"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/content_flagging/content_reviewers/content_reviewers.tsx": {
+    "mtime": 1781015891.1855035,
+    "ast_hash": "4c356151682916e49c3bc9c14f430413",
+    "semantic_hash": "4c356151682916e49c3bc9c14f430413"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/content_flagging/content_reviewers/team_option.test.tsx": {
+    "mtime": 1781015891.1855035,
+    "ast_hash": "59c8a6e9e74112c494108d9f3541e99f",
+    "semantic_hash": "59c8a6e9e74112c494108d9f3541e99f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/content_flagging/content_reviewers/team_option.tsx": {
+    "mtime": 1781015891.1855035,
+    "ast_hash": "b2061b1f3af923814c447399ecbe80d4",
+    "semantic_hash": "b2061b1f3af923814c447399ecbe80d4"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/content_flagging/content_reviewers/team_reviewers_section/team_reviewers_section.test.tsx": {
+    "mtime": 1781015891.1857395,
+    "ast_hash": "1af4fed6f21c9e5665fc514e3eb8a6d6",
+    "semantic_hash": "1af4fed6f21c9e5665fc514e3eb8a6d6"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/content_flagging/content_reviewers/team_reviewers_section/team_reviewers_section.tsx": {
+    "mtime": 1781015891.1857395,
+    "ast_hash": "a324ee1eea38f088e8cb4b33bc988d88",
+    "semantic_hash": "a324ee1eea38f088e8cb4b33bc988d88"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/content_flagging/notificatin_settings/notification_settings.test.tsx": {
+    "mtime": 1781015891.1857395,
+    "ast_hash": "e89f362c2d815a38516f17e3a4d034e3",
+    "semantic_hash": "e89f362c2d815a38516f17e3a4d034e3"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/content_flagging/notificatin_settings/notification_settings.tsx": {
+    "mtime": 1781015891.1858983,
+    "ast_hash": "d0d6d407caa1335bf4c59d134d6d56a4",
+    "semantic_hash": "d0d6d407caa1335bf4c59d134d6d56a4"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/content_flagging/user_multiselector/group_team_display.test.tsx": {
+    "mtime": 1781015891.185966,
+    "ast_hash": "0de691cb3a7499e481eae271301f9533",
+    "semantic_hash": "0de691cb3a7499e481eae271301f9533"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/content_flagging/user_multiselector/group_team_display.tsx": {
+    "mtime": 1781015891.185966,
+    "ast_hash": "198263fdc51f9a358d0147bd7952085b",
+    "semantic_hash": "198263fdc51f9a358d0147bd7952085b"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/content_flagging/user_multiselector/user_multiselector.tsx": {
+    "mtime": 1781015891.185966,
+    "ast_hash": "dba6406d8ce304da79417ce6d4b81f60",
+    "semantic_hash": "dba6406d8ce304da79417ce6d4b81f60"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/content_flagging/user_multiselector/user_profile_option.tsx": {
+    "mtime": 1781015891.185966,
+    "ast_hash": "1efb20c0f61c29ee1afe68f84e459e62",
+    "semantic_hash": "1efb20c0f61c29ee1afe68f84e459e62"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/content_flagging/user_multiselector/user_profile_pill.test.tsx": {
+    "mtime": 1781015891.185966,
+    "ast_hash": "f4b5eb9c7d1e8bb8155d718ad7d6e33a",
+    "semantic_hash": "f4b5eb9c7d1e8bb8155d718ad7d6e33a"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/content_flagging/user_multiselector/user_profile_pill.tsx": {
+    "mtime": 1781015891.185966,
+    "ast_hash": "3dc7f480f5f8e4e74e2714897a5510bd",
+    "semantic_hash": "3dc7f480f5f8e4e74e2714897a5510bd"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/custom_enable_disable_guest_accounts_magic_link_setting.tsx": {
+    "mtime": 1781015891.185966,
+    "ast_hash": "af214992fa61304dc7fcbb022514200c",
+    "semantic_hash": "af214992fa61304dc7fcbb022514200c"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/custom_enable_disable_guest_accounts_setting.test.tsx": {
+    "mtime": 1781015891.185966,
+    "ast_hash": "f64dbaca926ebd7c66d38a1fc546e5f1",
+    "semantic_hash": "f64dbaca926ebd7c66d38a1fc546e5f1"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/custom_enable_disable_guest_accounts_setting.tsx": {
+    "mtime": 1781015891.185966,
+    "ast_hash": "766d73a9de220e8e4832f8e224d975f9",
+    "semantic_hash": "766d73a9de220e8e4832f8e224d975f9"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/custom_plugin_settings/custom_plugin_settings.test.tsx": {
+    "mtime": 1781015891.1864176,
+    "ast_hash": "86380fbccd5540f4adce08f450282f30",
+    "semantic_hash": "86380fbccd5540f4adce08f450282f30"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/custom_plugin_settings/custom_plugin_settings.tsx": {
+    "mtime": 1781015891.1864176,
+    "ast_hash": "53b346c45fa427f25ceacdb3200d8142",
+    "semantic_hash": "53b346c45fa427f25ceacdb3200d8142"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/custom_plugin_settings/enable_plugin_setting.ts": {
+    "mtime": 1781015891.1864176,
+    "ast_hash": "52b197a095002ada4d49587caed79716",
+    "semantic_hash": "52b197a095002ada4d49587caed79716"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/custom_plugin_settings/index.test.tsx": {
+    "mtime": 1781015891.1864176,
+    "ast_hash": "a5e188ad7f77b4a456451fad423bb468",
+    "semantic_hash": "a5e188ad7f77b4a456451fad423bb468"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/custom_plugin_settings/index.ts": {
+    "mtime": 1781015891.1864176,
+    "ast_hash": "a4e23deadb8c47a5243e8854e9b0cd35",
+    "semantic_hash": "a4e23deadb8c47a5243e8854e9b0cd35"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/custom_profile_attributes/custom_profile_attributes.test.tsx": {
+    "mtime": 1781015891.1867437,
+    "ast_hash": "f841f000be18b992fea109af096bafc6",
+    "semantic_hash": "f841f000be18b992fea109af096bafc6"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/custom_profile_attributes/custom_profile_attributes.tsx": {
+    "mtime": 1781015891.1867437,
+    "ast_hash": "5b15f0379042b0bc7ae1c01b92c7eec9",
+    "semantic_hash": "5b15f0379042b0bc7ae1c01b92c7eec9"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/custom_terms_of_service_settings/custom_terms_of_service_settings.test.tsx": {
+    "mtime": 1781015891.1868398,
+    "ast_hash": "bae4f593b25fed4db5d5b3bc4709061a",
+    "semantic_hash": "bae4f593b25fed4db5d5b3bc4709061a"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/custom_terms_of_service_settings/custom_terms_of_service_settings.tsx": {
+    "mtime": 1781015891.1868398,
+    "ast_hash": "e0ef09e95b180fde47ab5da688057f66",
+    "semantic_hash": "e0ef09e95b180fde47ab5da688057f66"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/custom_terms_of_service_settings/index.ts": {
+    "mtime": 1781015891.1868398,
+    "ast_hash": "27a81df27339dd906310d16de020b791",
+    "semantic_hash": "27a81df27339dd906310d16de020b791"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/custom_url_schemes_setting.test.tsx": {
+    "mtime": 1781015891.1868398,
+    "ast_hash": "551d107fca7810e0869bdf4cc973dfaf",
+    "semantic_hash": "551d107fca7810e0869bdf4cc973dfaf"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/custom_url_schemes_setting.tsx": {
+    "mtime": 1781015891.1868398,
+    "ast_hash": "17cfc925faa1c986f623555cb52a8558",
+    "semantic_hash": "17cfc925faa1c986f623555cb52a8558"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/data_grid/data_grid.test.tsx": {
+    "mtime": 1781015891.1870894,
+    "ast_hash": "11c5ae050ea987e89464d90784af9515",
+    "semantic_hash": "11c5ae050ea987e89464d90784af9515"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/data_grid/data_grid.tsx": {
+    "mtime": 1781015891.1870894,
+    "ast_hash": "8facf52e17182c0a1f24648011be6c36",
+    "semantic_hash": "8facf52e17182c0a1f24648011be6c36"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/data_grid/data_grid_header.tsx": {
+    "mtime": 1781015891.1870894,
+    "ast_hash": "cbd9cc1d8c409e742b016b0b25ed27a0",
+    "semantic_hash": "cbd9cc1d8c409e742b016b0b25ed27a0"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/data_grid/data_grid_row.tsx": {
+    "mtime": 1781015891.1870894,
+    "ast_hash": "f32a70fa112b87701729c30f9c002db5",
+    "semantic_hash": "f32a70fa112b87701729c30f9c002db5"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/data_grid/data_grid_search.tsx": {
+    "mtime": 1781015891.1870894,
+    "ast_hash": "42f35e503a5256b455d3c92d7b0c2d28",
+    "semantic_hash": "42f35e503a5256b455d3c92d7b0c2d28"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/data_retention_settings/channel_list/channel_list.test.tsx": {
+    "mtime": 1781015891.1875825,
+    "ast_hash": "70b6fb6752e3e5b6152665e042db87c7",
+    "semantic_hash": "70b6fb6752e3e5b6152665e042db87c7"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/data_retention_settings/channel_list/channel_list.tsx": {
+    "mtime": 1781015891.1875825,
+    "ast_hash": "d4a578fcb1619ade51006d31cafecae0",
+    "semantic_hash": "d4a578fcb1619ade51006d31cafecae0"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/data_retention_settings/channel_list/index.ts": {
+    "mtime": 1781015891.1875825,
+    "ast_hash": "6742f3cbfef4b0006b10c6395fb67d85",
+    "semantic_hash": "6742f3cbfef4b0006b10c6395fb67d85"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/data_retention_settings/custom_policy_form/custom_policy_form.test.tsx": {
+    "mtime": 1781015891.18807,
+    "ast_hash": "dae0cfec5e4079b041fe266eae30e463",
+    "semantic_hash": "dae0cfec5e4079b041fe266eae30e463"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/data_retention_settings/custom_policy_form/custom_policy_form.tsx": {
+    "mtime": 1781015891.18807,
+    "ast_hash": "9c14b8da795151739e367c208e1fbec6",
+    "semantic_hash": "9c14b8da795151739e367c208e1fbec6"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/data_retention_settings/custom_policy_form/index.ts": {
+    "mtime": 1781015891.18807,
+    "ast_hash": "cfa98655cc04f6bb8b886c15a9f855e8",
+    "semantic_hash": "cfa98655cc04f6bb8b886c15a9f855e8"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/data_retention_settings/data_retention_settings.test.tsx": {
+    "mtime": 1781015891.18807,
+    "ast_hash": "b7adc989de2490b33e0af9eb54419230",
+    "semantic_hash": "b7adc989de2490b33e0af9eb54419230"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/data_retention_settings/data_retention_settings.tsx": {
+    "mtime": 1781015891.18807,
+    "ast_hash": "344217d5a6b7736b74dce3d10ca53366",
+    "semantic_hash": "344217d5a6b7736b74dce3d10ca53366"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/data_retention_settings/dropdown_options/dropdown_options.tsx": {
+    "mtime": 1781015891.18807,
+    "ast_hash": "f4bb2b74c3af5031586b40a2deeb4472",
+    "semantic_hash": "f4bb2b74c3af5031586b40a2deeb4472"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/data_retention_settings/global_policy_form/global_policy_form.test.tsx": {
+    "mtime": 1781015891.1888907,
+    "ast_hash": "ab421ed52ffd3937c7379dfda6c7b45c",
+    "semantic_hash": "ab421ed52ffd3937c7379dfda6c7b45c"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/data_retention_settings/global_policy_form/global_policy_form.tsx": {
+    "mtime": 1781015891.1888907,
+    "ast_hash": "ffc84e2bfb8a2c5c061e4893c2eeec9b",
+    "semantic_hash": "ffc84e2bfb8a2c5c061e4893c2eeec9b"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/data_retention_settings/global_policy_form/index.ts": {
+    "mtime": 1781015891.1888907,
+    "ast_hash": "fd689314ee465488f6ec58e4edb4075d",
+    "semantic_hash": "fd689314ee465488f6ec58e4edb4075d"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/data_retention_settings/index.ts": {
+    "mtime": 1781015891.1888907,
+    "ast_hash": "89d9f0bcb84bed833225628593ff72dd",
+    "semantic_hash": "89d9f0bcb84bed833225628593ff72dd"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/data_retention_settings/team_list/index.ts": {
+    "mtime": 1781015891.1891992,
+    "ast_hash": "7d8e4e7d247eda54cfe50668604a5847",
+    "semantic_hash": "7d8e4e7d247eda54cfe50668604a5847"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/data_retention_settings/team_list/team_list.test.tsx": {
+    "mtime": 1781015891.1891992,
+    "ast_hash": "5a699083cebf9a41646e977ddff0fb83",
+    "semantic_hash": "5a699083cebf9a41646e977ddff0fb83"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/data_retention_settings/team_list/team_list.tsx": {
+    "mtime": 1781015891.1891992,
+    "ast_hash": "20ec2e41c039e69f6ea314df2bc81a5b",
+    "semantic_hash": "20ec2e41c039e69f6ea314df2bc81a5b"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/database/index.tsx": {
+    "mtime": 1781015891.1894379,
+    "ast_hash": "0b33b385f10e2c823c6a41dfee330a80",
+    "semantic_hash": "0b33b385f10e2c823c6a41dfee330a80"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/database/migrations_table.test.tsx": {
+    "mtime": 1781015891.1894379,
+    "ast_hash": "13b76c3ddb3984c73f2f08c7d7e3f98e",
+    "semantic_hash": "13b76c3ddb3984c73f2f08c7d7e3f98e"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/database/migrations_table.tsx": {
+    "mtime": 1781015891.1894379,
+    "ast_hash": "54b6b83880fa87bfcf7fdfaf6f649563",
+    "semantic_hash": "54b6b83880fa87bfcf7fdfaf6f649563"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/database_settings.test.tsx": {
+    "mtime": 1781015891.1894379,
+    "ast_hash": "5811812f0e862d068406735a9dd5dcee",
+    "semantic_hash": "5811812f0e862d068406735a9dd5dcee"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/database_settings.tsx": {
+    "mtime": 1781015891.1894379,
+    "ast_hash": "c4b1e62d54e80c73ed6e7508442ed692",
+    "semantic_hash": "c4b1e62d54e80c73ed6e7508442ed692"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/dropdown_setting.tsx": {
+    "mtime": 1781015891.1894379,
+    "ast_hash": "3c4c32b95952944f3073ce9fddb2ba2b",
+    "semantic_hash": "3c4c32b95952944f3073ce9fddb2ba2b"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/elasticsearch_settings.test.tsx": {
+    "mtime": 1781015891.1894379,
+    "ast_hash": "5cb951c79c60e8944ba739aac2d6f627",
+    "semantic_hash": "5cb951c79c60e8944ba739aac2d6f627"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/elasticsearch_settings.tsx": {
+    "mtime": 1781015891.1894379,
+    "ast_hash": "a75daae275d95970edfe84cc13d20ec7",
+    "semantic_hash": "a75daae275d95970edfe84cc13d20ec7"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/feature_discovery.test.tsx": {
+    "mtime": 1781015891.189954,
+    "ast_hash": "5e313f66236da6f6a1f4bb8dd492110d",
+    "semantic_hash": "5e313f66236da6f6a1f4bb8dd492110d"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/feature_discovery.tsx": {
+    "mtime": 1781015891.189954,
+    "ast_hash": "c603f7b5050e01ba61dd62af56b28cec",
+    "semantic_hash": "c603f7b5050e01ba61dd62af56b28cec"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/announcement_banner.tsx": {
+    "mtime": 1781015891.189954,
+    "ast_hash": "ecd3ae2582d880866ebf70ac6835961a",
+    "semantic_hash": "ecd3ae2582d880866ebf70ac6835961a"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/attribute_based_access_control.tsx": {
+    "mtime": 1781015891.1901977,
+    "ast_hash": "50c983d4d001b6c23653e905f5d36e18",
+    "semantic_hash": "50c983d4d001b6c23653e905f5d36e18"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/auto_translation.tsx": {
+    "mtime": 1781015891.1901977,
+    "ast_hash": "4861f06bb67675dbf7132e009dbfd751",
+    "semantic_hash": "4861f06bb67675dbf7132e009dbfd751"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/compliance_export.tsx": {
+    "mtime": 1781015891.1901977,
+    "ast_hash": "e6ef8ca7ea55ae7bdc723bcb1381134f",
+    "semantic_hash": "e6ef8ca7ea55ae7bdc723bcb1381134f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/custom_terms_of_service.tsx": {
+    "mtime": 1781015891.1901977,
+    "ast_hash": "4bb2ab18e2026258733a6ad70784f07c",
+    "semantic_hash": "4bb2ab18e2026258733a6ad70784f07c"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/data_retention.tsx": {
+    "mtime": 1781015891.1901977,
+    "ast_hash": "14c05e8b226fe48c4beaacb672a9329f",
+    "semantic_hash": "14c05e8b226fe48c4beaacb672a9329f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/data_spillage.test.tsx": {
+    "mtime": 1781015891.1901977,
+    "ast_hash": "7f56f54c4b6ff88aaaa18d898388edde",
+    "semantic_hash": "7f56f54c4b6ff88aaaa18d898388edde"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/data_spillage.tsx": {
+    "mtime": 1781015891.1901977,
+    "ast_hash": "0b7ab924fd5f1e9f44c648032bb09227",
+    "semantic_hash": "0b7ab924fd5f1e9f44c648032bb09227"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/gitlab.tsx": {
+    "mtime": 1781015891.1901977,
+    "ast_hash": "ab8ac766c1ef0a7df80f8efb30a1b3d1",
+    "semantic_hash": "ab8ac766c1ef0a7df80f8efb30a1b3d1"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/groups.tsx": {
+    "mtime": 1781015891.1901977,
+    "ast_hash": "2dfa894aed1ab4389d6e3f2448a1c822",
+    "semantic_hash": "2dfa894aed1ab4389d6e3f2448a1c822"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/guest_access.tsx": {
+    "mtime": 1781015891.1901977,
+    "ast_hash": "b5ab967cfc5ddddd06ba8ac77ab7cfbd",
+    "semantic_hash": "b5ab967cfc5ddddd06ba8ac77ab7cfbd"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/images/announcement_banner_svg.tsx": {
+    "mtime": 1781015891.1901977,
+    "ast_hash": "68c92aa83030640ba2a3416228eef34c",
+    "semantic_hash": "68c92aa83030640ba2a3416228eef34c"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/images/auto_translate_svg.tsx": {
+    "mtime": 1781015891.1908808,
+    "ast_hash": "140241eed44027bf0e9337ff830092ae",
+    "semantic_hash": "140241eed44027bf0e9337ff830092ae"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/images/burn_on_read_svg.tsx": {
+    "mtime": 1781015891.1908808,
+    "ast_hash": "440ee412155bb7988bc3d83d1bbf0109",
+    "semantic_hash": "440ee412155bb7988bc3d83d1bbf0109"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/images/compliance_export_svg.tsx": {
+    "mtime": 1781015891.1908808,
+    "ast_hash": "31f9cb101e3e9d5bfc211255e8237b26",
+    "semantic_hash": "31f9cb101e3e9d5bfc211255e8237b26"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/images/custom_terms_of_service_svg.tsx": {
+    "mtime": 1781015891.1908808,
+    "ast_hash": "5105ea6d3d098f5c53a001d60f852f5f",
+    "semantic_hash": "5105ea6d3d098f5c53a001d60f852f5f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/images/data_retention_svg.tsx": {
+    "mtime": 1781015891.1908808,
+    "ast_hash": "6d784c302b10e68ae817ef5352dd25f8",
+    "semantic_hash": "6d784c302b10e68ae817ef5352dd25f8"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/images/data_spillage_svg.tsx": {
+    "mtime": 1781015891.1908808,
+    "ast_hash": "fbd9942142e35d82da37d2a7cfc03f09",
+    "semantic_hash": "fbd9942142e35d82da37d2a7cfc03f09"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/images/groups_svg.tsx": {
+    "mtime": 1781015891.1908808,
+    "ast_hash": "3b931fc9cd3d4477ab3a9a6aa9e7896f",
+    "semantic_hash": "3b931fc9cd3d4477ab3a9a6aa9e7896f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/images/guest_access_svg.tsx": {
+    "mtime": 1781015891.1908808,
+    "ast_hash": "d7ad0c80f40381c0731aaf5c018474ee",
+    "semantic_hash": "d7ad0c80f40381c0731aaf5c018474ee"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/images/intune_mam_svg.tsx": {
+    "mtime": 1781015891.1908808,
+    "ast_hash": "23024478544cc1554442bf83f67ff09d",
+    "semantic_hash": "23024478544cc1554442bf83f67ff09d"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/images/mobile_security_svg.tsx": {
+    "mtime": 1781015891.1908808,
+    "ast_hash": "d0896a6fcacde54ea9d23a5b9c42efbf",
+    "semantic_hash": "d0896a6fcacde54ea9d23a5b9c42efbf"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/images/system_roles_svg.tsx": {
+    "mtime": 1781015891.1908808,
+    "ast_hash": "f527e309f3379d7a5f60168647aa621b",
+    "semantic_hash": "f527e309f3379d7a5f60168647aa621b"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/index.ts": {
+    "mtime": 1781015891.1908808,
+    "ast_hash": "3a8775d980017a006a20852339095fad",
+    "semantic_hash": "3a8775d980017a006a20852339095fad"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/ldap.tsx": {
+    "mtime": 1781015891.1908808,
+    "ast_hash": "58b2397a734357fba73b2f026f20cc82",
+    "semantic_hash": "58b2397a734357fba73b2f026f20cc82"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/mobile_security.test.tsx": {
+    "mtime": 1781015891.1908808,
+    "ast_hash": "7c2a49b1b51da0d67d160ec9bc545997",
+    "semantic_hash": "7c2a49b1b51da0d67d160ec9bc545997"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/mobile_security.tsx": {
+    "mtime": 1781015891.1908808,
+    "ast_hash": "6fb9b100f17a9661e294ff56c27c3932",
+    "semantic_hash": "6fb9b100f17a9661e294ff56c27c3932"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/openid.tsx": {
+    "mtime": 1781015891.1908808,
+    "ast_hash": "b09ffd105f7aa097b37e5a21a67fe9ed",
+    "semantic_hash": "b09ffd105f7aa097b37e5a21a67fe9ed"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/openid_custom.tsx": {
+    "mtime": 1781015891.1908808,
+    "ast_hash": "393763d0658a1af9efb314e52f3c8f91",
+    "semantic_hash": "393763d0658a1af9efb314e52f3c8f91"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/saml.tsx": {
+    "mtime": 1781015891.1908808,
+    "ast_hash": "a82d11e115526ccda12d1aaeafc1a84e",
+    "semantic_hash": "a82d11e115526ccda12d1aaeafc1a84e"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/system_roles.tsx": {
+    "mtime": 1781015891.1908808,
+    "ast_hash": "5a16ee2ae86048f37d229fd9ab721dd1",
+    "semantic_hash": "5a16ee2ae86048f37d229fd9ab721dd1"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/features/user_attributes.tsx": {
+    "mtime": 1781015891.1908808,
+    "ast_hash": "dd9bbdd680182a900288f32c40070b40",
+    "semantic_hash": "dd9bbdd680182a900288f32c40070b40"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_discovery/index.tsx": {
+    "mtime": 1781015891.1908808,
+    "ast_hash": "faa4cddcecf6b98b8fc472aef91efba3",
+    "semantic_hash": "faa4cddcecf6b98b8fc472aef91efba3"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/feature_flags.tsx": {
+    "mtime": 1781015891.1908808,
+    "ast_hash": "da8768246b8af5d5a3732be739fa1083",
+    "semantic_hash": "da8768246b8af5d5a3732be739fa1083"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/file_upload_setting.tsx": {
+    "mtime": 1781015891.1908808,
+    "ast_hash": "343c921df1df9cf54ab483b82abb022f",
+    "semantic_hash": "343c921df1df9cf54ab483b82abb022f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/filter/filter.tsx": {
+    "mtime": 1781015891.1921692,
+    "ast_hash": "20429099379daaa5a5b99f073bf762d6",
+    "semantic_hash": "20429099379daaa5a5b99f073bf762d6"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/filter/filter_checkbox.tsx": {
+    "mtime": 1781015891.1921692,
+    "ast_hash": "66bbfa4f8d8bff3d093d7b568e2bee9f",
+    "semantic_hash": "66bbfa4f8d8bff3d093d7b568e2bee9f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/filter/filter_list.test.tsx": {
+    "mtime": 1781015891.1921692,
+    "ast_hash": "b88c9152c1f1c90055f440b9b3c85970",
+    "semantic_hash": "b88c9152c1f1c90055f440b9b3c85970"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/filter/filter_list.tsx": {
+    "mtime": 1781015891.1921692,
+    "ast_hash": "b1f79ec932c36562fdad72b1ef7d799d",
+    "semantic_hash": "b1f79ec932c36562fdad72b1ef7d799d"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/filter/team_filter_dropdown/index.tsx": {
+    "mtime": 1781015891.1921692,
+    "ast_hash": "d4f72b996480d28f53d576c7885d807f",
+    "semantic_hash": "d4f72b996480d28f53d576c7885d807f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/filter/team_filter_dropdown/team_filter_dropdown.test.tsx": {
+    "mtime": 1781015891.1923583,
+    "ast_hash": "c727fadaf2cf8b0b7e5ca365fd9ba720",
+    "semantic_hash": "c727fadaf2cf8b0b7e5ca365fd9ba720"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/filter/team_filter_dropdown/team_filter_dropdown.tsx": {
+    "mtime": 1781015891.1923583,
+    "ast_hash": "922b5e07d52113bfa357d8eb774c1540",
+    "semantic_hash": "922b5e07d52113bfa357d8eb774c1540"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/full_log_event_modal/full_log_event_modal.tsx": {
+    "mtime": 1781015891.1923583,
+    "ast_hash": "84f9f1f66ee4f6d9de287288396b2674",
+    "semantic_hash": "84f9f1f66ee4f6d9de287288396b2674"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/full_log_event_modal/index.ts": {
+    "mtime": 1781015891.1925123,
+    "ast_hash": "112a94d00a0f591eb8d8ab93a810a96f",
+    "semantic_hash": "112a94d00a0f591eb8d8ab93a810a96f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/generated_setting.tsx": {
+    "mtime": 1781015891.1925123,
+    "ast_hash": "8929cf1db02f07b018bff0af61dd299e",
+    "semantic_hash": "8929cf1db02f07b018bff0af61dd299e"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/group_settings/group_details/group_details.test.tsx": {
+    "mtime": 1781015891.1927948,
+    "ast_hash": "664cbae473f97ed4d98d895d73693075",
+    "semantic_hash": "664cbae473f97ed4d98d895d73693075"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/group_settings/group_details/group_details.tsx": {
+    "mtime": 1781015891.1927948,
+    "ast_hash": "f3ae6f13df8d8370a8b1914e6785757c",
+    "semantic_hash": "f3ae6f13df8d8370a8b1914e6785757c"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/group_settings/group_details/group_profile.test.tsx": {
+    "mtime": 1781015891.1927948,
+    "ast_hash": "884b92eb05e421f5c82ec85848ef44d1",
+    "semantic_hash": "884b92eb05e421f5c82ec85848ef44d1"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/group_settings/group_details/group_profile.tsx": {
+    "mtime": 1781015891.1927948,
+    "ast_hash": "8eeade4647b557664afec9541a712246",
+    "semantic_hash": "8eeade4647b557664afec9541a712246"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/group_settings/group_details/group_profile_and_settings.test.tsx": {
+    "mtime": 1781015891.1927948,
+    "ast_hash": "befee78b471bfeb089932af6340c641e",
+    "semantic_hash": "befee78b471bfeb089932af6340c641e"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/group_settings/group_details/group_profile_and_settings.tsx": {
+    "mtime": 1781015891.1927948,
+    "ast_hash": "213a94ce28a40ba7d1fcad2be3cfcd6e",
+    "semantic_hash": "213a94ce28a40ba7d1fcad2be3cfcd6e"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/group_settings/group_details/group_teams_and_channels.test.tsx": {
+    "mtime": 1781015891.1927948,
+    "ast_hash": "e8367b5c5a6ed3c241e159209f4760c4",
+    "semantic_hash": "e8367b5c5a6ed3c241e159209f4760c4"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/group_settings/group_details/group_teams_and_channels.tsx": {
+    "mtime": 1781015891.1927948,
+    "ast_hash": "beaef6179b855a117ef3d2cced6048df",
+    "semantic_hash": "beaef6179b855a117ef3d2cced6048df"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/group_settings/group_details/group_teams_and_channels_row.test.tsx": {
+    "mtime": 1781015891.1927948,
+    "ast_hash": "a1fa5047c436930ad593452173346455",
+    "semantic_hash": "a1fa5047c436930ad593452173346455"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/group_settings/group_details/group_teams_and_channels_row.tsx": {
+    "mtime": 1781015891.1927948,
+    "ast_hash": "f79c23e5b6ba53bf53e8943adfbe252c",
+    "semantic_hash": "f79c23e5b6ba53bf53e8943adfbe252c"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/group_settings/group_details/group_users.test.tsx": {
+    "mtime": 1781015891.1927948,
+    "ast_hash": "eef3ae3c0fb6fb77483eacf88896ad35",
+    "semantic_hash": "eef3ae3c0fb6fb77483eacf88896ad35"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/group_settings/group_details/group_users.tsx": {
+    "mtime": 1781015891.1927948,
+    "ast_hash": "17b93131e2179578dc9054d805b625d5",
+    "semantic_hash": "17b93131e2179578dc9054d805b625d5"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/group_settings/group_details/group_users_row.test.tsx": {
+    "mtime": 1781015891.1927948,
+    "ast_hash": "994fd73b36d33cd881690e061a8107b8",
+    "semantic_hash": "994fd73b36d33cd881690e061a8107b8"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/group_settings/group_details/group_users_row.tsx": {
+    "mtime": 1781015891.1927948,
+    "ast_hash": "f537f3ae2319a175613461c8ecc75097",
+    "semantic_hash": "f537f3ae2319a175613461c8ecc75097"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/group_settings/group_details/index.ts": {
+    "mtime": 1781015891.1927948,
+    "ast_hash": "dbb5ef041f4f6139e2598d2e8e3282ad",
+    "semantic_hash": "dbb5ef041f4f6139e2598d2e8e3282ad"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/group_settings/group_row.test.tsx": {
+    "mtime": 1781015891.1927948,
+    "ast_hash": "5a616792b32f16f4a2ebc2ee8c4c8beb",
+    "semantic_hash": "5a616792b32f16f4a2ebc2ee8c4c8beb"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/group_settings/group_row.tsx": {
+    "mtime": 1781015891.1927948,
+    "ast_hash": "fb0017c151901e3348ac2ede75ef896d",
+    "semantic_hash": "fb0017c151901e3348ac2ede75ef896d"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/group_settings/group_settings.test.tsx": {
+    "mtime": 1781015891.1927948,
+    "ast_hash": "4c490abb453c8444a8cf2086d51d12dc",
+    "semantic_hash": "4c490abb453c8444a8cf2086d51d12dc"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/group_settings/group_settings.tsx": {
+    "mtime": 1781015891.1927948,
+    "ast_hash": "1ecbed74dc39e52291d7cec5fc48850d",
+    "semantic_hash": "1ecbed74dc39e52291d7cec5fc48850d"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/group_settings/groups_list/groups_list.test.tsx": {
+    "mtime": 1781015891.1938343,
+    "ast_hash": "7e039cb892b0407540976f7bdca8d1d8",
+    "semantic_hash": "7e039cb892b0407540976f7bdca8d1d8"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/group_settings/groups_list/groups_list.tsx": {
+    "mtime": 1781015891.1938343,
+    "ast_hash": "cb9943a9a242392bb3cb74fdb70ee457",
+    "semantic_hash": "cb9943a9a242392bb3cb74fdb70ee457"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/group_settings/groups_list/index.ts": {
+    "mtime": 1781015891.1938343,
+    "ast_hash": "6714852cda97d2abdd09d0c5c83918b8",
+    "semantic_hash": "6714852cda97d2abdd09d0c5c83918b8"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/index.ts": {
+    "mtime": 1781015891.1938343,
+    "ast_hash": "dd7c724cb093cd7d52d73defd1ff3166",
+    "semantic_hash": "dd7c724cb093cd7d52d73defd1ff3166"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/inline_section_feature_discovery/index.ts": {
+    "mtime": 1781015891.1938343,
+    "ast_hash": "b398dac7020004532a5d3774877d958c",
+    "semantic_hash": "b398dac7020004532a5d3774877d958c"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/inline_section_feature_discovery/inline_section_feature_discovery.tsx": {
+    "mtime": 1781015891.194203,
+    "ast_hash": "0a12a6557431f20f24dda0d4bfaafa75",
+    "semantic_hash": "0a12a6557431f20f24dda0d4bfaafa75"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ip_filtering/add_edit_ip_filter_modal.test.tsx": {
+    "mtime": 1781015891.194361,
+    "ast_hash": "6d9356ebfab3d27f206c490ca7d44f0d",
+    "semantic_hash": "6d9356ebfab3d27f206c490ca7d44f0d"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ip_filtering/add_edit_ip_filter_modal.tsx": {
+    "mtime": 1781015891.194361,
+    "ast_hash": "f51f8cc0be2a490893ec029c464f326a",
+    "semantic_hash": "f51f8cc0be2a490893ec029c464f326a"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ip_filtering/delete_confirmation.test.tsx": {
+    "mtime": 1781015891.194361,
+    "ast_hash": "2548ed12d3a71f00a25294d4e184793c",
+    "semantic_hash": "2548ed12d3a71f00a25294d4e184793c"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ip_filtering/delete_confirmation.tsx": {
+    "mtime": 1781015891.194361,
+    "ast_hash": "911073b4f8317960095c2fe5c0b07720",
+    "semantic_hash": "911073b4f8317960095c2fe5c0b07720"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ip_filtering/edit_section/edit_section.test.tsx": {
+    "mtime": 1781015891.194361,
+    "ast_hash": "9faa1f62bc3d1711c3114f68ab796881",
+    "semantic_hash": "9faa1f62bc3d1711c3114f68ab796881"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ip_filtering/edit_section/edit_section_edit_table_row.tsx": {
+    "mtime": 1781015891.1945894,
+    "ast_hash": "877816945f55015f0c3f8aa2874e601a",
+    "semantic_hash": "877816945f55015f0c3f8aa2874e601a"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ip_filtering/edit_section/edit_section_header.tsx": {
+    "mtime": 1781015891.1945894,
+    "ast_hash": "ab86acf9f2289864e27699449e478bd9",
+    "semantic_hash": "ab86acf9f2289864e27699449e478bd9"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ip_filtering/edit_section/edit_section_ip_not_in_range_panel.tsx": {
+    "mtime": 1781015891.1945894,
+    "ast_hash": "0a213596b41ece49375da280483c4941",
+    "semantic_hash": "0a213596b41ece49375da280483c4941"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ip_filtering/edit_section/edit_section_no_filters_panel.tsx": {
+    "mtime": 1781015891.1945894,
+    "ast_hash": "cf7e65d895c54ad18579f747df4972e3",
+    "semantic_hash": "cf7e65d895c54ad18579f747df4972e3"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ip_filtering/edit_section/index.tsx": {
+    "mtime": 1781015891.1945894,
+    "ast_hash": "daf92d47da289312f00617e0319da15f",
+    "semantic_hash": "daf92d47da289312f00617e0319da15f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ip_filtering/enable_section.test.tsx": {
+    "mtime": 1781015891.1945894,
+    "ast_hash": "e9a13115bcc465df5d3503b64de5fa52",
+    "semantic_hash": "e9a13115bcc465df5d3503b64de5fa52"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ip_filtering/enable_section.tsx": {
+    "mtime": 1781015891.1945894,
+    "ast_hash": "f4a84cdf6ee0a08aa74a9801db87ac11",
+    "semantic_hash": "f4a84cdf6ee0a08aa74a9801db87ac11"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ip_filtering/index.tsx": {
+    "mtime": 1781015891.1945894,
+    "ast_hash": "665450a5586c10c6433c5d852f3d9ff4",
+    "semantic_hash": "665450a5586c10c6433c5d852f3d9ff4"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ip_filtering/ip_filtering.test.tsx": {
+    "mtime": 1781015891.1945894,
+    "ast_hash": "dacd102724c884f29494d549b4bdb260",
+    "semantic_hash": "dacd102724c884f29494d549b4bdb260"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ip_filtering/ip_filtering_utils.test.ts": {
+    "mtime": 1781015891.1945894,
+    "ast_hash": "97f2818ebc68c0eb00770afaccb4b648",
+    "semantic_hash": "97f2818ebc68c0eb00770afaccb4b648"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ip_filtering/ip_filtering_utils.ts": {
+    "mtime": 1781015891.1945894,
+    "ast_hash": "f9e0f40e41e67b386fe6be654df91371",
+    "semantic_hash": "f9e0f40e41e67b386fe6be654df91371"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ip_filtering/save_confirmation_modal.test.tsx": {
+    "mtime": 1781015891.1945894,
+    "ast_hash": "5741802ed6a53dcbe69ebb692d22f54c",
+    "semantic_hash": "5741802ed6a53dcbe69ebb692d22f54c"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ip_filtering/save_confirmation_modal.tsx": {
+    "mtime": 1781015891.1945894,
+    "ast_hash": "4ac0d5acc0a1f2a7acf2ba4992189234",
+    "semantic_hash": "4ac0d5acc0a1f2a7acf2ba4992189234"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/jobs/index.tsx": {
+    "mtime": 1781015891.1945894,
+    "ast_hash": "4cb9743536ba6f3cef7e42d0999bf4b9",
+    "semantic_hash": "4cb9743536ba6f3cef7e42d0999bf4b9"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/jobs/job_cancel_button.tsx": {
+    "mtime": 1781015891.1952128,
+    "ast_hash": "7892423dcae4a752e20874422fe79f1b",
+    "semantic_hash": "7892423dcae4a752e20874422fe79f1b"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/jobs/job_download_link.tsx": {
+    "mtime": 1781015891.1952128,
+    "ast_hash": "7dcbeec0e355684f512f6471b4c77f11",
+    "semantic_hash": "7dcbeec0e355684f512f6471b4c77f11"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/jobs/job_finish_at.tsx": {
+    "mtime": 1781015891.1952128,
+    "ast_hash": "62f81c7d456b8cec9b7d97677ff84210",
+    "semantic_hash": "62f81c7d456b8cec9b7d97677ff84210"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/jobs/job_run_length.tsx": {
+    "mtime": 1781015891.1952128,
+    "ast_hash": "434018feffbab9b8c72a418ac2e9c4bc",
+    "semantic_hash": "434018feffbab9b8c72a418ac2e9c4bc"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/jobs/job_status.tsx": {
+    "mtime": 1781015891.1952128,
+    "ast_hash": "f454042354ddeef61d3c1af566146a75",
+    "semantic_hash": "f454042354ddeef61d3c1af566146a75"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/jobs/table.test.tsx": {
+    "mtime": 1781015891.1952128,
+    "ast_hash": "1d2b936712c8a11f8f42ea43330f127f",
+    "semantic_hash": "1d2b936712c8a11f8f42ea43330f127f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/jobs/table.tsx": {
+    "mtime": 1781015891.1952128,
+    "ast_hash": "0aaec5331e86b1d374a5ee30077580cc",
+    "semantic_hash": "0aaec5331e86b1d374a5ee30077580cc"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ldap_wizard/index.tsx": {
+    "mtime": 1781015891.1952128,
+    "ast_hash": "dc40b5b0dd560df82e26005c42a9e925",
+    "semantic_hash": "dc40b5b0dd560df82e26005c42a9e925"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ldap_wizard/ldap_boolean_setting.tsx": {
+    "mtime": 1781015891.1955972,
+    "ast_hash": "29ce4354eeb7b4c07ac732df321b2c2d",
+    "semantic_hash": "29ce4354eeb7b4c07ac732df321b2c2d"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ldap_wizard/ldap_button_setting.tsx": {
+    "mtime": 1781015891.1955972,
+    "ast_hash": "5d3b2156354f47a9bc29056e4e137442",
+    "semantic_hash": "5d3b2156354f47a9bc29056e4e137442"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ldap_wizard/ldap_custom_setting.tsx": {
+    "mtime": 1781015891.1955972,
+    "ast_hash": "2559e382487270a985ffa6387b260cd7",
+    "semantic_hash": "2559e382487270a985ffa6387b260cd7"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ldap_wizard/ldap_dropdown_setting.tsx": {
+    "mtime": 1781015891.1955972,
+    "ast_hash": "35b64f75b0839a54bb521c3f72ff3bc0",
+    "semantic_hash": "35b64f75b0839a54bb521c3f72ff3bc0"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ldap_wizard/ldap_expandable_setting.tsx": {
+    "mtime": 1781015891.1955972,
+    "ast_hash": "4e1e19177f566ef5732baefbdeb88f3d",
+    "semantic_hash": "4e1e19177f566ef5732baefbdeb88f3d"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ldap_wizard/ldap_file_upload_setting.tsx": {
+    "mtime": 1781015891.1955972,
+    "ast_hash": "664e8a7c752f84fb0ea08f8a77c5f715",
+    "semantic_hash": "664e8a7c752f84fb0ea08f8a77c5f715"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ldap_wizard/ldap_helpers.tsx": {
+    "mtime": 1781015891.1955972,
+    "ast_hash": "f21c7e3b1a1facfa11dd6d4b03cfec18",
+    "semantic_hash": "f21c7e3b1a1facfa11dd6d4b03cfec18"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ldap_wizard/ldap_jobs_table_setting.tsx": {
+    "mtime": 1781015891.1955972,
+    "ast_hash": "2223895654a45606ee2c51df7ea28c02",
+    "semantic_hash": "2223895654a45606ee2c51df7ea28c02"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ldap_wizard/ldap_text_setting.tsx": {
+    "mtime": 1781015891.1955972,
+    "ast_hash": "3c797d7ce6ae3d50b41e0d2e055d4485",
+    "semantic_hash": "3c797d7ce6ae3d50b41e0d2e055d4485"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/ldap_wizard/ldap_wizard.tsx": {
+    "mtime": 1781015891.1955972,
+    "ast_hash": "80d7dea0cbb704c3985a743474503387",
+    "semantic_hash": "80d7dea0cbb704c3985a743474503387"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/license_settings/enterprise_edition/enterprise_edition_left_panel.test.tsx": {
+    "mtime": 1781015891.1964607,
+    "ast_hash": "09ce8d3b71df738288c53dc5b82068c4",
+    "semantic_hash": "09ce8d3b71df738288c53dc5b82068c4"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/license_settings/enterprise_edition/enterprise_edition_left_panel.tsx": {
+    "mtime": 1781015891.1964607,
+    "ast_hash": "acc69bf78031e9ab24e1a095acf1d447",
+    "semantic_hash": "acc69bf78031e9ab24e1a095acf1d447"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/license_settings/enterprise_edition/enterprise_edition_right_panel.test.tsx": {
+    "mtime": 1781015891.1964607,
+    "ast_hash": "a0518a1aec6b9e19869d0377f43a05e2",
+    "semantic_hash": "a0518a1aec6b9e19869d0377f43a05e2"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/license_settings/enterprise_edition/enterprise_edition_right_panel.tsx": {
+    "mtime": 1781015891.1964607,
+    "ast_hash": "77609ac288f80efd310d09cce5c9ac4e",
+    "semantic_hash": "77609ac288f80efd310d09cce5c9ac4e"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/license_settings/index.ts": {
+    "mtime": 1781015891.1964607,
+    "ast_hash": "484faced67dfe159d9e824f23ee201b0",
+    "semantic_hash": "484faced67dfe159d9e824f23ee201b0"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/license_settings/license_settings.test.tsx": {
+    "mtime": 1781015891.1964607,
+    "ast_hash": "31933f09a1f9ade744dced74367b2367",
+    "semantic_hash": "31933f09a1f9ade744dced74367b2367"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/license_settings/license_settings.tsx": {
+    "mtime": 1781015891.1964607,
+    "ast_hash": "b7b3e667f1091075c1aa53fcc80270e0",
+    "semantic_hash": "b7b3e667f1091075c1aa53fcc80270e0"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/license_settings/modals/confirm_license_removal_modal.test.tsx": {
+    "mtime": 1781015891.1968741,
+    "ast_hash": "3e07b3025977ba86e597ceffe16330ed",
+    "semantic_hash": "3e07b3025977ba86e597ceffe16330ed"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/license_settings/modals/confirm_license_removal_modal.tsx": {
+    "mtime": 1781015891.1968741,
+    "ast_hash": "409e5f7c20c518238632afae007598a6",
+    "semantic_hash": "409e5f7c20c518238632afae007598a6"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/license_settings/modals/ee_license_modal.tsx": {
+    "mtime": 1781015891.1968741,
+    "ast_hash": "35139d7e1d372dc595e2d1aaa67ef7ea",
+    "semantic_hash": "35139d7e1d372dc595e2d1aaa67ef7ea"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/license_settings/modals/license_diff_view.test.tsx": {
+    "mtime": 1781015891.1968741,
+    "ast_hash": "df6bbb27c6824bc260aff5d65db19e80",
+    "semantic_hash": "df6bbb27c6824bc260aff5d65db19e80"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/license_settings/modals/license_diff_view.tsx": {
+    "mtime": 1781015891.1968741,
+    "ast_hash": "fd52a05fe9c1cf7db14f74738b1e5cc1",
+    "semantic_hash": "fd52a05fe9c1cf7db14f74738b1e5cc1"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/license_settings/modals/upload_license_modal.test.tsx": {
+    "mtime": 1781015891.1968741,
+    "ast_hash": "2a343f831def973fc502a44fdcaed773",
+    "semantic_hash": "2a343f831def973fc502a44fdcaed773"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/license_settings/modals/upload_license_modal.tsx": {
+    "mtime": 1781015891.1968741,
+    "ast_hash": "161395d3e6cfb7f32e4d6e0742789e63",
+    "semantic_hash": "161395d3e6cfb7f32e4d6e0742789e63"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/license_settings/renew_license_card/renew_license_card.test.tsx": {
+    "mtime": 1781015891.197326,
+    "ast_hash": "affb553238ece641180ac09fa430f070",
+    "semantic_hash": "affb553238ece641180ac09fa430f070"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/license_settings/renew_license_card/renew_license_card.tsx": {
+    "mtime": 1781015891.197326,
+    "ast_hash": "7ed19dfe4c223640d1cd5f738c1763cd",
+    "semantic_hash": "7ed19dfe4c223640d1cd5f738c1763cd"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/license_settings/starter_edition/starter_left_panel.tsx": {
+    "mtime": 1781015891.1974397,
+    "ast_hash": "52cd331513df6667c53fe5b56593e57c",
+    "semantic_hash": "52cd331513df6667c53fe5b56593e57c"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/license_settings/starter_edition/starter_right_panel.tsx": {
+    "mtime": 1781015891.1974397,
+    "ast_hash": "08966db0f603d8bd6dbdfbb677215e82",
+    "semantic_hash": "08966db0f603d8bd6dbdfbb677215e82"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/license_settings/team_edition/team_edition_left_panel.tsx": {
+    "mtime": 1781015891.197588,
+    "ast_hash": "c87d385c37650f6c7a909c99ff4b5b2c",
+    "semantic_hash": "c87d385c37650f6c7a909c99ff4b5b2c"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/license_settings/team_edition/team_edition_right_panel.tsx": {
+    "mtime": 1781015891.197588,
+    "ast_hash": "8b741b5fb970f4a8244190f587830ceb",
+    "semantic_hash": "8b741b5fb970f4a8244190f587830ceb"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/license_settings/trial_banner/trial_banner.tsx": {
+    "mtime": 1781015891.197588,
+    "ast_hash": "d03eeb9835a9d0fa9d82e4a474d61125",
+    "semantic_hash": "d03eeb9835a9d0fa9d82e4a474d61125"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/license_settings/trial_license_card/trial_license_card.tsx": {
+    "mtime": 1781015891.1978333,
+    "ast_hash": "21addaec59ba53149a8601110a8f0cf7",
+    "semantic_hash": "21addaec59ba53149a8601110a8f0cf7"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/license_settings/user_seat_alert_banner.tsx": {
+    "mtime": 1781015891.1978333,
+    "ast_hash": "3efbf4fbde98497e5ae849143db8c5ed",
+    "semantic_hash": "3efbf4fbde98497e5ae849143db8c5ed"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/licensed_section_container/index.ts": {
+    "mtime": 1781015891.1978333,
+    "ast_hash": "da18edbae4c2d3997d78a4acf19af73a",
+    "semantic_hash": "da18edbae4c2d3997d78a4acf19af73a"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/licensed_section_container/licensed_section_container.tsx": {
+    "mtime": 1781015891.1979544,
+    "ast_hash": "de6bf251728eb81d8f2b7876fff69df5",
+    "semantic_hash": "de6bf251728eb81d8f2b7876fff69df5"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/list_table/elapsed_duration_cell.tsx": {
+    "mtime": 1781015891.1979544,
+    "ast_hash": "422f28a58746367dcad4bc41655322ea",
+    "semantic_hash": "422f28a58746367dcad4bc41655322ea"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/list_table/index.ts": {
+    "mtime": 1781015891.198035,
+    "ast_hash": "3bf47c93a67d0ef9c2219c58f3694cdd",
+    "semantic_hash": "3bf47c93a67d0ef9c2219c58f3694cdd"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/list_table/list_table.tsx": {
+    "mtime": 1781015891.198035,
+    "ast_hash": "16eb8fbe7606d1f505d3e1f4e9a31b6c",
+    "semantic_hash": "16eb8fbe7606d1f505d3e1f4e9a31b6c"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/list_table/pagination.tsx": {
+    "mtime": 1781015891.198035,
+    "ast_hash": "51ce3937c1dd4030c6ae074999a68bad",
+    "semantic_hash": "51ce3937c1dd4030c6ae074999a68bad"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/localization/agents_settings.tsx": {
+    "mtime": 1781015891.198035,
+    "ast_hash": "9079ea5a6f24794948184b251fac0ddd",
+    "semantic_hash": "9079ea5a6f24794948184b251fac0ddd"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/localization/auto_translation.tsx": {
+    "mtime": 1781015891.1982303,
+    "ast_hash": "9f78e4cfe90279435f2fc237d3aaa0cf",
+    "semantic_hash": "9f78e4cfe90279435f2fc237d3aaa0cf"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/localization/auto_translation_info.tsx": {
+    "mtime": 1781015891.1982303,
+    "ast_hash": "1fee8bc32975a093edd91b740cfba23d",
+    "semantic_hash": "1fee8bc32975a093edd91b740cfba23d"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/localization/libreTranslate_settings.tsx": {
+    "mtime": 1781015891.1982303,
+    "ast_hash": "155b5951c9471194a33c309970081601",
+    "semantic_hash": "155b5951c9471194a33c309970081601"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/localization/localization.tsx": {
+    "mtime": 1781015891.1982303,
+    "ast_hash": "7aa1c6f31a9e3d8cec5ff6c3e3f5a9dc",
+    "semantic_hash": "7aa1c6f31a9e3d8cec5ff6c3e3f5a9dc"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/manage_roles_modal/index.ts": {
+    "mtime": 1781015891.1982303,
+    "ast_hash": "98b7c84a6217775973182911d96fb3b8",
+    "semantic_hash": "98b7c84a6217775973182911d96fb3b8"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/manage_roles_modal/manage_roles_modal.tsx": {
+    "mtime": 1781015891.1984715,
+    "ast_hash": "3a9588f07c987c4996d9e95c929c0a70",
+    "semantic_hash": "3a9588f07c987c4996d9e95c929c0a70"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/manage_teams_modal/index.tsx": {
+    "mtime": 1781015891.1985815,
+    "ast_hash": "c89d67c54b722e1e8a9b66cbfad2251a",
+    "semantic_hash": "c89d67c54b722e1e8a9b66cbfad2251a"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/manage_teams_modal/manage_teams_dropdown.test.tsx": {
+    "mtime": 1781015891.1985815,
+    "ast_hash": "9d99d6362abaa59c7fe111537963c576",
+    "semantic_hash": "9d99d6362abaa59c7fe111537963c576"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/manage_teams_modal/manage_teams_dropdown.tsx": {
+    "mtime": 1781015891.1985815,
+    "ast_hash": "4e0ed2d474c0f8b6c9eb508b68de2e28",
+    "semantic_hash": "4e0ed2d474c0f8b6c9eb508b68de2e28"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/manage_teams_modal/manage_teams_modal.test.tsx": {
+    "mtime": 1781015891.1985815,
+    "ast_hash": "56991edf4fe1fd73c7c8f3bd73650c48",
+    "semantic_hash": "56991edf4fe1fd73c7c8f3bd73650c48"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/manage_teams_modal/manage_teams_modal.tsx": {
+    "mtime": 1781015891.1985815,
+    "ast_hash": "9eb6cb745e2242958dfe2853cbf7f901",
+    "semantic_hash": "9eb6cb745e2242958dfe2853cbf7f901"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/manage_teams_modal/remove_from_team_button.test.tsx": {
+    "mtime": 1781015891.1985815,
+    "ast_hash": "b707fbd823d899cc356db4f91488ec51",
+    "semantic_hash": "b707fbd823d899cc356db4f91488ec51"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/manage_teams_modal/remove_from_team_button.tsx": {
+    "mtime": 1781015891.1985815,
+    "ast_hash": "1bfc64e36e721c566a410654d0d9386f",
+    "semantic_hash": "1bfc64e36e721c566a410654d0d9386f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/manage_tokens_modal/index.ts": {
+    "mtime": 1781015891.1988802,
+    "ast_hash": "f08a580193c5389581c4db049ff6f886",
+    "semantic_hash": "f08a580193c5389581c4db049ff6f886"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/manage_tokens_modal/manage_tokens_modal.test.tsx": {
+    "mtime": 1781015891.1988802,
+    "ast_hash": "5cc52b2acd4efcbdf0fa4af52e389657",
+    "semantic_hash": "5cc52b2acd4efcbdf0fa4af52e389657"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/manage_tokens_modal/manage_tokens_modal.tsx": {
+    "mtime": 1781015891.1988802,
+    "ast_hash": "4057b487cef104d94d8825c81981dcfc",
+    "semantic_hash": "4057b487cef104d94d8825c81981dcfc"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/member_list_group/index.ts": {
+    "mtime": 1781015891.1990767,
+    "ast_hash": "69ab0dcf0794ed4319312a711c6bdc68",
+    "semantic_hash": "69ab0dcf0794ed4319312a711c6bdc68"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/member_list_group/member_list_group.test.tsx": {
+    "mtime": 1781015891.1990767,
+    "ast_hash": "9935a81ff04d8e8c020b751c625ceacf",
+    "semantic_hash": "9935a81ff04d8e8c020b751c625ceacf"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/member_list_group/member_list_group.tsx": {
+    "mtime": 1781015891.1990767,
+    "ast_hash": "11041ca401b02ae7fa68674d0d40214e",
+    "semantic_hash": "11041ca401b02ae7fa68674d0d40214e"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/message_export_settings.test.tsx": {
+    "mtime": 1781015891.1990767,
+    "ast_hash": "e568ac12ef9fe5f7af488ce961cf20d9",
+    "semantic_hash": "e568ac12ef9fe5f7af488ce961cf20d9"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/message_export_settings.tsx": {
+    "mtime": 1781015891.1990767,
+    "ast_hash": "9aa305f77c529fd3355e3d4b94b93f71",
+    "semantic_hash": "9aa305f77c529fd3355e3d4b94b93f71"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/multiselect_settings.tsx": {
+    "mtime": 1781015891.1990767,
+    "ast_hash": "cc714de00898784cd2b5f062cd36254d",
+    "semantic_hash": "cc714de00898784cd2b5f062cd36254d"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/old_admin_settings.tsx": {
+    "mtime": 1781015891.1990767,
+    "ast_hash": "0612cd9769f42de4c31443b64c3967d3",
+    "semantic_hash": "0612cd9769f42de4c31443b64c3967d3"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/openid_convert/index.ts": {
+    "mtime": 1781015891.1994765,
+    "ast_hash": "e6e07a1f9a2fe132dd38704eddf8bcff",
+    "semantic_hash": "e6e07a1f9a2fe132dd38704eddf8bcff"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/openid_convert/openid_convert.test.tsx": {
+    "mtime": 1781015891.1994765,
+    "ast_hash": "642d8999a0d46613248c7abf7f67d81b",
+    "semantic_hash": "642d8999a0d46613248c7abf7f67d81b"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/openid_convert/openid_convert.tsx": {
+    "mtime": 1781015891.1994765,
+    "ast_hash": "f122b91da5c3d999bf9b735d412fed2d",
+    "semantic_hash": "f122b91da5c3d999bf9b735d412fed2d"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_policies/index.ts": {
+    "mtime": 1781015891.1994765,
+    "ast_hash": "b97bf15f7f47adaf6d62497f7428f373",
+    "semantic_hash": "b97bf15f7f47adaf6d62497f7428f373"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_policies/permission_policies.tsx": {
+    "mtime": 1781015891.1997788,
+    "ast_hash": "bb5316e47f6ce77427fc931830c366e5",
+    "semantic_hash": "bb5316e47f6ce77427fc931830c366e5"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_policies/policy_details/index.ts": {
+    "mtime": 1781015891.1997788,
+    "ast_hash": "652bf0f066d97311a50c27c00c9572c0",
+    "semantic_hash": "652bf0f066d97311a50c27c00c9572c0"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_policies/policy_details/permission_policy_details.tsx": {
+    "mtime": 1781015891.1998572,
+    "ast_hash": "391b2d5f01aa33c12a66419be815c424",
+    "semantic_hash": "391b2d5f01aa33c12a66419be815c424"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/edit_post_time_limit_button/edit_post_time_limit_button.tsx": {
+    "mtime": 1781015891.2000248,
+    "ast_hash": "99c1c4018da23eb9badeb613ecb102f1",
+    "semantic_hash": "99c1c4018da23eb9badeb613ecb102f1"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/edit_post_time_limit_button/index.tsx": {
+    "mtime": 1781015891.2003248,
+    "ast_hash": "345d0d068f60d0a99f73059205c236f4",
+    "semantic_hash": "345d0d068f60d0a99f73059205c236f4"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/edit_post_time_limit_modal/edit_post_time_limit_modal.tsx": {
+    "mtime": 1781015891.2003248,
+    "ast_hash": "b97d1ad334cd89666e46bdfbd75733ed",
+    "semantic_hash": "b97d1ad334cd89666e46bdfbd75733ed"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/edit_post_time_limit_modal/index.tsx": {
+    "mtime": 1781015891.2004256,
+    "ast_hash": "5fc39d12c6688a3bc56301be7e9fe401",
+    "semantic_hash": "5fc39d12c6688a3bc56301be7e9fe401"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/guest_permissions_tree/guest_permissions_tree.test.tsx": {
+    "mtime": 1781015891.2004256,
+    "ast_hash": "711816b6e5648c7f220921f7269dc54b",
+    "semantic_hash": "711816b6e5648c7f220921f7269dc54b"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/guest_permissions_tree/guest_permissions_tree.tsx": {
+    "mtime": 1781015891.2005033,
+    "ast_hash": "d6cb18e80d0f676fb79d4da344cb0fc3",
+    "semantic_hash": "d6cb18e80d0f676fb79d4da344cb0fc3"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/guest_permissions_tree/index.tsx": {
+    "mtime": 1781015891.2005033,
+    "ast_hash": "c285c2d0aceffa2bd93086ce53ea3f03",
+    "semantic_hash": "c285c2d0aceffa2bd93086ce53ea3f03"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/index.tsx": {
+    "mtime": 1781015891.2005033,
+    "ast_hash": "b83601e9f2b3cb4390489bcff316c0cb",
+    "semantic_hash": "b83601e9f2b3cb4390489bcff316c0cb"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/permission_checkbox.test.tsx": {
+    "mtime": 1781015891.2005033,
+    "ast_hash": "ea8efdfe87d39a1313b1636fcb5c7e28",
+    "semantic_hash": "ea8efdfe87d39a1313b1636fcb5c7e28"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/permission_checkbox.tsx": {
+    "mtime": 1781015891.2005033,
+    "ast_hash": "fd0d63667aef06d4507aa22df6c8f6de",
+    "semantic_hash": "fd0d63667aef06d4507aa22df6c8f6de"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/permission_description.test.tsx": {
+    "mtime": 1781015891.2005033,
+    "ast_hash": "2bfa0a4380d67120eef6a33bc3c780be",
+    "semantic_hash": "2bfa0a4380d67120eef6a33bc3c780be"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/permission_description.tsx": {
+    "mtime": 1781015891.2005033,
+    "ast_hash": "9b0535438fb5d06d6eb2aa3e375a2385",
+    "semantic_hash": "9b0535438fb5d06d6eb2aa3e375a2385"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/permission_group.test.tsx": {
+    "mtime": 1781015891.2005033,
+    "ast_hash": "bd8e6622aa5feeff3a64431254cc24ab",
+    "semantic_hash": "bd8e6622aa5feeff3a64431254cc24ab"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/permission_group.tsx": {
+    "mtime": 1781015891.2005033,
+    "ast_hash": "ae3e7c68c90605b4b0b96d8b5d14cfbf",
+    "semantic_hash": "ae3e7c68c90605b4b0b96d8b5d14cfbf"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/permission_row.test.tsx": {
+    "mtime": 1781015891.2005033,
+    "ast_hash": "aecf2ec39545edc263e911b4417bf852",
+    "semantic_hash": "aecf2ec39545edc263e911b4417bf852"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/permission_row.tsx": {
+    "mtime": 1781015891.2005033,
+    "ast_hash": "8d860aacf1ff94786efb03ecf75c3443",
+    "semantic_hash": "8d860aacf1ff94786efb03ecf75c3443"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/permission_schemes_settings.test.tsx": {
+    "mtime": 1781015891.2005033,
+    "ast_hash": "b5a4d1097017fb47c6efd91be1f0d32f",
+    "semantic_hash": "b5a4d1097017fb47c6efd91be1f0d32f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/permission_schemes_settings.tsx": {
+    "mtime": 1781015891.2005033,
+    "ast_hash": "eb99b17eb401c9a7b02c6511aac668c1",
+    "semantic_hash": "eb99b17eb401c9a7b02c6511aac668c1"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/permission_system_scheme_settings/index.tsx": {
+    "mtime": 1781015891.2009544,
+    "ast_hash": "c3fc4e72d1be69346c11e0b2ef39ad35",
+    "semantic_hash": "c3fc4e72d1be69346c11e0b2ef39ad35"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/permission_system_scheme_settings/permission_system_scheme_settings.test.tsx": {
+    "mtime": 1781015891.2009544,
+    "ast_hash": "514eeb465e2a6464db7f23d7eb07e4b9",
+    "semantic_hash": "514eeb465e2a6464db7f23d7eb07e4b9"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/permission_system_scheme_settings/permission_system_scheme_settings.tsx": {
+    "mtime": 1781015891.2009544,
+    "ast_hash": "6c6a995ab755fa739c5a8d6cff836066",
+    "semantic_hash": "6c6a995ab755fa739c5a8d6cff836066"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/permission_team_scheme_settings/index.tsx": {
+    "mtime": 1781015891.2009544,
+    "ast_hash": "b7395a102421008854f312c7a02e1645",
+    "semantic_hash": "b7395a102421008854f312c7a02e1645"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/permission_team_scheme_settings/permission_team_scheme_settings.test.tsx": {
+    "mtime": 1781015891.2017305,
+    "ast_hash": "71ef6ab7c2f1018e041626d20c5c7edc",
+    "semantic_hash": "71ef6ab7c2f1018e041626d20c5c7edc"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/permission_team_scheme_settings/permission_team_scheme_settings.tsx": {
+    "mtime": 1781015891.2017305,
+    "ast_hash": "180e763ed12386840b8f693be1d07244",
+    "semantic_hash": "180e763ed12386840b8f693be1d07244"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/permission_team_scheme_settings/team_in_list/index.tsx": {
+    "mtime": 1781015891.20183,
+    "ast_hash": "c74f7f261ed61e8dd1ce373059ec8895",
+    "semantic_hash": "c74f7f261ed61e8dd1ce373059ec8895"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/permission_team_scheme_settings/team_in_list/team_in_list.test.tsx": {
+    "mtime": 1781015891.20183,
+    "ast_hash": "48a2f1ee142011856d33311740d1c2da",
+    "semantic_hash": "48a2f1ee142011856d33311740d1c2da"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/permission_team_scheme_settings/team_in_list/team_in_list.tsx": {
+    "mtime": 1781015891.20183,
+    "ast_hash": "1e3c740bb0d2da2e8dd29b69fabf7564",
+    "semantic_hash": "1e3c740bb0d2da2e8dd29b69fabf7564"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/permissions_scheme_summary/index.tsx": {
+    "mtime": 1781015891.2020786,
+    "ast_hash": "f7ae756392236a3a1884dcc08a1835d7",
+    "semantic_hash": "f7ae756392236a3a1884dcc08a1835d7"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/permissions_scheme_summary/permissions_scheme_summary.test.tsx": {
+    "mtime": 1781015891.2020786,
+    "ast_hash": "2d1b0c623ef7877fdbfd7ed1ba710c26",
+    "semantic_hash": "2d1b0c623ef7877fdbfd7ed1ba710c26"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/permissions_scheme_summary/permissions_scheme_summary.tsx": {
+    "mtime": 1781015891.2020786,
+    "ast_hash": "babfd4cfa88d41924f8b55df3d8b13cf",
+    "semantic_hash": "babfd4cfa88d41924f8b55df3d8b13cf"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/permissions_tree/index.tsx": {
+    "mtime": 1781015891.2022545,
+    "ast_hash": "cad46e413f00f63c360475544c5809b8",
+    "semantic_hash": "cad46e413f00f63c360475544c5809b8"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/permissions_tree/permissions_tree.test.tsx": {
+    "mtime": 1781015891.2022545,
+    "ast_hash": "9a279fa429024af0e6ba5617f83c7e77",
+    "semantic_hash": "9a279fa429024af0e6ba5617f83c7e77"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/permissions_tree/permissions_tree.tsx": {
+    "mtime": 1781015891.2022545,
+    "ast_hash": "20e2854d9bfeac8c8ee2c2651cc4e2d0",
+    "semantic_hash": "20e2854d9bfeac8c8ee2c2651cc4e2d0"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/permissions_tree/types.ts": {
+    "mtime": 1781015891.2022545,
+    "ast_hash": "d5adcf002b484c0148a3050fd72a09c3",
+    "semantic_hash": "d5adcf002b484c0148a3050fd72a09c3"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/permissions_tree_playbooks.test.tsx": {
+    "mtime": 1781015891.2022545,
+    "ast_hash": "fbe5d62e29dfb351d7f6df1177af6dc0",
+    "semantic_hash": "fbe5d62e29dfb351d7f6df1177af6dc0"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/permissions_tree_playbooks.tsx": {
+    "mtime": 1781015891.2022545,
+    "ast_hash": "3bd5de14391349a14e8b7cf4256a22d4",
+    "semantic_hash": "3bd5de14391349a14e8b7cf4256a22d4"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/strings/groups.tsx": {
+    "mtime": 1781015891.2022545,
+    "ast_hash": "8f2cd427e16f02f6b19db39d732304f0",
+    "semantic_hash": "8f2cd427e16f02f6b19db39d732304f0"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/strings/permissions.tsx": {
+    "mtime": 1781015891.202589,
+    "ast_hash": "7502879179bf62678019bb658b4626e9",
+    "semantic_hash": "7502879179bf62678019bb658b4626e9"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/permission_schemes_settings/strings/roles.tsx": {
+    "mtime": 1781015891.202589,
+    "ast_hash": "c8ae394a55de2d5581f8fb3144c84114",
+    "semantic_hash": "c8ae394a55de2d5581f8fb3144c84114"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/plugin_management/index.ts": {
+    "mtime": 1781015891.20268,
+    "ast_hash": "e810dd0bc461655b5a71e96a02dd3668",
+    "semantic_hash": "e810dd0bc461655b5a71e96a02dd3668"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/plugin_management/plugin_management.test.tsx": {
+    "mtime": 1781015891.20268,
+    "ast_hash": "e5506c7f9bdda63c8716ce0fd5d49675",
+    "semantic_hash": "e5506c7f9bdda63c8716ce0fd5d49675"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/plugin_management/plugin_management.tsx": {
+    "mtime": 1781015891.20268,
+    "ast_hash": "b72369e491a756f0d311b5a56f09eeaf",
+    "semantic_hash": "b72369e491a756f0d311b5a56f09eeaf"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/push_settings.test.tsx": {
+    "mtime": 1781015891.20268,
+    "ast_hash": "321d6da97d45f8e33feb03992986c8eb",
+    "semantic_hash": "321d6da97d45f8e33feb03992986c8eb"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/push_settings.tsx": {
+    "mtime": 1781015891.20268,
+    "ast_hash": "8d332228b9b26ed67b5177d6003eb80f",
+    "semantic_hash": "8d332228b9b26ed67b5177d6003eb80f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/radio_setting.test.tsx": {
+    "mtime": 1781015891.20268,
+    "ast_hash": "968ca5c260af52a1e2d22c10a55b9077",
+    "semantic_hash": "968ca5c260af52a1e2d22c10a55b9077"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/radio_setting.tsx": {
+    "mtime": 1781015891.20268,
+    "ast_hash": "cc9284a41ff590cca6b1ce3c8fe2c986",
+    "semantic_hash": "cc9284a41ff590cca6b1ce3c8fe2c986"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/remove_file_setting.tsx": {
+    "mtime": 1781015891.20268,
+    "ast_hash": "cf211f7bb97d791770260476a7b29021",
+    "semantic_hash": "cf211f7bb97d791770260476a7b29021"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/request_button/request_button.test.tsx": {
+    "mtime": 1781015891.2032979,
+    "ast_hash": "5eecbd336b67e03eea47af785727909e",
+    "semantic_hash": "5eecbd336b67e03eea47af785727909e"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/request_button/request_button.tsx": {
+    "mtime": 1781015891.2032979,
+    "ast_hash": "112f14c7c1bb543a46cebac74f44933a",
+    "semantic_hash": "112f14c7c1bb543a46cebac74f44933a"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/reset_email_modal/index.ts": {
+    "mtime": 1781015891.2032979,
+    "ast_hash": "e7cc276561a5725cf04bad0de1028982",
+    "semantic_hash": "e7cc276561a5725cf04bad0de1028982"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/reset_email_modal/reset_email_modal.test.tsx": {
+    "mtime": 1781015891.2034738,
+    "ast_hash": "014ba5cb39ec20d9268b9ef521d7677e",
+    "semantic_hash": "014ba5cb39ec20d9268b9ef521d7677e"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/reset_email_modal/reset_email_modal.tsx": {
+    "mtime": 1781015891.2034738,
+    "ast_hash": "01ef59c82f3b110d24708ead53c738f5",
+    "semantic_hash": "01ef59c82f3b110d24708ead53c738f5"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/reset_password_modal/index.ts": {
+    "mtime": 1781015891.2034738,
+    "ast_hash": "33211aa2faec2114033cbaf51493ff3f",
+    "semantic_hash": "33211aa2faec2114033cbaf51493ff3f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/reset_password_modal/reset_password_modal.test.tsx": {
+    "mtime": 1781015891.203597,
+    "ast_hash": "b139f8da78ef1e10ad32af6312fe5064",
+    "semantic_hash": "b139f8da78ef1e10ad32af6312fe5064"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/reset_password_modal/reset_password_modal.tsx": {
+    "mtime": 1781015891.203597,
+    "ast_hash": "9fe7303e4c8fa3e5e3886b9fad948792",
+    "semantic_hash": "9fe7303e4c8fa3e5e3886b9fad948792"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/revoke_token_button/index.ts": {
+    "mtime": 1781015891.203597,
+    "ast_hash": "1d3af589d7fa1544a8904574a42bb7a8",
+    "semantic_hash": "1d3af589d7fa1544a8904574a42bb7a8"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/revoke_token_button/revoke_token_button.tsx": {
+    "mtime": 1781015891.2037134,
+    "ast_hash": "459fd8a8bb36c73ccdff391c7dd9c11e",
+    "semantic_hash": "459fd8a8bb36c73ccdff391c7dd9c11e"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/save_changes_panel.tsx": {
+    "mtime": 1781015891.2037134,
+    "ast_hash": "1b44799ab35d343b1583f6f2c08fca32",
+    "semantic_hash": "1b44799ab35d343b1583f6f2c08fca32"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/schema_admin_settings.test.tsx": {
+    "mtime": 1781015891.2037134,
+    "ast_hash": "f50755801533567328baa008ce1b36c2",
+    "semantic_hash": "f50755801533567328baa008ce1b36c2"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/schema_admin_settings.tsx": {
+    "mtime": 1781015891.2037134,
+    "ast_hash": "304d97e1edccf8328f2f398c7123ddd3",
+    "semantic_hash": "304d97e1edccf8328f2f398c7123ddd3"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/schema_text.test.tsx": {
+    "mtime": 1781015891.2037134,
+    "ast_hash": "aee25252f46ba10f8d68e75502572bd7",
+    "semantic_hash": "aee25252f46ba10f8d68e75502572bd7"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/schema_text.tsx": {
+    "mtime": 1781015891.2037134,
+    "ast_hash": "0963ee55b89ad9c043f1b5bc62148160",
+    "semantic_hash": "0963ee55b89ad9c043f1b5bc62148160"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/search_keyword_marking.tsx": {
+    "mtime": 1781015891.2037134,
+    "ast_hash": "715f737a67633e09d4056390d6405b8b",
+    "semantic_hash": "715f737a67633e09d4056390d6405b8b"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/secure_connections/building.svg.tsx": {
+    "mtime": 1781015891.2037134,
+    "ast_hash": "822c4a0e87c3dc2d0e73125399eedd81",
+    "semantic_hash": "822c4a0e87c3dc2d0e73125399eedd81"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/secure_connections/chat.svg.tsx": {
+    "mtime": 1781015891.204084,
+    "ast_hash": "485611ece149f2136b50302c1817b072",
+    "semantic_hash": "485611ece149f2136b50302c1817b072"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/secure_connections/controls.tsx": {
+    "mtime": 1781015891.204084,
+    "ast_hash": "93ad1dd4473ef1c7ecd396c2a5d60360",
+    "semantic_hash": "93ad1dd4473ef1c7ecd396c2a5d60360"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/secure_connections/index.ts": {
+    "mtime": 1781015891.204084,
+    "ast_hash": "3068dd509a75f4262812b1df2cba51b2",
+    "semantic_hash": "3068dd509a75f4262812b1df2cba51b2"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/secure_connections/modals/modal_utils.tsx": {
+    "mtime": 1781015891.204084,
+    "ast_hash": "8a971b7732fd65258d3f1de3f063f7c3",
+    "semantic_hash": "8a971b7732fd65258d3f1de3f063f7c3"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/secure_connections/modals/secure_connection_accept_invite_modal.tsx": {
+    "mtime": 1781015891.2042387,
+    "ast_hash": "4903cba7328a505d436d84478fdf2e65",
+    "semantic_hash": "4903cba7328a505d436d84478fdf2e65"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/secure_connections/modals/secure_connection_create_invite_modal.tsx": {
+    "mtime": 1781015891.2042387,
+    "ast_hash": "b3c521033414defc4a1720019f3e86c1",
+    "semantic_hash": "b3c521033414defc4a1720019f3e86c1"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/secure_connections/modals/secure_connection_delete_modal.tsx": {
+    "mtime": 1781015891.2042387,
+    "ast_hash": "78d31cb79b82374c4bf4e03977a07464",
+    "semantic_hash": "78d31cb79b82374c4bf4e03977a07464"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/secure_connections/modals/shared_channels_add_modal.tsx": {
+    "mtime": 1781015891.2042387,
+    "ast_hash": "7e9178af38eac0384178058e4aaf21a2",
+    "semantic_hash": "7e9178af38eac0384178058e4aaf21a2"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/secure_connections/modals/shared_channels_remove_modal.tsx": {
+    "mtime": 1781015891.2042387,
+    "ast_hash": "15c3c05b689f67327e443667f8fc9195",
+    "semantic_hash": "15c3c05b689f67327e443667f8fc9195"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/secure_connections/secure_connection_detail.tsx": {
+    "mtime": 1781015891.2042387,
+    "ast_hash": "ed5d3350516ccb506c9a1961bab3d8f4",
+    "semantic_hash": "ed5d3350516ccb506c9a1961bab3d8f4"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/secure_connections/secure_connection_row.tsx": {
+    "mtime": 1781015891.2042387,
+    "ast_hash": "a9de5f1861de4d2d89e06061691437c4",
+    "semantic_hash": "a9de5f1861de4d2d89e06061691437c4"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/secure_connections/secure_connections.tsx": {
+    "mtime": 1781015891.2042387,
+    "ast_hash": "d5ee6a34859248b9472a9b6b0258399f",
+    "semantic_hash": "d5ee6a34859248b9472a9b6b0258399f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/secure_connections/team_selector.tsx": {
+    "mtime": 1781015891.2042387,
+    "ast_hash": "0004b0c24dfd36190934733bd853334b",
+    "semantic_hash": "0004b0c24dfd36190934733bd853334b"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/secure_connections/utils.test.ts": {
+    "mtime": 1781015891.2042387,
+    "ast_hash": "937675ae040caee01df6652a51bd46a8",
+    "semantic_hash": "937675ae040caee01df6652a51bd46a8"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/secure_connections/utils.ts": {
+    "mtime": 1781015891.2042387,
+    "ast_hash": "2f0a602007c316bbbdd0f1d37d75bfaa",
+    "semantic_hash": "2f0a602007c316bbbdd0f1d37d75bfaa"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/server_logs/index.ts": {
+    "mtime": 1781015891.2046828,
+    "ast_hash": "8c96bf49a1896595f1671ce0e010a79c",
+    "semantic_hash": "8c96bf49a1896595f1671ce0e010a79c"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/server_logs/log_list.tsx": {
+    "mtime": 1781015891.2046828,
+    "ast_hash": "b98e46cf58c8c024820a1ecf892c8c27",
+    "semantic_hash": "b98e46cf58c8c024820a1ecf892c8c27"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/server_logs/logs.test.tsx": {
+    "mtime": 1781015891.2046828,
+    "ast_hash": "d209f3abe80b28338289d500fe4f0785",
+    "semantic_hash": "d209f3abe80b28338289d500fe4f0785"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/server_logs/logs.tsx": {
+    "mtime": 1781015891.2046828,
+    "ast_hash": "21513461e9a75a587d16136c4de97f40",
+    "semantic_hash": "21513461e9a75a587d16136c4de97f40"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/server_logs/plain_log_list.tsx": {
+    "mtime": 1781015891.2046828,
+    "ast_hash": "29562c7493c450f111e215b18090e681",
+    "semantic_hash": "29562c7493c450f111e215b18090e681"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/session_length_settings.tsx": {
+    "mtime": 1781015891.2046828,
+    "ast_hash": "1e875920ca775a8df75bd2ec2ae97ae6",
+    "semantic_hash": "1e875920ca775a8df75bd2ec2ae97ae6"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/set_by_env.tsx": {
+    "mtime": 1781015891.2046828,
+    "ast_hash": "4cb212c6be38a9ed6fb199ebc92e411b",
+    "semantic_hash": "4cb212c6be38a9ed6fb199ebc92e411b"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/setting.tsx": {
+    "mtime": 1781015891.2046828,
+    "ast_hash": "c8df620a1e0fb7624368521cfceba9d7",
+    "semantic_hash": "c8df620a1e0fb7624368521cfceba9d7"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/setting_set.tsx": {
+    "mtime": 1781015891.2046828,
+    "ast_hash": "5837fc0b1728a7660134d7ad3274ef93",
+    "semantic_hash": "5837fc0b1728a7660134d7ad3274ef93"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/settings_group.tsx": {
+    "mtime": 1781015891.2046828,
+    "ast_hash": "395828c7d94dd8989a6d777a2b871509",
+    "semantic_hash": "395828c7d94dd8989a6d777a2b871509"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_properties/attribute_modal.tsx": {
+    "mtime": 1781015891.2046828,
+    "ast_hash": "29f30db6f8a50638aae5e511a20fd1d2",
+    "semantic_hash": "29f30db6f8a50638aae5e511a20fd1d2"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_properties/controls.tsx": {
+    "mtime": 1781015891.2051957,
+    "ast_hash": "e424f83f4618dee7e11a077c046328e5",
+    "semantic_hash": "e424f83f4618dee7e11a077c046328e5"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_properties/index.ts": {
+    "mtime": 1781015891.2051957,
+    "ast_hash": "3e2a7b06b983d1e550c2cc5ca4dfe6a1",
+    "semantic_hash": "3e2a7b06b983d1e550c2cc5ca4dfe6a1"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_properties/orphaned_fields_utils.ts": {
+    "mtime": 1781015891.2051957,
+    "ast_hash": "366b523833f83af7293f75fd3d560825",
+    "semantic_hash": "366b523833f83af7293f75fd3d560825"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_properties/section_utils.test.ts": {
+    "mtime": 1781015891.2051957,
+    "ast_hash": "3599565725218207c7e4b92888832939",
+    "semantic_hash": "3599565725218207c7e4b92888832939"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_properties/section_utils.ts": {
+    "mtime": 1781015891.2051957,
+    "ast_hash": "835e7a78701a932dec8da0ee91c05813",
+    "semantic_hash": "835e7a78701a932dec8da0ee91c05813"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_properties/system_properties.test.tsx": {
+    "mtime": 1781015891.2051957,
+    "ast_hash": "494a57d8b6662d1b96f394cc8477e9f9",
+    "semantic_hash": "494a57d8b6662d1b96f394cc8477e9f9"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_properties/system_properties.tsx": {
+    "mtime": 1781015891.2051957,
+    "ast_hash": "42c0b9bd8a59d0fb14d3b5a4ec13a9e3",
+    "semantic_hash": "42c0b9bd8a59d0fb14d3b5a4ec13a9e3"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_properties/user_properties_delete_modal.test.tsx": {
+    "mtime": 1781015891.2051957,
+    "ast_hash": "5efe7be841c6ae3dc0425bf56cb686b2",
+    "semantic_hash": "5efe7be841c6ae3dc0425bf56cb686b2"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_properties/user_properties_delete_modal.tsx": {
+    "mtime": 1781015891.2051957,
+    "ast_hash": "f6cffe5762dcbb6e35afe9b024f09710",
+    "semantic_hash": "f6cffe5762dcbb6e35afe9b024f09710"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_properties/user_properties_dot_menu.test.tsx": {
+    "mtime": 1781015891.2051957,
+    "ast_hash": "22c9d22437a567b36782b82dac040d0c",
+    "semantic_hash": "22c9d22437a567b36782b82dac040d0c"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_properties/user_properties_dot_menu.tsx": {
+    "mtime": 1781015891.2051957,
+    "ast_hash": "ee02afe308626d304139717756462177",
+    "semantic_hash": "ee02afe308626d304139717756462177"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_properties/user_properties_orphaned_delete_button.tsx": {
+    "mtime": 1781015891.2051957,
+    "ast_hash": "d359bbf9529d9aa0970b9efb09aeaa3f",
+    "semantic_hash": "d359bbf9529d9aa0970b9efb09aeaa3f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_properties/user_properties_table.test.tsx": {
+    "mtime": 1781015891.2051957,
+    "ast_hash": "ff5bf9387a7d2e2ac521fefb2f08ff28",
+    "semantic_hash": "ff5bf9387a7d2e2ac521fefb2f08ff28"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_properties/user_properties_table.tsx": {
+    "mtime": 1781015891.2051957,
+    "ast_hash": "a213ddabae0532baa981cb7519a56aa7",
+    "semantic_hash": "a213ddabae0532baa981cb7519a56aa7"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_properties/user_properties_type_menu.test.tsx": {
+    "mtime": 1781015891.2051957,
+    "ast_hash": "05c5bde70ee52af0e6efa596aa761585",
+    "semantic_hash": "05c5bde70ee52af0e6efa596aa761585"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_properties/user_properties_type_menu.tsx": {
+    "mtime": 1781015891.2051957,
+    "ast_hash": "2c3f85bb70422899130bab1b0326f4c9",
+    "semantic_hash": "2c3f85bb70422899130bab1b0326f4c9"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_properties/user_properties_utils.test.ts": {
+    "mtime": 1781015891.2051957,
+    "ast_hash": "b44ef9a5bc7bc95367969522946a9b9e",
+    "semantic_hash": "b44ef9a5bc7bc95367969522946a9b9e"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_properties/user_properties_utils.ts": {
+    "mtime": 1781015891.2051957,
+    "ast_hash": "b4973afcfb5cff414db16e34f96cb4ca",
+    "semantic_hash": "b4973afcfb5cff414db16e34f96cb4ca"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_properties/user_properties_values.test.tsx": {
+    "mtime": 1781015891.2051957,
+    "ast_hash": "6439cf94dd92032b924fc2b5aa70e12d",
+    "semantic_hash": "6439cf94dd92032b924fc2b5aa70e12d"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_properties/user_properties_values.tsx": {
+    "mtime": 1781015891.2051957,
+    "ast_hash": "25801078188b643090088477889154dc",
+    "semantic_hash": "25801078188b643090088477889154dc"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_roles/index.tsx": {
+    "mtime": 1781015891.2061257,
+    "ast_hash": "c6e9233c5576595991e5759d7ebab3dd",
+    "semantic_hash": "c6e9233c5576595991e5759d7ebab3dd"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_roles/strings.tsx": {
+    "mtime": 1781015891.2061257,
+    "ast_hash": "70cb8db608a8e6a4c07f3a98aeb596e0",
+    "semantic_hash": "70cb8db608a8e6a4c07f3a98aeb596e0"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_roles/system_role/add_users_to_role_modal/add_users_to_role_modal.test.tsx": {
+    "mtime": 1781015891.206444,
+    "ast_hash": "5b4d8aa5f1033c6a453ab59a6ba6b887",
+    "semantic_hash": "5b4d8aa5f1033c6a453ab59a6ba6b887"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_roles/system_role/add_users_to_role_modal/add_users_to_role_modal.tsx": {
+    "mtime": 1781015891.206444,
+    "ast_hash": "1a851e5477aae66f0d949242ed958e52",
+    "semantic_hash": "1a851e5477aae66f0d949242ed958e52"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_roles/system_role/add_users_to_role_modal/index.tsx": {
+    "mtime": 1781015891.206444,
+    "ast_hash": "b26909997984ec5edef6d524d57e9922",
+    "semantic_hash": "b26909997984ec5edef6d524d57e9922"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_roles/system_role/index.tsx": {
+    "mtime": 1781015891.206444,
+    "ast_hash": "c80fdb7321a5b5f2b7ce2f4f03a5c4b7",
+    "semantic_hash": "c80fdb7321a5b5f2b7ce2f4f03a5c4b7"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_roles/system_role/strings.tsx": {
+    "mtime": 1781015891.206444,
+    "ast_hash": "a0a85acf98e90a397510b1ba24b2f9bf",
+    "semantic_hash": "a0a85acf98e90a397510b1ba24b2f9bf"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_roles/system_role/system_role.test.tsx": {
+    "mtime": 1781015891.206444,
+    "ast_hash": "94dcb4331d4649de9e93885e3e1e2f4f",
+    "semantic_hash": "94dcb4331d4649de9e93885e3e1e2f4f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_roles/system_role/system_role.tsx": {
+    "mtime": 1781015891.206444,
+    "ast_hash": "7b1e94998cb575ab0dfd420f388d1832",
+    "semantic_hash": "7b1e94998cb575ab0dfd420f388d1832"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_roles/system_role/system_role_permission.test.tsx": {
+    "mtime": 1781015891.206444,
+    "ast_hash": "5bcd75afec571b71b97f86ef0c0d3b49",
+    "semantic_hash": "5bcd75afec571b71b97f86ef0c0d3b49"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_roles/system_role/system_role_permission.tsx": {
+    "mtime": 1781015891.206444,
+    "ast_hash": "804517cc3a0fb60389e139a9bd0b8405",
+    "semantic_hash": "804517cc3a0fb60389e139a9bd0b8405"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_roles/system_role/system_role_permission_dropdown.test.tsx": {
+    "mtime": 1781015891.206444,
+    "ast_hash": "4df9ddcff177fbcd943562d6b73cce91",
+    "semantic_hash": "4df9ddcff177fbcd943562d6b73cce91"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_roles/system_role/system_role_permission_dropdown.tsx": {
+    "mtime": 1781015891.206444,
+    "ast_hash": "c62c8fb5b350c3e9e9080c09d722ec78",
+    "semantic_hash": "c62c8fb5b350c3e9e9080c09d722ec78"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_roles/system_role/system_role_permissions.test.tsx": {
+    "mtime": 1781015891.206444,
+    "ast_hash": "99af1db31f28554c996212fc3208668c",
+    "semantic_hash": "99af1db31f28554c996212fc3208668c"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_roles/system_role/system_role_permissions.tsx": {
+    "mtime": 1781015891.206444,
+    "ast_hash": "601a329627a719a9f44e6f92e3a46b0d",
+    "semantic_hash": "601a329627a719a9f44e6f92e3a46b0d"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_roles/system_role/system_role_users/index.tsx": {
+    "mtime": 1781015891.2069933,
+    "ast_hash": "d29a0cce41ddcd1003896de9d7bb4a35",
+    "semantic_hash": "d29a0cce41ddcd1003896de9d7bb4a35"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_roles/system_role/system_role_users/system_role_users.test.tsx": {
+    "mtime": 1781015891.2069933,
+    "ast_hash": "9ef034e6009a56c0b41529f73080bdb5",
+    "semantic_hash": "9ef034e6009a56c0b41529f73080bdb5"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_roles/system_role/system_role_users/system_role_users.tsx": {
+    "mtime": 1781015891.2069933,
+    "ast_hash": "b50ab515226b7703df027b0c359fbb0d",
+    "semantic_hash": "b50ab515226b7703df027b0c359fbb0d"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_roles/system_role/types.ts": {
+    "mtime": 1781015891.2069933,
+    "ast_hash": "760a68a1785b2c6f8732591337a73c87",
+    "semantic_hash": "760a68a1785b2c6f8732591337a73c87"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_roles/system_roles.test.tsx": {
+    "mtime": 1781015891.2069933,
+    "ast_hash": "0c3edc85c607527a69584ab8c4208aff",
+    "semantic_hash": "0c3edc85c607527a69584ab8c4208aff"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_roles/system_roles.tsx": {
+    "mtime": 1781015891.2069933,
+    "ast_hash": "35eff69322152a65bce928da99c6cefe",
+    "semantic_hash": "35eff69322152a65bce928da99c6cefe"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_user_detail/index.ts": {
+    "mtime": 1781015891.207335,
+    "ast_hash": "c4489f499fbc469454e257001b419637",
+    "semantic_hash": "c4489f499fbc469454e257001b419637"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_user_detail/system_user_detail.test.tsx": {
+    "mtime": 1781015891.207335,
+    "ast_hash": "652e2a8e7a66cf62df21b7b05ee2ff5d",
+    "semantic_hash": "652e2a8e7a66cf62df21b7b05ee2ff5d"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_user_detail/system_user_detail.tsx": {
+    "mtime": 1781015891.207335,
+    "ast_hash": "4095696489cdf2245fd89f529857d82e",
+    "semantic_hash": "4095696489cdf2245fd89f529857d82e"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_user_detail/team_list/abstract_list.test.tsx": {
+    "mtime": 1781015891.207811,
+    "ast_hash": "27deab9c0a2a06f088e0d6d2b2fc1a77",
+    "semantic_hash": "27deab9c0a2a06f088e0d6d2b2fc1a77"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_user_detail/team_list/abstract_list.tsx": {
+    "mtime": 1781015891.207811,
+    "ast_hash": "5f180f31d102d3f85c73b9c1ce487e45",
+    "semantic_hash": "5f180f31d102d3f85c73b9c1ce487e45"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_user_detail/team_list/index.ts": {
+    "mtime": 1781015891.207811,
+    "ast_hash": "00dd928f7c254aa4d3a405d9c2dbf422",
+    "semantic_hash": "00dd928f7c254aa4d3a405d9c2dbf422"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_user_detail/team_list/team_list.test.tsx": {
+    "mtime": 1781015891.207811,
+    "ast_hash": "1451202d2f55993e8badf4888668ab18",
+    "semantic_hash": "1451202d2f55993e8badf4888668ab18"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_user_detail/team_list/team_list.tsx": {
+    "mtime": 1781015891.207811,
+    "ast_hash": "1f562041743a57b3cf2e3314b5342d0f",
+    "semantic_hash": "1f562041743a57b3cf2e3314b5342d0f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_user_detail/team_list/team_list_dropdown.tsx": {
+    "mtime": 1781015891.207811,
+    "ast_hash": "7ba5f924ba1fb41d8f40d7232a14b169",
+    "semantic_hash": "7ba5f924ba1fb41d8f40d7232a14b169"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_user_detail/team_list/team_row.tsx": {
+    "mtime": 1781015891.207811,
+    "ast_hash": "4837a46181b6463dd77e10d5ae76ebc9",
+    "semantic_hash": "4837a46181b6463dd77e10d5ae76ebc9"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_user_detail/team_list/types.ts": {
+    "mtime": 1781015891.207811,
+    "ast_hash": "6c571dd5191ebae587a8ac917250db87",
+    "semantic_hash": "6c571dd5191ebae587a8ac917250db87"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_users/constants/index.ts": {
+    "mtime": 1781015891.2081802,
+    "ast_hash": "fa5211a3f794c22c3bd98c9209520739",
+    "semantic_hash": "fa5211a3f794c22c3bd98c9209520739"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_users/index.ts": {
+    "mtime": 1781015891.2081802,
+    "ast_hash": "ddf502e1acf462b7d23c113f27e77ee3",
+    "semantic_hash": "ddf502e1acf462b7d23c113f27e77ee3"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_users/revoke_sessions_button/index.tsx": {
+    "mtime": 1781015891.2081802,
+    "ast_hash": "f9881c225e6d6a0586a4786ad2b29803",
+    "semantic_hash": "f9881c225e6d6a0586a4786ad2b29803"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_users/system_users.tsx": {
+    "mtime": 1781015891.2081802,
+    "ast_hash": "aca12f0879a948a18c9aed72ad18f5b5",
+    "semantic_hash": "aca12f0879a948a18c9aed72ad18f5b5"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_users/system_users_column_toggler_menu/index.tsx": {
+    "mtime": 1781015891.2081802,
+    "ast_hash": "c7fa77ba9bfe9a9b98c1d20e43259c9d",
+    "semantic_hash": "c7fa77ba9bfe9a9b98c1d20e43259c9d"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_users/system_users_date_range_menu/index.tsx": {
+    "mtime": 1781015891.2084706,
+    "ast_hash": "a3c5a873a46078da20ee0ecaad55a3d7",
+    "semantic_hash": "a3c5a873a46078da20ee0ecaad55a3d7"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_users/system_users_export/export_error_modal.tsx": {
+    "mtime": 1781015891.208555,
+    "ast_hash": "8f2f2a1f634f4d5d307af500d44d1120",
+    "semantic_hash": "8f2f2a1f634f4d5d307af500d44d1120"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_users/system_users_export/export_user_data_modal.tsx": {
+    "mtime": 1781015891.2086291,
+    "ast_hash": "e5c5acc3c180a4fcc63243dd7af7ad81",
+    "semantic_hash": "e5c5acc3c180a4fcc63243dd7af7ad81"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_users/system_users_export/index.tsx": {
+    "mtime": 1781015891.2086291,
+    "ast_hash": "e40b18c7da58787ffbe80c850e72785a",
+    "semantic_hash": "e40b18c7da58787ffbe80c850e72785a"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_users/system_users_export/upgrade_export_data_modal.tsx": {
+    "mtime": 1781015891.2086291,
+    "ast_hash": "3e8cb9828af8aff025df21d890bb8c55",
+    "semantic_hash": "3e8cb9828af8aff025df21d890bb8c55"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_users/system_users_filters_popover/index.tsx": {
+    "mtime": 1781015891.2086291,
+    "ast_hash": "58256e8b9ca8097e82e1836b329e966f",
+    "semantic_hash": "58256e8b9ca8097e82e1836b329e966f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_users/system_users_filters_popover/styled_users_filters_status/index.tsx": {
+    "mtime": 1781015891.2088284,
+    "ast_hash": "eac48859dd5f505eb314cbc3fb17e90e",
+    "semantic_hash": "eac48859dd5f505eb314cbc3fb17e90e"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_users/system_users_filters_popover/system_users_filter_role/index.tsx": {
+    "mtime": 1781015891.2088284,
+    "ast_hash": "e9070a8d5fb4b78a97ee32744aaf15e7",
+    "semantic_hash": "e9070a8d5fb4b78a97ee32744aaf15e7"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_users/system_users_filters_popover/system_users_filter_team/index.tsx": {
+    "mtime": 1781015891.2089858,
+    "ast_hash": "d2e03a6a0eac604779e5a3b3d43552d2",
+    "semantic_hash": "d2e03a6a0eac604779e5a3b3d43552d2"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_users/system_users_list_actions/confirm_manage_user_settings_modal.tsx": {
+    "mtime": 1781015891.2089858,
+    "ast_hash": "76ebc97793a1fb1c1c640f5a2e41827c",
+    "semantic_hash": "76ebc97793a1fb1c1c640f5a2e41827c"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_users/system_users_list_actions/confirm_reset_failed_attempts_modal.tsx": {
+    "mtime": 1781015891.2090733,
+    "ast_hash": "fc5c9c729c0b14dded113c77f89fab6e",
+    "semantic_hash": "fc5c9c729c0b14dded113c77f89fab6e"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_users/system_users_list_actions/create_group_syncables_membership_modal.tsx": {
+    "mtime": 1781015891.2090733,
+    "ast_hash": "bb8ebd38a89932bbfa4e8e08fffb3f9f",
+    "semantic_hash": "bb8ebd38a89932bbfa4e8e08fffb3f9f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_users/system_users_list_actions/deactivate_member_modal.tsx": {
+    "mtime": 1781015891.2090733,
+    "ast_hash": "68002bc28729261ef6e4dab79bc9e25a",
+    "semantic_hash": "68002bc28729261ef6e4dab79bc9e25a"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_users/system_users_list_actions/demote_to_guest_modal.tsx": {
+    "mtime": 1781015891.2090733,
+    "ast_hash": "00bd38d39c0f3a4e065101e12ab420da",
+    "semantic_hash": "00bd38d39c0f3a4e065101e12ab420da"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_users/system_users_list_actions/index.test.tsx": {
+    "mtime": 1781015891.2090733,
+    "ast_hash": "1d2374678f1dcd93ddb2f7f2bb2e4ef3",
+    "semantic_hash": "1d2374678f1dcd93ddb2f7f2bb2e4ef3"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_users/system_users_list_actions/index.tsx": {
+    "mtime": 1781015891.2090733,
+    "ast_hash": "528756aeca4bc5ade8ce419259466f5e",
+    "semantic_hash": "528756aeca4bc5ade8ce419259466f5e"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_users/system_users_list_actions/promote_to_member_modal.tsx": {
+    "mtime": 1781015891.2090733,
+    "ast_hash": "712a2a6515f49deb837c75c6ae59a384",
+    "semantic_hash": "712a2a6515f49deb837c75c6ae59a384"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_users/system_users_list_actions/revoke_sessions_modal.tsx": {
+    "mtime": 1781015891.2090733,
+    "ast_hash": "fb9ee08d8e727a1a945f6b37d08cca61",
+    "semantic_hash": "fb9ee08d8e727a1a945f6b37d08cca61"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_users/system_users_search/index.tsx": {
+    "mtime": 1781015891.2090733,
+    "ast_hash": "1cd92b88932a8ffda09a861be6cd4bb1",
+    "semantic_hash": "1cd92b88932a8ffda09a861be6cd4bb1"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_users/utils/index.test.ts": {
+    "mtime": 1781015891.2094376,
+    "ast_hash": "9d64ccb18d8856f9ae20d5e4c0949da4",
+    "semantic_hash": "9d64ccb18d8856f9ae20d5e4c0949da4"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/system_users/utils/index.tsx": {
+    "mtime": 1781015891.2095187,
+    "ast_hash": "0aa3e9bc00057fcb75b62a4a32ba19c4",
+    "semantic_hash": "0aa3e9bc00057fcb75b62a4a32ba19c4"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/abstract_list.test.tsx": {
+    "mtime": 1781015891.2095673,
+    "ast_hash": "7f4908db1508b17bcc9723b480dd4f52",
+    "semantic_hash": "7f4908db1508b17bcc9723b480dd4f52"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/abstract_list.tsx": {
+    "mtime": 1781015891.2095673,
+    "ast_hash": "ef0c8bafe8fde6f1ba8d1b7ea46ab19b",
+    "semantic_hash": "ef0c8bafe8fde6f1ba8d1b7ea46ab19b"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/channel/channel_settings.test.tsx": {
+    "mtime": 1781015891.209715,
+    "ast_hash": "531ba51084cdba7b233c626b5b876c80",
+    "semantic_hash": "531ba51084cdba7b233c626b5b876c80"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/channel/channel_settings.tsx": {
+    "mtime": 1781015891.209715,
+    "ast_hash": "f9b1f347a9463c29a726ca1ae91d3a35",
+    "semantic_hash": "f9b1f347a9463c29a726ca1ae91d3a35"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/channel/details/channel_access_control_policy.tsx": {
+    "mtime": 1781015891.2099607,
+    "ast_hash": "1f65aa941cbdf31664c894580d7379ce",
+    "semantic_hash": "1f65aa941cbdf31664c894580d7379ce"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/channel/details/channel_details.test.tsx": {
+    "mtime": 1781015891.2099607,
+    "ast_hash": "9139334707143cf603f1bc3e3a0aecec",
+    "semantic_hash": "9139334707143cf603f1bc3e3a0aecec"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/channel/details/channel_details.tsx": {
+    "mtime": 1781015891.2099607,
+    "ast_hash": "f581cddc05b507b5dd4f149906bb1d34",
+    "semantic_hash": "f581cddc05b507b5dd4f149906bb1d34"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/channel/details/channel_groups.test.tsx": {
+    "mtime": 1781015891.2099607,
+    "ast_hash": "8a1e6150a747cbbab2eb5c63eed63553",
+    "semantic_hash": "8a1e6150a747cbbab2eb5c63eed63553"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/channel/details/channel_groups.tsx": {
+    "mtime": 1781015891.2099607,
+    "ast_hash": "ec0f5d5c323f9f0e867c47888eb3bb24",
+    "semantic_hash": "ec0f5d5c323f9f0e867c47888eb3bb24"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/channel/details/channel_level_access_rules.test.tsx": {
+    "mtime": 1781015891.2099607,
+    "ast_hash": "b55fcede3d61d92863e8cb8691cb6b99",
+    "semantic_hash": "b55fcede3d61d92863e8cb8691cb6b99"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/channel/details/channel_level_access_rules.tsx": {
+    "mtime": 1781015891.2099607,
+    "ast_hash": "511f2d83a9fe047eb8da42d6b0c3f2ef",
+    "semantic_hash": "511f2d83a9fe047eb8da42d6b0c3f2ef"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/channel/details/channel_members/channel_members.test.tsx": {
+    "mtime": 1781015891.2105846,
+    "ast_hash": "77c562dbc545606a673dabd33cd10641",
+    "semantic_hash": "77c562dbc545606a673dabd33cd10641"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/channel/details/channel_members/channel_members.tsx": {
+    "mtime": 1781015891.2105846,
+    "ast_hash": "1ded26ecc9251ac101ad420574feaa34",
+    "semantic_hash": "1ded26ecc9251ac101ad420574feaa34"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/channel/details/channel_members/index.ts": {
+    "mtime": 1781015891.2105846,
+    "ast_hash": "834010e68f6232ffe9c7b9fd468d9161",
+    "semantic_hash": "834010e68f6232ffe9c7b9fd468d9161"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/channel/details/channel_moderation.test.tsx": {
+    "mtime": 1781015891.2105846,
+    "ast_hash": "89a3e4723e6fd2b014210315ebae1ad6",
+    "semantic_hash": "89a3e4723e6fd2b014210315ebae1ad6"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/channel/details/channel_moderation.tsx": {
+    "mtime": 1781015891.2105846,
+    "ast_hash": "935fb3426df84dfe45758205b8f9706a",
+    "semantic_hash": "935fb3426df84dfe45758205b8f9706a"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/channel/details/channel_modes.test.tsx": {
+    "mtime": 1781015891.2105846,
+    "ast_hash": "9655d9d5dcf54318c39474bc5e24dc44",
+    "semantic_hash": "9655d9d5dcf54318c39474bc5e24dc44"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/channel/details/channel_modes.tsx": {
+    "mtime": 1781015891.2105846,
+    "ast_hash": "1b4676e4a415b50a1479dfeb6ebc85b1",
+    "semantic_hash": "1b4676e4a415b50a1479dfeb6ebc85b1"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/channel/details/channel_profile.test.tsx": {
+    "mtime": 1781015891.2105846,
+    "ast_hash": "31b8c9a905fb3871179d09e593ae5a99",
+    "semantic_hash": "31b8c9a905fb3871179d09e593ae5a99"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/channel/details/channel_profile.tsx": {
+    "mtime": 1781015891.2105846,
+    "ast_hash": "cbd2e4dad3783afb19512d44c203851b",
+    "semantic_hash": "cbd2e4dad3783afb19512d44c203851b"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/channel/details/index.ts": {
+    "mtime": 1781015891.2105846,
+    "ast_hash": "fb66aa6c9292e954ed7b9f118c390005",
+    "semantic_hash": "fb66aa6c9292e954ed7b9f118c390005"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/channel/details/types.ts": {
+    "mtime": 1781015891.2105846,
+    "ast_hash": "d844fed72ca142f22e6f697499c9598d",
+    "semantic_hash": "d844fed72ca142f22e6f697499c9598d"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/channel/index.ts": {
+    "mtime": 1781015891.2105846,
+    "ast_hash": "dcdaabe71ca9140fc1dc49cba3095abf",
+    "semantic_hash": "dcdaabe71ca9140fc1dc49cba3095abf"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/channel/list/admin_channel_shared_indicator.test.tsx": {
+    "mtime": 1781015891.21113,
+    "ast_hash": "af08be706c3ddb6a315b45cc6aaed07b",
+    "semantic_hash": "af08be706c3ddb6a315b45cc6aaed07b"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/channel/list/admin_channel_shared_indicator.tsx": {
+    "mtime": 1781015891.21113,
+    "ast_hash": "780e6504f50b895de8a60701f7a34488",
+    "semantic_hash": "780e6504f50b895de8a60701f7a34488"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/channel/list/channel_list.test.tsx": {
+    "mtime": 1781015891.21113,
+    "ast_hash": "9fa25b40323bd3b11577464f74200a32",
+    "semantic_hash": "9fa25b40323bd3b11577464f74200a32"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/channel/list/channel_list.tsx": {
+    "mtime": 1781015891.21113,
+    "ast_hash": "d0f92cab7ea48711361d6dc71fe02409",
+    "semantic_hash": "d0f92cab7ea48711361d6dc71fe02409"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/channel/list/index.ts": {
+    "mtime": 1781015891.21113,
+    "ast_hash": "fa34f98f6992fd06af229553fe62ed8b",
+    "semantic_hash": "fa34f98f6992fd06af229553fe62ed8b"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/convert_and_remove_confirm_modal.tsx": {
+    "mtime": 1781015891.21113,
+    "ast_hash": "93010a337051c0b791afe29a6df12850",
+    "semantic_hash": "93010a337051c0b791afe29a6df12850"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/convert_confirm_modal.tsx": {
+    "mtime": 1781015891.21113,
+    "ast_hash": "2a25009b1716037bb21c760038276fff",
+    "semantic_hash": "2a25009b1716037bb21c760038276fff"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/errors.tsx": {
+    "mtime": 1781015891.21113,
+    "ast_hash": "f16212be1e4b2c3badbc9c35a5ba889f",
+    "semantic_hash": "f16212be1e4b2c3badbc9c35a5ba889f"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/group/group_list.test.tsx": {
+    "mtime": 1781015891.2116513,
+    "ast_hash": "3b823234d48047288ddebea2838a7431",
+    "semantic_hash": "3b823234d48047288ddebea2838a7431"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/group/group_list.tsx": {
+    "mtime": 1781015891.2116513,
+    "ast_hash": "17095d063ad0361ba139454dfe95d6ae",
+    "semantic_hash": "17095d063ad0361ba139454dfe95d6ae"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/group/group_members_modal.test.tsx": {
+    "mtime": 1781015891.2116513,
+    "ast_hash": "df6bde6e2bdfada1c07d9c147f4030af",
+    "semantic_hash": "df6bde6e2bdfada1c07d9c147f4030af"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/group/group_members_modal.tsx": {
+    "mtime": 1781015891.2116513,
+    "ast_hash": "de6b45c2ea73213e21e0fb161fb0d54b",
+    "semantic_hash": "de6b45c2ea73213e21e0fb161fb0d54b"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/group/group_row.test.tsx": {
+    "mtime": 1781015891.2116513,
+    "ast_hash": "9b10356b9ad683a0fd538077190156af",
+    "semantic_hash": "9b10356b9ad683a0fd538077190156af"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/group/group_row.tsx": {
+    "mtime": 1781015891.2116513,
+    "ast_hash": "d6b75d07d3588d7766c2aafeafc22c6a",
+    "semantic_hash": "d6b75d07d3588d7766c2aafeafc22c6a"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/group/group_users/index.ts": {
+    "mtime": 1781015891.2119853,
+    "ast_hash": "dea8d9c7afaa6644f4916b09062869ea",
+    "semantic_hash": "dea8d9c7afaa6644f4916b09062869ea"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/group/group_users/users_to_remove.test.tsx": {
+    "mtime": 1781015891.2119853,
+    "ast_hash": "cf96016d39af7b49f371ad63f593e9e3",
+    "semantic_hash": "cf96016d39af7b49f371ad63f593e9e3"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/group/group_users/users_to_remove.tsx": {
+    "mtime": 1781015891.2119853,
+    "ast_hash": "5cb92cb22b6d9b2499d58fb6fed90ca2",
+    "semantic_hash": "5cb92cb22b6d9b2499d58fb6fed90ca2"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/group/group_users/users_to_remove_groups.test.tsx": {
+    "mtime": 1781015891.2119853,
+    "ast_hash": "34756b6784597c6bfbeddbf7b37b6156",
+    "semantic_hash": "34756b6784597c6bfbeddbf7b37b6156"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/group/group_users/users_to_remove_groups.tsx": {
+    "mtime": 1781015891.2119853,
+    "ast_hash": "da6c7d026f6e2999049c8b98c8fffa6e",
+    "semantic_hash": "da6c7d026f6e2999049c8b98c8fffa6e"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/group/group_users/users_to_remove_role.test.tsx": {
+    "mtime": 1781015891.2119853,
+    "ast_hash": "efb4bfe8c5553efee0b341c2f5514c8b",
+    "semantic_hash": "efb4bfe8c5553efee0b341c2f5514c8b"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/group/group_users/users_to_remove_role.tsx": {
+    "mtime": 1781015891.2119853,
+    "ast_hash": "f542efee09fb70fa8f04e7f445fa7d42",
+    "semantic_hash": "f542efee09fb70fa8f04e7f445fa7d42"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/group/index.ts": {
+    "mtime": 1781015891.2119853,
+    "ast_hash": "843a5fee22d3f22ce4bbcc131cee032a",
+    "semantic_hash": "843a5fee22d3f22ce4bbcc131cee032a"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/line_switch.tsx": {
+    "mtime": 1781015891.2119853,
+    "ast_hash": "9f87f4123bdf17f81f06ce9f1a1da0df",
+    "semantic_hash": "9f87f4123bdf17f81f06ce9f1a1da0df"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/remove_confirm_modal.tsx": {
+    "mtime": 1781015891.2119853,
+    "ast_hash": "20b64204b2d86945e7416c147e185703",
+    "semantic_hash": "20b64204b2d86945e7416c147e185703"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/team/details/index.ts": {
+    "mtime": 1781015891.212513,
+    "ast_hash": "622f2ec6c2f0c52aa18aa16dae563b74",
+    "semantic_hash": "622f2ec6c2f0c52aa18aa16dae563b74"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/team/details/team_details.test.tsx": {
+    "mtime": 1781015891.212513,
+    "ast_hash": "62bc4894e4c94515a18f0d626dc93348",
+    "semantic_hash": "62bc4894e4c94515a18f0d626dc93348"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/team/details/team_details.tsx": {
+    "mtime": 1781015891.212513,
+    "ast_hash": "361411ddd03c07084a15a7f15dc70963",
+    "semantic_hash": "361411ddd03c07084a15a7f15dc70963"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/team/details/team_groups.test.tsx": {
+    "mtime": 1781015891.212513,
+    "ast_hash": "1ba42086565ddee2258a94600efcb81c",
+    "semantic_hash": "1ba42086565ddee2258a94600efcb81c"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/team/details/team_groups.tsx": {
+    "mtime": 1781015891.212513,
+    "ast_hash": "b7f2c2bcf50f38bd88a9da0b2c7b807b",
+    "semantic_hash": "b7f2c2bcf50f38bd88a9da0b2c7b807b"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/team/details/team_members/index.ts": {
+    "mtime": 1781015891.2128556,
+    "ast_hash": "4340070896c5a8c49227c461ab02e02e",
+    "semantic_hash": "4340070896c5a8c49227c461ab02e02e"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/team/details/team_members/team_members.test.tsx": {
+    "mtime": 1781015891.2128556,
+    "ast_hash": "b0088765632b45492bb877cebcd19a20",
+    "semantic_hash": "b0088765632b45492bb877cebcd19a20"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/team/details/team_members/team_members.tsx": {
+    "mtime": 1781015891.2128556,
+    "ast_hash": "190cd83f9adff5bd783c8b7a2a9e13c8",
+    "semantic_hash": "190cd83f9adff5bd783c8b7a2a9e13c8"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/team/details/team_modes.test.tsx": {
+    "mtime": 1781015891.2128556,
+    "ast_hash": "86fe4c05acdb9aad20abf113912ab675",
+    "semantic_hash": "86fe4c05acdb9aad20abf113912ab675"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/team/details/team_modes.tsx": {
+    "mtime": 1781015891.2128556,
+    "ast_hash": "f8614cc72af60ff30fd5829943983686",
+    "semantic_hash": "f8614cc72af60ff30fd5829943983686"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/team/details/team_profile.test.tsx": {
+    "mtime": 1781015891.2128556,
+    "ast_hash": "3d7f1e4f56f95254f767ae8cd15a293a",
+    "semantic_hash": "3d7f1e4f56f95254f767ae8cd15a293a"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/team/details/team_profile.tsx": {
+    "mtime": 1781015891.2128556,
+    "ast_hash": "5ac4b2ac840586b9d8275b232a91b051",
+    "semantic_hash": "5ac4b2ac840586b9d8275b232a91b051"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/team/index.ts": {
+    "mtime": 1781015891.2128556,
+    "ast_hash": "327cfa9ae1091fdc6fd2fa570cc48736",
+    "semantic_hash": "327cfa9ae1091fdc6fd2fa570cc48736"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/team/list/index.ts": {
+    "mtime": 1781015891.2128556,
+    "ast_hash": "06a2dea8002acf654f9a8023fb4c3223",
+    "semantic_hash": "06a2dea8002acf654f9a8023fb4c3223"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/team/list/team_list.test.tsx": {
+    "mtime": 1781015891.2132638,
+    "ast_hash": "0ac8034d0606036e1a17dd3784c2d14b",
+    "semantic_hash": "0ac8034d0606036e1a17dd3784c2d14b"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/team/list/team_list.tsx": {
+    "mtime": 1781015891.2132638,
+    "ast_hash": "0bf375f2d3b948afc8db9ff6aa40805d",
+    "semantic_hash": "0bf375f2d3b948afc8db9ff6aa40805d"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/team/team_settings.test.tsx": {
+    "mtime": 1781015891.2132638,
+    "ast_hash": "bce4a79d4456f4b2af798586458dc142",
+    "semantic_hash": "bce4a79d4456f4b2af798586458dc142"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/team/team_settings.tsx": {
+    "mtime": 1781015891.2132638,
+    "ast_hash": "0059b95e1e49a044a76ff09c41a1ca04",
+    "semantic_hash": "0059b95e1e49a044a76ff09c41a1ca04"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/team_channel_settings/users_to_be_removed_modal.tsx": {
+    "mtime": 1781015891.2132638,
+    "ast_hash": "d0ce7e8d95105b283db4d9b380b53b4d",
+    "semantic_hash": "d0ce7e8d95105b283db4d9b380b53b4d"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/text_setting.test.tsx": {
+    "mtime": 1781015891.2132638,
+    "ast_hash": "23df12527bfa52f02b525c087687db8d",
+    "semantic_hash": "23df12527bfa52f02b525c087687db8d"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/text_setting.tsx": {
+    "mtime": 1781015891.2132638,
+    "ast_hash": "560722175bdcfd58a19af90d43d02a3d",
+    "semantic_hash": "560722175bdcfd58a19af90d43d02a3d"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/types.ts": {
+    "mtime": 1781015891.2132638,
+    "ast_hash": "44b95cb876de79865e1b0d5fd638faa2",
+    "semantic_hash": "44b95cb876de79865e1b0d5fd638faa2"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/user_autocomplete_setting/index.tsx": {
+    "mtime": 1781015891.2132638,
+    "ast_hash": "b5ce652541a9b16df47234534ea2e13c",
+    "semantic_hash": "b5ce652541a9b16df47234534ea2e13c"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/user_autocomplete_setting/user_autocomplete_setting.tsx": {
+    "mtime": 1781015891.2136164,
+    "ast_hash": "5d2adcb0f53197c2eaac0fa80c574375",
+    "semantic_hash": "5d2adcb0f53197c2eaac0fa80c574375"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/user_grid/user_grid.test.tsx": {
+    "mtime": 1781015891.2136688,
+    "ast_hash": "b1c47c5ec90ecdda4b867433eab37981",
+    "semantic_hash": "b1c47c5ec90ecdda4b867433eab37981"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/user_grid/user_grid.tsx": {
+    "mtime": 1781015891.2136688,
+    "ast_hash": "a138dad0087eb08125e0a57ac39f1aaf",
+    "semantic_hash": "a138dad0087eb08125e0a57ac39f1aaf"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/user_grid/user_grid_name.tsx": {
+    "mtime": 1781015891.2136688,
+    "ast_hash": "1d0b41082fc1f23f0ba9959eb7d711d5",
+    "semantic_hash": "1d0b41082fc1f23f0ba9959eb7d711d5"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/user_grid/user_grid_remove.tsx": {
+    "mtime": 1781015891.2136688,
+    "ast_hash": "9fcb7b514212e67321faad2291c5f262",
+    "semantic_hash": "9fcb7b514212e67321faad2291c5f262"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/user_grid/user_grid_role_dropdown.tsx": {
+    "mtime": 1781015891.2136688,
+    "ast_hash": "df52baab730b11ecf55cae606cb9ec74",
+    "semantic_hash": "df52baab730b11ecf55cae606cb9ec74"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/validation.tsx": {
+    "mtime": 1781015891.2136688,
+    "ast_hash": "facb31f8a504a8fcfa4b98145e51fb52",
+    "semantic_hash": "facb31f8a504a8fcfa4b98145e51fb52"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/workspace-optimization/chips_list.test.tsx": {
+    "mtime": 1781015891.2140117,
+    "ast_hash": "69f6e0c18897f1616e2e6c77e3b69cc7",
+    "semantic_hash": "69f6e0c18897f1616e2e6c77e3b69cc7"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/workspace-optimization/chips_list.tsx": {
+    "mtime": 1781015891.2140117,
+    "ast_hash": "8cdebbd06f8001b8db922689057dfdb7",
+    "semantic_hash": "8cdebbd06f8001b8db922689057dfdb7"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/workspace-optimization/cta_buttons.test.tsx": {
+    "mtime": 1781015891.2140117,
+    "ast_hash": "c69e8342135ec27c1922f79bd5111b87",
+    "semantic_hash": "c69e8342135ec27c1922f79bd5111b87"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/workspace-optimization/cta_buttons.tsx": {
+    "mtime": 1781015891.2140117,
+    "ast_hash": "08dcbcf81c850adefc017d09b8c06d68",
+    "semantic_hash": "08dcbcf81c850adefc017d09b8c06d68"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/workspace-optimization/dashboard.data.tsx": {
+    "mtime": 1781015891.2140117,
+    "ast_hash": "c8fe3ce5a20719c1d61ff55645eb886c",
+    "semantic_hash": "c8fe3ce5a20719c1d61ff55645eb886c"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/workspace-optimization/dashboard.tsx": {
+    "mtime": 1781015891.2140117,
+    "ast_hash": "6c5c630e9b4475042e30cc3e4749eb81",
+    "semantic_hash": "6c5c630e9b4475042e30cc3e4749eb81"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/workspace-optimization/dashboard.type.ts": {
+    "mtime": 1781015891.2140117,
+    "ast_hash": "9a2eb4d32b30cc1032539237bd75399d",
+    "semantic_hash": "9a2eb4d32b30cc1032539237bd75399d"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/workspace-optimization/dashboard_checks/access.ts": {
+    "mtime": 1781015891.2140117,
+    "ast_hash": "7aad2e3fa28f1ede987ad4a8bfb655b2",
+    "semantic_hash": "7aad2e3fa28f1ede987ad4a8bfb655b2"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/workspace-optimization/dashboard_checks/config.ts": {
+    "mtime": 1781015891.2143579,
+    "ast_hash": "39c72c7b1998df0bf1c77c953a04279d",
+    "semantic_hash": "39c72c7b1998df0bf1c77c953a04279d"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/workspace-optimization/dashboard_checks/data_privacy.ts": {
+    "mtime": 1781015891.2143579,
+    "ast_hash": "e4a7392a12603406ab44bbef518c6336",
+    "semantic_hash": "e4a7392a12603406ab44bbef518c6336"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/workspace-optimization/dashboard_checks/easy_management.ts": {
+    "mtime": 1781015891.2143579,
+    "ast_hash": "9368c44ead1ff7acce1bf926c7b2fa56",
+    "semantic_hash": "9368c44ead1ff7acce1bf926c7b2fa56"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/workspace-optimization/dashboard_checks/performance.ts": {
+    "mtime": 1781015891.2143579,
+    "ast_hash": "950617dae1de3d0124f8403d3db42f22",
+    "semantic_hash": "950617dae1de3d0124f8403d3db42f22"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/workspace-optimization/dashboard_checks/updates.test.ts": {
+    "mtime": 1781015891.2143579,
+    "ast_hash": "e744ad17a2b41c81a8524bbc66762d1a",
+    "semantic_hash": "e744ad17a2b41c81a8524bbc66762d1a"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/workspace-optimization/dashboard_checks/updates.ts": {
+    "mtime": 1781015891.2143579,
+    "ast_hash": "1a61279e7d7d25a0114029eb4ef8a0d5",
+    "semantic_hash": "1a61279e7d7d25a0114029eb4ef8a0d5"
+  },
+  "/home/felipe/Documents/GitRepos/mattermost/webapp/channels/src/components/admin_console/workspace-optimization/overall-score.tsx": {
+    "mtime": 1781015891.2143579,
+    "ast_hash": "1c60c9c7961b42d3ccf02b03c7d3baf7",
+    "semantic_hash": "1c60c9c7961b42d3ccf02b03c7d3baf7"
+  }
+}
