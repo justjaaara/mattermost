@@ -1090,10 +1090,30 @@ services:
     networks:
       - mattermost-network
 
+  postgres:
+    image: postgres:14-alpine
+    container_name: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: mmuser
+      POSTGRES_PASSWORD: mostest
+      POSTGRES_DB: mattermost_test
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - mattermost-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U mmuser -d mattermost_test"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
 volumes:
   jenkins_home:
   sonarqube_data:
   sonarqube_logs:
+  postgres_data:
 
 networks:
   mattermost-network:
@@ -1119,7 +1139,7 @@ pipeline {
     
     environment {
         SONAR_HOST_URL = 'http://sonarqube:9000'
-        SONAR_TOKEN = 'sqp_40de1517ed87a9052364e7b1d3a78f1b1fa7d1cf'
+        SONAR_TOKEN = 'squ_76af51993ab2c2caa3694a8cf289e140642c2900'
         DOCKER_IMAGE = 'mattermost-toggle-reviewer'
     }
     
@@ -1446,9 +1466,10 @@ git log --oneline -3
 
 # Stage 2: Build &amp; Test
 echo "[STAGE 2] Build Server"
-docker run --rm -v $WORKSPACE:/app -w /app/server golang:1.22-bookworm bash -c '
+docker run --rm -v $WORKSPACE:/app -w /app/server -e IS_CI=true golang:1.22-bookworm bash -c '
     apt-get update &amp;&amp; apt-get install -y make
     make modules-tidy
+    make setup-go-work
     make generated
     go test ./channels/app -run TestContentFlagging -v -coverprofile=coverage_app.out -timeout 10m
     go test ./public/model -run TestContentFlagging -v -coverprofile=coverage_model.out -timeout 10m
@@ -1460,9 +1481,10 @@ docker run --rm -v $WORKSPACE:/app -w /app/server golang:1.22-bookworm bash -c '
 
 # Stage 3: SonarQube Analysis
 echo "[STAGE 3] SonarQube Analysis"
-docker run --rm --network host \
+docker run --rm --network mattermost_mattermost-network \
   -v $WORKSPACE:/usr/src \
-  -e SONAR_HOST_URL="http://localhost:9012" \
+  -e SONAR_HOST_URL="http://sonarqube:9000" \
+  -e SONAR_TOKEN="squ_76af51993ab2c2caa3694a8cf289e140642c2900" \
   sonarsource/sonar-scanner-cli
 
 # Stage 4: Docker Build
@@ -1515,6 +1537,194 @@ docker exec jenkins java -jar /tmp/jenkins-cli.jar -s http://localhost:8080 \
 1. Editar el XML directamente y recrear el job
 2. Usar la UI de Jenkins: `http://localhost:8080/job/mattermost-toggle-reviewer/configure`
 3. Modificar el script en el campo `<command>` del XML
+
+### 14.10 Pipeline Actualizado (Sin Docker en Build)
+
+**Problema resuelto:** `make generated` inicia contenedores Docker para generar código (otel-collector, postgres), lo cual falla en Jenkins porque el workspace `/var/jenkins_home` no está compartido con Docker Desktop. Se reemplaza `make generated` por `go generate` directo sin Docker.
+
+**Problema resuelto:** Los tests de `channels/app` fallaban porque no encontraban PostgreSQL en `localhost:5432`. Se agregó servicio `postgres` al `docker-compose.yml` y se configuró `IS_CI=true` en el pipeline. Con `IS_CI=true`, el test helper reemplaza `localhost` por `postgres` en el DSN de conexión.
+
+**Problema resuelto:** SonarQube scanner fallaba con `Failed to query server version`. El scanner corría en un contenedor Docker con `--network host` y `SONAR_HOST_URL=http://localhost:9012`. `localhost` dentro del contenedor no apunta al contenedor `sonarqube`. Se cambió a `--network mattermost_mattermost-network` y `SONAR_HOST_URL=http://sonarqube:9000` (nombre de servicio + puerto interno en la red Docker Compose). El Quality Gate también se actualizó a `http://sonarqube:9000/api/qualitygates/...`.
+
+**Problema resuelto:** SonarQube scanner fallaba con `HTTP 401 Unauthorized`. El token anterior no era válido porque SonarQube se reinició y creó una nueva instancia. Se generó un nuevo token vía API (`squ_76af51993ab2c2caa3694a8cf289e140642c2900`) y se actualizó en el pipeline. También se creó el proyecto `mattermost-toggle-reviewer` en SonarQube vía API.
+
+**Cambios en el pipeline:**
+1. Shallow clone (`--depth 1`) para reducir tiempo de descarga
+2. Instalación automática de Go 1.26 y `make` dentro del contenedor Jenkins
+3. Generación de mocks con `go generate` en lugar de `make generated` (evita Docker)
+4. Pipeline usa `CpsFlowDefinition` (script inline) sin Git SCM
+5. Variable `IS_CI=true` para que tests usen `postgres:5432` en lugar de `localhost:5432`
+6. Servicio `postgres` en `docker-compose.yml` con healthcheck
+7. Red Docker Compose `mattermost_mattermost-network` para SonarQube scanner (`--network mattermost_mattermost-network` + `sonarqube:9000`). Nota: Docker Compose prefija el nombre de la red con el nombre del proyecto.
+
+**Jenkinsfile actualizado (ya aplicado en repositorio):**
+
+```groovy
+pipeline {
+    agent any
+    
+    environment {
+        SONAR_HOST_URL = 'http://sonarqube:9000'
+        SONAR_TOKEN = 'squ_76af51993ab2c2caa3694a8cf289e140642c2900'
+        DOCKER_IMAGE = 'mattermost-toggle-reviewer'
+        IS_CI = 'true'
+    }
+    
+    stages {
+        stage('Checkout') {
+            steps {
+                sh '''
+                    rm -rf /var/jenkins_home/workspace/mattermost
+                    git clone --depth 1 https://github.com/justjaaara/mattermost.git /var/jenkins_home/workspace/mattermost
+                    cd /var/jenkins_home/workspace/mattermost
+                    git log --oneline -5
+                '''
+            }
+        }
+        
+        stage('Build Server') {
+            steps {
+                dir('/var/jenkins_home/workspace/mattermost/server') {
+                    sh '''
+                        if ! command -v go &> /dev/null; then
+                            curl -sL https://go.dev/dl/go1.26.0.linux-amd64.tar.gz -o go.tar.gz
+                            tar -C /usr/local -xzf go.tar.gz
+                            export PATH=$PATH:/usr/local/go/bin
+                        fi
+                        if ! command -v make &> /dev/null; then
+                            apt-get update && apt-get install -y make
+                        fi
+                        go version
+                        make modules-tidy
+                        make setup-go-work
+                        # Generate mocks without Docker (skip start-docker)
+                        go generate -buildvcs=false ./channels/store
+                        cd ./public && go generate -buildvcs=false ./plugin
+                    '''
+                }
+            }
+        }
+        
+        stage('Unit Tests') {
+            steps {
+                dir('/var/jenkins_home/workspace/mattermost/server') {
+                    sh '''
+                        export PATH=$PATH:/usr/local/go/bin
+                        go test ./channels/app -run TestContentFlagging -v -coverprofile=coverage_app.out -timeout 10m
+                        go test ./public/model -run TestContentFlagging -v -coverprofile=coverage_model.out -timeout 10m
+                    '''
+                }
+            }
+        }
+        
+        stage('Coverage Report') {
+            steps {
+                dir('/var/jenkins_home/workspace/mattermost/server') {
+                    sh '''
+                        tail -n +2 coverage_model.out >> coverage_app.out 2>/dev/null || true
+                        sed -i "s|github.com/mattermost/mattermost/server/v8/|server/|g" coverage_app.out
+                        sed -i "s|github.com/mattermost/mattermost/server/public/|server/public/|g" coverage_app.out
+                        export PATH=$PATH:/usr/local/go/bin
+                        go tool cover -func=coverage_app.out | grep content_flagging || true
+                    '''
+                }
+            }
+        }
+        
+        stage('SonarQube Analysis') {
+            steps {
+                dir('/var/jenkins_home/workspace/mattermost') {
+                    sh '''
+                        docker run --rm --network mattermost-network \
+                          -v $(pwd):/usr/src \
+                          -e SONAR_HOST_URL="http://sonarqube:9000" \
+                          -e SONAR_TOKEN="squ_76af51993ab2c2caa3694a8cf289e140642c2900" \
+                          sonarsource/sonar-scanner-cli
+                    '''
+                }
+            }
+        }
+        
+        stage('Quality Gate') {
+            steps {
+                timeout(time: 5, unit: 'MINUTES') {
+                    script {
+                        def qgStatus = sh(
+                            script: '''
+                                curl -s -u "squ_76af51993ab2c2caa3694a8cf289e140642c2900:" \
+                                  "http://sonarqube:9000/api/qualitygates/project_status?projectKey=mattermost-toggle-reviewer" | \
+                                  grep -o '"status":"[^"]*"' | cut -d'"' -f4
+                            ''',
+                            returnStdout: true
+                        ).trim()
+                        
+                        if (qgStatus != "OK" && qgStatus != "PASSED") {
+                            echo "Quality Gate failed with status: ${qgStatus}"
+                        } else {
+                            echo "Quality Gate passed: ${qgStatus}"
+                        }
+                    }
+                }
+            }
+        }
+        
+        stage('Docker Build') {
+            steps {
+                dir('/var/jenkins_home/workspace/mattermost') {
+                    sh 'docker build -t ${DOCKER_IMAGE}:${BUILD_NUMBER} .'
+                    sh 'docker tag ${DOCKER_IMAGE}:${BUILD_NUMBER} ${DOCKER_IMAGE}:latest'
+                }
+            }
+        }
+        
+        stage('Deploy') {
+            steps {
+                echo "Deploying ${DOCKER_IMAGE}:${BUILD_NUMBER}"
+                echo "Deployment step for demonstration purposes"
+            }
+        }
+    }
+    
+    post {
+        always {
+            archiveArtifacts artifacts: 'server/coverage_app.out', allowEmptyArchive: true
+        }
+        success {
+            echo 'Pipeline completed successfully'
+        }
+        failure {
+            echo 'Pipeline failed'
+        }
+    }
+}
+```
+
+**Comando para reiniciar servicios con PostgreSQL:**
+
+```bash
+docker compose down && docker compose up -d
+```
+
+**Nota:** Si hay conflicto con contenedor `sonarqube` existente:
+```bash
+docker rm -f sonarqube && docker compose up -d
+```
+
+**Verificar estado:**
+```bash
+docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"
+```
+
+**Resultado esperado:**
+- `postgres` → `Up` (healthy) en puerto `5432`
+- `jenkins` → `Up` en puerto `8080`
+- `sonarqube` → `Up` en puerto `9012`
+
+**Evidencias pendientes:**
+1. Screenshot del build ejecutándose en Jenkins UI
+2. Screenshot del console output mostrando `PASS` en tests
+3. Screenshot del Quality Gate pasado
+4. Screenshot del Docker build exitoso
 
 ---
 

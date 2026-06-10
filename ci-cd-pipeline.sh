@@ -20,9 +20,10 @@ git log --oneline -3
 
 # Stage 2: Build & Test (using Docker container with build tools)
 echo "[STAGE 2] Build Server"
-docker run --rm -v $WORKSPACE:/app -w /app/server golang:1.22-bookworm bash -c "
+docker run --rm -v $WORKSPACE:/app -w /app/server -e IS_CI=true golang:1.22-bookworm bash -c "
     apt-get update && apt-get install -y make
     make modules-tidy
+    make setup-go-work
     make generated
     go test ./channels/app -run TestContentFlagging -v -coverprofile=coverage_app.out -timeout 10m
     go test ./public/model -run TestContentFlagging -v -coverprofile=coverage_model.out -timeout 10m
@@ -34,9 +35,10 @@ docker run --rm -v $WORKSPACE:/app -w /app/server golang:1.22-bookworm bash -c "
 
 # Stage 3: SonarQube Analysis
 echo "[STAGE 3] SonarQube Analysis"
-docker run --rm --network host \
+docker run --rm --network mattermost_mattermost-network \
   -v $WORKSPACE:/usr/src \
-  -e SONAR_HOST_URL="http://localhost:9012" \
+  -e SONAR_HOST_URL="http://sonarqube:9000" \
+  -e SONAR_TOKEN="squ_76af51993ab2c2caa3694a8cf289e140642c2900" \
   sonarsource/sonar-scanner-cli
 
 # Stage 4: Docker Build
