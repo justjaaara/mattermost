@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         SONAR_HOST_URL = 'http://sonarqube:9000'
-        SONAR_TOKEN = 'sqp_fddd5d22999d3aad9b1fd80c4388663334fb9bea'
+        SONAR_TOKEN = 'squ_76af51993ab2c2caa3694a8cf289e140642c2900'
         DOCKER_IMAGE = 'mattermost-toggle-reviewer'
         IS_CI = 'true'
     }
