@@ -1549,13 +1549,21 @@ docker exec jenkins java -jar /tmp/jenkins-cli.jar -s http://localhost:8080 \
 **Problema resuelto:** SonarQube scanner fallaba con `HTTP 401 Unauthorized`. El token anterior no era válido porque SonarQube se reinició y creó una nueva instancia. Se generó un nuevo token vía API (`squ_76af51993ab2c2caa3694a8cf289e140642c2900`) y se actualizó en el pipeline. También se creó el proyecto `mattermost-toggle-reviewer` en SonarQube vía API.
 
 **Cambios en el pipeline:**
-1. Shallow clone (`--depth 1`) para reducir tiempo de descarga
+1. **Pipeline usa Git SCM** (`CpsScmFlowDefinition`) en lugar de script inline. Jenkins clona automáticamente el repo al inicio del build.
 2. Instalación automática de Go 1.26 y `make` dentro del contenedor Jenkins
 3. Generación de mocks con `go generate` en lugar de `make generated` (evita Docker)
-4. Pipeline usa `CpsFlowDefinition` (script inline) sin Git SCM
-5. Variable `IS_CI=true` para que tests usen `postgres:5432` en lugar de `localhost:5432`
-6. Servicio `postgres` en `docker-compose.yml` con healthcheck
-7. Red Docker Compose `mattermost_mattermost-network` para SonarQube scanner (`--network mattermost_mattermost-network` + `sonarqube:9000`). Nota: Docker Compose prefija el nombre de la red con el nombre del proyecto.
+4. Variable `IS_CI=true` para que tests usen `postgres:5432` en lugar de `localhost:5432`
+5. Servicio `postgres` en `docker-compose.yml` con healthcheck
+6. Red Docker Compose `mattermost_mattermost-network` para SonarQube scanner (`--network mattermost_mattermost-network` + `sonarqube:9000`). Nota: Docker Compose prefija el nombre de la red con el nombre del proyecto.
+
+**Configuración de Git SCM en Jenkins:**
+1. Ir a `http://localhost:8080/job/mattermostt/configure`
+2. En **Pipeline > Definition**, cambiar de `Pipeline script` a `Pipeline script from SCM`
+3. En **SCM**, seleccionar `Git`
+4. En **Repository URL**, ingresar: `https://github.com/justjaaara/mattermost.git`
+5. En **Branch Specifier**, ingresar: `*/master`
+6. En **Script Path**, ingresar: `Jenkinsfile`
+7. Guardar
 
 **Jenkinsfile actualizado (ya aplicado en repositorio):**
 
