@@ -1,0 +1,52 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <description>CI/CD Pipeline for Mattermost Toggle Reviewer</description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>
+echo "=== CI/CD Pipeline for Mattermost Toggle Reviewer ==="
+echo "Stage: Checkout"
+cd /home/felipe/Documents/GitRepos/mattermost
+git log --oneline -3
+
+echo "Stage: Build Server"
+cd server
+make modules-tidy
+make generated
+
+echo "Stage: Unit Tests"
+go test ./channels/app -run TestContentFlagging -v -coverprofile=coverage_app.out
+go test ./public/model -run TestContentFlagging -v -coverprofile=coverage_model.out
+
+echo "Stage: Coverage"
+tail -n +2 coverage_model.out &gt;&gt; coverage_app.out || true
+sed -i 's|github.com/mattermost/mattermost/server/v8/|server/|g' coverage_app.out
+sed -i 's|github.com/mattermost/mattermost/server/public/|server/public/|g' coverage_app.out
+go tool cover -func=coverage_app.out | grep content_flagging || true
+
+echo "Stage: SonarQube"
+docker run --rm --network host \
+  -v $(pwd)/..:/usr/src \
+  -e SONAR_HOST_URL="http://localhost:9012" \
+  sonarsource/sonar-scanner-cli
+
+echo "Stage: Docker Build"
+cd ..
+docker build -t mattermost-toggle-reviewer:${BUILD_NUMBER} .
+
+echo "Pipeline completed successfully"
+      </command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

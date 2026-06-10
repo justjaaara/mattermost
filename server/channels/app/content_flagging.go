@@ -28,6 +28,24 @@ const (
 	POST_PROP_KEY_FLAGGED_POST_ID = "reported_post_id"
 
 	CONTENT_FLAGGING_REVIEWER_SEARCH_INDIVIDUAL_LIMIT = 50
+
+	CONTENT_FLAGGING_GET_GROUP_ERROR = "app.data_spillage.get_group.error"
+
+	CONTENT_FLAGGING_CREATE_PROPERTY_VALUES_ERROR = "app.data_spillage.create_property_values.app_error"
+
+	CONTENT_FLAGGING_REPORT_DETAIL_NO_DATA_FOUND = "app.data_spillage.report.detail.no_data_found"
+
+	CONTENT_FLAGGING_REPORT_DETAIL_DELETED = "app.data_spillage.report.detail.deleted"
+
+	CONTENT_FLAGGING_REPORT_STEP_ACKNOWLEDGEMENTS = "app.data_spillage.report.step.acknowledgements"
+
+	CONTENT_FLAGGING_REPORT_STEP_PRIORITY_DATA = "app.data_spillage.report.step.priority_data"
+
+	CONTENT_FLAGGING_REPORT_STEP_PERSISTENT_NOTIFICATIONS = "app.data_spillage.report.step.persistent_notifications"
+
+	CONTENT_FLAGGING_REPORT_STEP_REMINDERS = "app.data_spillage.report.step.reminders"
+
+	CONTENT_FLAGGING_REPORT_STEP_EDIT_HISTORIES = "app.data_spillage.report.step.edit_histories"
 )
 
 func (a *App) ContentFlaggingEnabledForTeam(teamId string) (bool, *model.AppError) {
@@ -93,7 +111,7 @@ func (a *App) FlagPost(rctx request.CTX, post *model.Post, teamId, reportingUser
 
 	groupId, appErr := a.ContentFlaggingGroupId()
 	if appErr != nil {
-		return model.NewAppError("FlagPost", "app.data_spillage.get_group.error", nil, "", http.StatusInternalServerError).Wrap(appErr)
+		return model.NewAppError("FlagPost", CONTENT_FLAGGING_GET_GROUP_ERROR, nil, "", http.StatusInternalServerError).Wrap(appErr)
 	}
 
 	reportingUser, appErr := a.GetUser(reportingUserId)
@@ -161,7 +179,7 @@ func (a *App) FlagPost(rctx request.CTX, post *model.Post, teamId, reportingUser
 
 	_, appErr = a.CreatePropertyValues(rctx, propertyValues)
 	if appErr != nil {
-		return model.NewAppError("FlagPost", "app.data_spillage.create_property_values.app_error", nil, "", http.StatusInternalServerError).Wrap(appErr)
+		return model.NewAppError("FlagPost", CONTENT_FLAGGING_CREATE_PROPERTY_VALUES_ERROR, nil, "", http.StatusInternalServerError).Wrap(appErr)
 	}
 
 	if *a.Config().ContentFlaggingSettings.AdditionalSettings.HideFlaggedContent {
@@ -188,12 +206,21 @@ func (a *App) FlagPost(rctx request.CTX, post *model.Post, teamId, reportingUser
 		return model.NewAppError("FlagPost", "app.data_spillage.missing_flagged_post_id_field.app_error", nil, "", http.StatusInternalServerError)
 	}
 
-	a.Srv().Go(func() {
-		appErr = a.createContentReviewPost(rctx, post.Id, teamId, reportingUserId, flagData.Reason, post.ChannelId, post.UserId, flaggedPostIdField.ID, groupId)
-		if appErr != nil {
-			rctx.Logger().Error("Failed to create content review post", mlog.Err(appErr), mlog.String("team_id", teamId), mlog.String("post_id", post.Id))
-		}
-	})
+		a.Srv().Go(func() {
+			appErr = a.createContentReviewPost(rctx, contentReviewPostRequest{
+				flaggedPostId:          post.Id,
+				teamId:                 teamId,
+				reportingUserId:        reportingUserId,
+				reportingReason:        flagData.Reason,
+				flaggedPostChannelId:   post.ChannelId,
+				flaggedPostAuthorId:    post.UserId,
+				flaggedPostIdFieldId:   flaggedPostIdField.ID,
+				contentFlaggingGroupId: groupId,
+			})
+			if appErr != nil {
+				rctx.Logger().Error("Failed to create content review post", mlog.Err(appErr), mlog.String("team_id", teamId), mlog.String("post_id", post.Id))
+			}
+		})
 
 	a.Srv().Go(func() {
 		if appErr := a.sendFlagPostNotification(rctx, post); appErr != nil {
@@ -241,7 +268,7 @@ func (a *App) setContentFlaggingPropertiesForThreadReplies(rctx request.CTX, pos
 func (a *App) ContentFlaggingGroupId() (string, *model.AppError) {
 	group, appErr := a.GetPropertyGroup(nil, model.ContentFlaggingGroupName)
 	if appErr != nil {
-		return "", model.NewAppError("getContentFlaggingGroupId", "app.data_spillage.get_group.error", nil, "", http.StatusInternalServerError).Wrap(appErr)
+		return "", model.NewAppError("getContentFlaggingGroupId", CONTENT_FLAGGING_GET_GROUP_ERROR, nil, "", http.StatusInternalServerError).Wrap(appErr)
 	}
 
 	return group.ID, nil
@@ -250,7 +277,7 @@ func (a *App) ContentFlaggingGroupId() (string, *model.AppError) {
 func (a *App) GetPostContentFlaggingPropertyValue(postId, propertyFieldName string) (*model.PropertyValue, *model.AppError) {
 	groupId, err := a.ContentFlaggingGroupId()
 	if err != nil {
-		return nil, model.NewAppError("GetPostContentFlaggingPropertyValue", "app.data_spillage.get_group.error", nil, "", http.StatusInternalServerError).Wrap(err)
+		return nil, model.NewAppError("GetPostContentFlaggingPropertyValue", CONTENT_FLAGGING_GET_GROUP_ERROR, nil, "", http.StatusInternalServerError).Wrap(err)
 	}
 
 	statusPropertyField, appErr := a.GetPropertyFieldByName(nil, groupId, "", propertyFieldName)
@@ -311,23 +338,34 @@ func (a *App) GetContentFlaggingMappedFields(groupId string) (map[string]*model.
 	return mappedFields, nil
 }
 
-func (a *App) createContentReviewPost(rctx request.CTX, flaggedPostId, teamId, reportingUserId, reportingReason, flaggedPostChannelId, flaggedPostAuthorId, flaggedPostIdFieldId, contentFlaggingGroupId string) *model.AppError {
+type contentReviewPostRequest struct {
+	flaggedPostId          string
+	teamId                 string
+	reportingUserId        string
+	reportingReason        string
+	flaggedPostChannelId   string
+	flaggedPostAuthorId    string
+	flaggedPostIdFieldId   string
+	contentFlaggingGroupId string
+}
+
+func (a *App) createContentReviewPost(rctx request.CTX, req contentReviewPostRequest) *model.AppError {
 	contentReviewBot, appErr := a.getContentReviewBot(rctx)
 	if appErr != nil {
 		return appErr
 	}
 
-	channels, appErr := a.getContentReviewChannels(rctx, teamId, contentReviewBot.UserId)
+	channels, appErr := a.getContentReviewChannels(rctx, req.teamId, contentReviewBot.UserId)
 	if appErr != nil {
 		return appErr
 	}
 
-	reportingUser, appErr := a.GetUser(reportingUserId)
+	reportingUser, appErr := a.GetUser(req.reportingUserId)
 	if appErr != nil {
 		return appErr
 	}
 
-	flaggedPostChannel, appErr := a.GetChannel(rctx, flaggedPostChannelId)
+	flaggedPostChannel, appErr := a.GetChannel(rctx, req.flaggedPostChannelId)
 	if appErr != nil {
 		return appErr
 	}
@@ -337,14 +375,14 @@ func (a *App) createContentReviewPost(rctx request.CTX, flaggedPostId, teamId, r
 		return appErr
 	}
 
-	flaggedPostAuthor, appErr := a.GetUser(flaggedPostAuthorId)
+	flaggedPostAuthor, appErr := a.GetUser(req.flaggedPostAuthorId)
 	if appErr != nil {
 		return appErr
 	}
 
 	message := fmt.Sprintf("@%s submitted a message for review.\n\nReason: %s\nChannel: ~%s\nTeam: %s\nPost Author: @%s\n\nOpen on a web browser or the Desktop app to view the full report and take action.",
 		reportingUser.Username,
-		reportingReason,
+		req.reportingReason,
 		flaggedPostChannel.Name,
 		flaggedPostTeam.DisplayName,
 		flaggedPostAuthor.Username,
@@ -357,23 +395,23 @@ func (a *App) createContentReviewPost(rctx request.CTX, flaggedPostId, teamId, r
 			Type:      model.ContentFlaggingPostType,
 			ChannelId: channel.Id,
 		}
-		post.AddProp(POST_PROP_KEY_FLAGGED_POST_ID, flaggedPostId)
+		post.AddProp(POST_PROP_KEY_FLAGGED_POST_ID, req.flaggedPostId)
 		createdPost, _, appErr := a.CreatePost(rctx, post, channel, model.CreatePostFlags{})
 		if appErr != nil {
-			rctx.Logger().Error("Failed to create content review post in one of the channels", mlog.Err(appErr), mlog.String("channel_id", channel.Id), mlog.String("team_id", teamId))
+			rctx.Logger().Error("Failed to create content review post in one of the channels", mlog.Err(appErr), mlog.String("channel_id", channel.Id), mlog.String("team_id", req.teamId))
 			continue // Don't stop processing other channels if one fails
 		}
 
 		propertyValue := &model.PropertyValue{
 			TargetID:   createdPost.Id,
 			TargetType: model.PropertyValueTargetTypePost,
-			GroupID:    contentFlaggingGroupId,
-			FieldID:    flaggedPostIdFieldId,
-			Value:      json.RawMessage(fmt.Sprintf(`"%s"`, flaggedPostId)),
+			GroupID:    req.contentFlaggingGroupId,
+			FieldID:    req.flaggedPostIdFieldId,
+			Value:      json.RawMessage(fmt.Sprintf(`"%s"`, req.flaggedPostId)),
 		}
 		_, appErr = a.CreatePropertyValue(nil, propertyValue)
 		if appErr != nil {
-			rctx.Logger().Error("Failed to create content review post property value in one of the channels", mlog.Err(appErr), mlog.String("channel_id", channel.Id), mlog.String("team_id", teamId), mlog.String("post_id", createdPost.Id))
+			rctx.Logger().Error("Failed to create content review post property value in one of the channels", mlog.Err(appErr), mlog.String("channel_id", channel.Id), mlog.String("team_id", req.teamId), mlog.String("post_id", createdPost.Id))
 		}
 	}
 
@@ -547,7 +585,7 @@ func (a *App) IsUserTeamContentReviewer(userId, teamId string) (bool, *model.App
 func (a *App) GetPostContentFlaggingPropertyValues(postId string) ([]*model.PropertyValue, *model.AppError) {
 	groupId, err := a.ContentFlaggingGroupId()
 	if err != nil {
-		return nil, model.NewAppError("GetPostContentFlaggingPropertyValues", "app.data_spillage.get_group.error", nil, "", http.StatusInternalServerError).Wrap(err)
+		return nil, model.NewAppError("GetPostContentFlaggingPropertyValues", CONTENT_FLAGGING_GET_GROUP_ERROR, nil, "", http.StatusInternalServerError).Wrap(err)
 	}
 
 	propertyValues, appErr := a.SearchPropertyValues(nil, groupId, model.PropertyValueSearchOpts{TargetIDs: []string{postId}, PerPage: CONTENT_FLAGGING_MAX_PROPERTY_VALUES})
@@ -589,7 +627,7 @@ func (a *App) PermanentDeleteFlaggedPost(rctx request.CTX, actionRequest *model.
 
 	groupId, err := a.ContentFlaggingGroupId()
 	if err != nil {
-		return model.NewAppError("PermanentDeleteFlaggedPost", "app.data_spillage.get_group.error", nil, "", http.StatusInternalServerError).Wrap(err)
+		return model.NewAppError("PermanentDeleteFlaggedPost", CONTENT_FLAGGING_GET_GROUP_ERROR, nil, "", http.StatusInternalServerError).Wrap(err)
 	}
 
 	deletionReport, appErr := a.PermanentDeletePostDataRetainStub(rctx, flaggedPost, reviewerId)
@@ -644,7 +682,7 @@ func (a *App) PermanentDeleteFlaggedPost(rctx request.CTX, actionRequest *model.
 
 	_, appErr = a.CreatePropertyValues(rctx, propertyValues)
 	if appErr != nil {
-		return model.NewAppError("PermanentlyRemoveFlaggedPost", "app.data_spillage.create_property_values.app_error", nil, "", http.StatusInternalServerError).Wrap(appErr)
+		return model.NewAppError("PermanentlyRemoveFlaggedPost", CONTENT_FLAGGING_CREATE_PROPERTY_VALUES_ERROR, nil, "", http.StatusInternalServerError).Wrap(appErr)
 	}
 
 	status.Value = json.RawMessage(fmt.Sprintf(`"%s"`, model.ContentFlaggingStatusRemoved))
@@ -700,13 +738,13 @@ func (a *App) PermanentDeletePostDataRetainStub(rctx request.CTX, post *model.Po
 	}
 
 	if (err == nil && persistentNotification == nil) || errors.As(err, &nfErr) {
-		report.AddStep(i18n.TranslationId("app.data_spillage.report.step.persistent_notifications"), model.StepNotApplicable, i18n.TranslationId("app.data_spillage.report.detail.no_data_found"), nil)
+		report.AddStep(i18n.TranslationId(CONTENT_FLAGGING_REPORT_STEP_PERSISTENT_NOTIFICATIONS), model.StepNotApplicable, i18n.TranslationId(CONTENT_FLAGGING_REPORT_DETAIL_NO_DATA_FOUND), nil)
 	} else {
 		if deleteErr := a.Srv().Store().PostPersistentNotification().Delete([]string{post.Id}); deleteErr != nil {
 			rctx.Logger().Error("PermanentDeletePostDataRetainStub: Failed to delete persistent notifications for the post", mlog.Err(deleteErr), mlog.String("post_id", post.Id))
-			report.AddStep(i18n.TranslationId("app.data_spillage.report.step.persistent_notifications"), model.StepFailed, "", []string{deleteErr.Error()})
+			report.AddStep(i18n.TranslationId(CONTENT_FLAGGING_REPORT_STEP_PERSISTENT_NOTIFICATIONS), model.StepFailed, "", []string{deleteErr.Error()})
 		} else {
-			report.AddStep(i18n.TranslationId("app.data_spillage.report.step.persistent_notifications"), model.StepSuccess, i18n.TranslationId("app.data_spillage.report.detail.deleted"), nil)
+			report.AddStep(i18n.TranslationId(CONTENT_FLAGGING_REPORT_STEP_PERSISTENT_NOTIFICATIONS), model.StepSuccess, i18n.TranslationId(CONTENT_FLAGGING_REPORT_DETAIL_DELETED), nil)
 		}
 	}
 
@@ -717,13 +755,13 @@ func (a *App) PermanentDeletePostDataRetainStub(rctx request.CTX, post *model.Po
 	}
 
 	if appErr == nil && len(acknowledgements) == 0 {
-		report.AddStep(i18n.TranslationId("app.data_spillage.report.step.acknowledgements"), model.StepNotApplicable, i18n.TranslationId("app.data_spillage.report.detail.no_data_found"), nil)
+		report.AddStep(i18n.TranslationId(CONTENT_FLAGGING_REPORT_STEP_ACKNOWLEDGEMENTS), model.StepNotApplicable, i18n.TranslationId(CONTENT_FLAGGING_REPORT_DETAIL_NO_DATA_FOUND), nil)
 	} else {
 		if deleteErr := a.Srv().Store().PostAcknowledgement().DeleteAllForPost(post.Id); deleteErr != nil {
 			rctx.Logger().Error("PermanentDeletePostDataRetainStub: Failed to delete post acknowledgements for the post", mlog.Err(deleteErr), mlog.String("post_id", post.Id))
-			report.AddStep(i18n.TranslationId("app.data_spillage.report.step.acknowledgements"), model.StepFailed, "", []string{deleteErr.Error()})
+			report.AddStep(i18n.TranslationId(CONTENT_FLAGGING_REPORT_STEP_ACKNOWLEDGEMENTS), model.StepFailed, "", []string{deleteErr.Error()})
 		} else {
-			report.AddStep(i18n.TranslationId("app.data_spillage.report.step.acknowledgements"), model.StepSuccess, i18n.TranslationId("app.data_spillage.report.detail.deleted"), nil)
+			report.AddStep(i18n.TranslationId(CONTENT_FLAGGING_REPORT_STEP_ACKNOWLEDGEMENTS), model.StepSuccess, i18n.TranslationId(CONTENT_FLAGGING_REPORT_DETAIL_DELETED), nil)
 		}
 	}
 
@@ -735,13 +773,13 @@ func (a *App) PermanentDeletePostDataRetainStub(rctx request.CTX, post *model.Po
 	}
 
 	if appErr == nil && postPriorityData == nil {
-		report.AddStep(i18n.TranslationId("app.data_spillage.report.step.priority_data"), model.StepNotApplicable, i18n.TranslationId("app.data_spillage.report.detail.no_data_found"), nil)
+		report.AddStep(i18n.TranslationId(CONTENT_FLAGGING_REPORT_STEP_PRIORITY_DATA), model.StepNotApplicable, i18n.TranslationId(CONTENT_FLAGGING_REPORT_DETAIL_NO_DATA_FOUND), nil)
 	} else {
 		if deleteErr := a.DeletePriorityForPost(post.Id); deleteErr != nil {
 			rctx.Logger().Error("PermanentDeletePostDataRetainStub: Failed to delete post priority for the post", mlog.Err(deleteErr), mlog.String("post_id", post.Id))
-			report.AddStep(i18n.TranslationId("app.data_spillage.report.step.priority_data"), model.StepFailed, "", []string{deleteErr.Error()})
+			report.AddStep(i18n.TranslationId(CONTENT_FLAGGING_REPORT_STEP_PRIORITY_DATA), model.StepFailed, "", []string{deleteErr.Error()})
 		} else {
-			report.AddStep(i18n.TranslationId("app.data_spillage.report.step.priority_data"), model.StepSuccess, i18n.TranslationId("app.data_spillage.report.detail.deleted"), nil)
+			report.AddStep(i18n.TranslationId(CONTENT_FLAGGING_REPORT_STEP_PRIORITY_DATA), model.StepSuccess, i18n.TranslationId(CONTENT_FLAGGING_REPORT_DETAIL_DELETED), nil)
 		}
 	}
 
@@ -751,13 +789,13 @@ func (a *App) PermanentDeletePostDataRetainStub(rctx request.CTX, post *model.Po
 	}
 
 	if (err == nil && len(reminders) == 0) || errors.As(err, &nfErr) {
-		report.AddStep(i18n.TranslationId("app.data_spillage.report.step.reminders"), model.StepNotApplicable, i18n.TranslationId("app.data_spillage.report.detail.no_data_found"), nil)
+		report.AddStep(i18n.TranslationId(CONTENT_FLAGGING_REPORT_STEP_REMINDERS), model.StepNotApplicable, i18n.TranslationId(CONTENT_FLAGGING_REPORT_DETAIL_NO_DATA_FOUND), nil)
 	} else {
 		if deleteErr := a.Srv().Store().Post().DeleteAllPostRemindersForPost(post.Id); deleteErr != nil {
 			rctx.Logger().Error("PermanentDeletePostDataRetainStub: Failed to delete post reminders for the post", mlog.Err(deleteErr), mlog.String("post_id", post.Id))
-			report.AddStep(i18n.TranslationId("app.data_spillage.report.step.reminders"), model.StepFailed, "", []string{deleteErr.Error()})
+			report.AddStep(i18n.TranslationId(CONTENT_FLAGGING_REPORT_STEP_REMINDERS), model.StepFailed, "", []string{deleteErr.Error()})
 		} else {
-			report.AddStep(i18n.TranslationId("app.data_spillage.report.step.reminders"), model.StepSuccess, i18n.TranslationId("app.data_spillage.report.detail.deleted"), nil)
+			report.AddStep(i18n.TranslationId(CONTENT_FLAGGING_REPORT_STEP_REMINDERS), model.StepSuccess, i18n.TranslationId(CONTENT_FLAGGING_REPORT_DETAIL_DELETED), nil)
 		}
 	}
 
@@ -806,18 +844,18 @@ func (a *App) deleteEditHistories(rctx request.CTX, postId, deleteByID string, r
 	editHistories, appErr := a.GetEditHistoryForPost(postId)
 	if appErr != nil && appErr.StatusCode != http.StatusNotFound {
 		rctx.Logger().Error("PermanentDeletePostDataRetainStub: Failed to get edit history for post", mlog.Err(appErr), mlog.String("post_id", postId))
-		report.AddStep(i18n.TranslationId("app.data_spillage.report.step.edit_histories"), model.StepFailed, i18n.TranslationId("app.data_spillage.report.detail.failed_retrieve_edit_history"), []string{appErr.Error()})
+		report.AddStep(i18n.TranslationId(CONTENT_FLAGGING_REPORT_STEP_EDIT_HISTORIES), model.StepFailed, i18n.TranslationId("app.data_spillage.report.detail.failed_retrieve_edit_history"), []string{appErr.Error()})
 
 		return
 	}
 
 	if len(editHistories) == 0 {
-		report.AddStep(i18n.TranslationId("app.data_spillage.report.step.edit_histories"), model.StepNotApplicable, i18n.TranslationId("app.data_spillage.report.detail.no_data_found"), nil)
+		report.AddStep(i18n.TranslationId(CONTENT_FLAGGING_REPORT_STEP_EDIT_HISTORIES), model.StepNotApplicable, i18n.TranslationId(CONTENT_FLAGGING_REPORT_DETAIL_NO_DATA_FOUND), nil)
 		return
 	}
 
 	step := model.DeletionStepResult{
-		Name:     i18n.TranslationId("app.data_spillage.report.step.edit_histories"),
+		Name:     i18n.TranslationId(CONTENT_FLAGGING_REPORT_STEP_EDIT_HISTORIES),
 		SubSteps: make([]model.DeletionSubStep, 0, len(editHistories)),
 	}
 
@@ -878,7 +916,7 @@ func (a *App) KeepFlaggedPost(rctx request.CTX, actionRequest *model.FlagContent
 
 	groupId, err := a.ContentFlaggingGroupId()
 	if err != nil {
-		return model.NewAppError("KeepFlaggedPost", "app.data_spillage.get_group.error", nil, "", http.StatusInternalServerError).Wrap(err)
+		return model.NewAppError("KeepFlaggedPost", CONTENT_FLAGGING_GET_GROUP_ERROR, nil, "", http.StatusInternalServerError).Wrap(err)
 	}
 
 	mappedFields, appErr := a.GetContentFlaggingMappedFields(groupId)
@@ -954,7 +992,7 @@ func (a *App) KeepFlaggedPost(rctx request.CTX, actionRequest *model.FlagContent
 
 	_, appErr = a.CreatePropertyValues(nil, propertyValues)
 	if appErr != nil {
-		return model.NewAppError("KeepFlaggedPost", "app.data_spillage.create_property_values.app_error", nil, "", http.StatusInternalServerError).Wrap(appErr)
+		return model.NewAppError("KeepFlaggedPost", CONTENT_FLAGGING_CREATE_PROPERTY_VALUES_ERROR, nil, "", http.StatusInternalServerError).Wrap(appErr)
 	}
 
 	status.Value = json.RawMessage(fmt.Sprintf(`"%s"`, model.ContentFlaggingStatusRetained))
@@ -1150,7 +1188,7 @@ func (a *App) AssignFlaggedPostReviewer(rctx request.CTX, flaggedPostId, flagged
 
 	groupId, err := a.ContentFlaggingGroupId()
 	if err != nil {
-		return model.NewAppError("AssignFlaggedPostReviewer", "app.data_spillage.get_group.error", nil, "", http.StatusInternalServerError).Wrap(err)
+		return model.NewAppError("AssignFlaggedPostReviewer", CONTENT_FLAGGING_GET_GROUP_ERROR, nil, "", http.StatusInternalServerError).Wrap(err)
 	}
 
 	mappedFields, appErr := a.GetContentFlaggingMappedFields(groupId)

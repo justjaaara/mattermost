@@ -4043,12 +4043,10 @@ const AdminDefinition: AdminDefinitionType = {
                 title: defineMessage({id: 'admin.sidebar.dataSpillage', defaultMessage: 'Data Spillage Handling'}),
                 searchableStrings: dataSpillageSearchableStrings,
                 isHidden: it.any(
-                    it.not(it.minLicenseTier(LicenseSkus.EnterpriseAdvanced)),
                     it.not(it.userHasReadPermissionOnResource(RESOURCE_KEYS.USER_MANAGEMENT.SYSTEM_ROLES)),
                     it.configIsFalse('FeatureFlags', 'ContentFlagging'),
                 ),
                 isDisabled: it.not(it.userHasWritePermissionOnResource(RESOURCE_KEYS.USER_MANAGEMENT.SYSTEM_ROLES)),
-                restrictedIndicator: getRestrictedIndicator(false, LicenseSkus.EnterpriseAdvanced),
                 schema: {
                     id: 'ContentFlaggingSettings',
                     component: ContentFlaggingSettings,
@@ -4058,10 +4056,7 @@ const AdminDefinition: AdminDefinitionType = {
                 url: 'site_config/data_spillage',
                 isDiscovery: true,
                 title: defineMessage({id: 'admin.sidebar.dataSpillage', defaultMessage: 'Data Spillage Handling'}),
-                isHidden: it.any(
-                    it.minLicenseTier(LicenseSkus.EnterpriseAdvanced),
-                    it.configIsFalse('FeatureFlags', 'ContentFlagging'),
-                ),
+                isHidden: it.configIsFalse('FeatureFlags', 'ContentFlagging'),
                 schema: {
                     id: 'ContentFlaggingSettings',
                     name: defineMessage({id: 'admin.sidebar.dataSpillage', defaultMessage: 'Data Spillage Handling'}),

@@ -24,6 +24,8 @@ const (
 	TargetReviewers NotificationTarget = "reviewers"
 	TargetAuthor    NotificationTarget = "author"
 	TargetReporter  NotificationTarget = "reporter"
+
+	ConfigIsValidFuncName = "Config.IsValid"
 )
 
 var ContentFlaggingDefaultReasons = []string{
@@ -74,24 +76,24 @@ func (cfs *ContentFlaggingNotificationSettings) IsValid() *AppError {
 	// Only valid events and targets are allowed
 	for event, targets := range cfs.EventTargetMapping {
 		if event != EventFlagged && event != EventAssigned && event != EventContentRemoved && event != EventContentDismissed {
-			return NewAppError("Config.IsValid", "model.config.is_valid.notification_settings.invalid_event", nil, "", http.StatusBadRequest)
+			return NewAppError(ConfigIsValidFuncName, "model.config.is_valid.notification_settings.invalid_event", nil, "", http.StatusBadRequest)
 		}
 
 		for _, target := range targets {
 			if target != TargetReviewers && target != TargetAuthor && target != TargetReporter {
-				return NewAppError("Config.IsValid", "model.config.is_valid.notification_settings.invalid_target", nil, fmt.Sprintf("target: %s", target), http.StatusBadRequest)
+				return NewAppError(ConfigIsValidFuncName, "model.config.is_valid.notification_settings.invalid_target", nil, fmt.Sprintf("target: %s", target), http.StatusBadRequest)
 			}
 		}
 	}
 
 	if len(cfs.EventTargetMapping[EventFlagged]) == 0 {
-		return NewAppError("Config.IsValid", "model.config.is_valid.notification_settings.reviewer_flagged_notification_disabled", nil, "", http.StatusBadRequest)
+		return NewAppError(ConfigIsValidFuncName, "model.config.is_valid.notification_settings.reviewer_flagged_notification_disabled", nil, "", http.StatusBadRequest)
 	}
 
 	// Search for the TargetReviewers in the EventFlagged event
 	reviewerFound := slices.Contains(cfs.EventTargetMapping[EventFlagged], TargetReviewers)
 	if !reviewerFound {
-		return NewAppError("Config.IsValid", "model.config.is_valid.notification_settings.reviewer_flagged_notification_disabled", nil, "", http.StatusBadRequest)
+		return NewAppError(ConfigIsValidFuncName, "model.config.is_valid.notification_settings.reviewer_flagged_notification_disabled", nil, "", http.StatusBadRequest)
 	}
 
 	return nil
@@ -149,7 +151,7 @@ func (acfs *AdditionalContentFlaggingSettings) SetDefaults() {
 
 func (acfs *AdditionalContentFlaggingSettings) IsValid() *AppError {
 	if acfs.Reasons == nil || len(*acfs.Reasons) == 0 {
-		return NewAppError("Config.IsValid", "model.config.is_valid.content_flagging.reasons_not_set.app_error", nil, "", http.StatusBadRequest)
+		return NewAppError(ConfigIsValidFuncName, "model.config.is_valid.content_flagging.reasons_not_set.app_error", nil, "", http.StatusBadRequest)
 	}
 
 	return nil
