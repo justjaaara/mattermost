@@ -1,0 +1,69 @@
+services:
+  mattermost-server:
+    build:
+      context: ./server
+      dockerfile: ./build/Dockerfile.buildenv
+    container_name: mattermost-server
+    working_dir: /home/mattermost-server/server
+    environment:
+      MM_SQLSETTINGS_DRIVERNAME: postgres
+      MM_SQLSETTINGS_DATASOURCE: postgres://mmuser:mostest@postgres:5432/mattermost_test?sslmode=disable&connect_timeout=10
+      MM_NO_DOCKER: "true"
+      RUN_SERVER_IN_BACKGROUND: "false"
+      MM_LOGSETTINGS_FILELOCATION: ./logs
+      MM_FEATUREFLAGS_CONTENTFLAGGING: "true"
+      MM_SERVICESETTINGS_SITEURL: http://localhost:8065
+      MM_SERVICESETTINGS_LISTENADDRESS: :8065
+    networks:
+      - mattermost-network
+    ports:
+      - "8065:8065"
+    volumes:
+      - ./:/home/mattermost-server:Z
+      - ./server:/home/mattermost-server/server:Z
+      - ./webapp:/home/mattermost-server/webapp:Z
+    depends_on:
+      postgres:
+        condition: service_healthy
+    command: >
+      bash -c "
+        cd /home/mattermost-server/server &&
+        make modules-tidy &&
+        make setup-go-work &&
+        go generate -buildvcs=false ./channels/store &&
+        cd ./public && go generate -buildvcs=false ./plugin &&
+        cd /home/mattermost-server/server &&
+        make run-server
+      "
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8065/api/v4/system/ping"]
+      interval: 10s
+      timeout: 10s
+      retries: 30
+      start_period: 5m
+
+  postgres:
+    image: postgres:14-alpine
+    container_name: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: mmuser
+      POSTGRES_PASSWORD: mostest
+      POSTGRES_DB: mattermost_test
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - mattermost-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U mmuser -d mattermost_test"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:
+
+networks:
+  mattermost-network:
+    driver: bridge
