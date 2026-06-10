@@ -39,8 +39,9 @@ pipeline {
                 dir('server') {
                     sh '''
                         export PATH=$PATH:/usr/local/go/bin
-                        go test ./channels/app -run TestContentFlagging -v -coverprofile=coverage_app.out -timeout 10m
-                        go test ./public/model -run TestContentFlagging -v -coverprofile=coverage_model.out -timeout 10m
+                        export GOMAXPROCS=1
+                        go test ./channels/app -run TestContentFlagging -v -p 1 -coverprofile=coverage_app.out -timeout 10m
+                        go test ./public/model -run TestContentFlagging -v -p 1 -coverprofile=coverage_model.out -timeout 10m
                     '''
                 }
             }
