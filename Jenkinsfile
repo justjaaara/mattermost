@@ -9,23 +9,10 @@ pipeline {
     }
 
     stages {
-        stage('Checkout') {
-            steps {
-                sh '''
-                    # Clean and clone repository from GitHub
-                    rm -rf /var/jenkins_home/workspace/mattermost
-                    git clone --depth 1 https://github.com/justjaaara/mattermost.git /var/jenkins_home/workspace/mattermost
-                    cd /var/jenkins_home/workspace/mattermost
-                    git log --oneline -5
-                '''
-            }
-        }
-
         stage('Build Server') {
             steps {
-                dir('/var/jenkins_home/workspace/mattermost/server') {
+                dir('server') {
                     sh '''
-                        # Install Go and make if not present
                         if ! command -v go &> /dev/null; then
                             curl -sL https://go.dev/dl/go1.26.0.linux-amd64.tar.gz -o go.tar.gz
                             tar -C /usr/local -xzf go.tar.gz
@@ -40,7 +27,6 @@ pipeline {
                         go version
                         make modules-tidy
                         make setup-go-work
-                        # Generate mocks without Docker (skip start-docker)
                         go generate -buildvcs=false ./channels/store
                         cd ./public && go generate -buildvcs=false ./plugin
                     '''
@@ -50,7 +36,7 @@ pipeline {
 
         stage('Unit Tests') {
             steps {
-                dir('/var/jenkins_home/workspace/mattermost/server') {
+                dir('server') {
                     sh '''
                         export PATH=$PATH:/usr/local/go/bin
                         go test ./channels/app -run TestContentFlagging -v -coverprofile=coverage_app.out -timeout 10m
@@ -62,7 +48,7 @@ pipeline {
 
         stage('Coverage Report') {
             steps {
-                dir('/var/jenkins_home/workspace/mattermost/server') {
+                dir('server') {
                     sh '''
                         tail -n +2 coverage_model.out >> coverage_app.out 2>/dev/null || true
                         sed -i "s|github.com/mattermost/mattermost/server/v8/|server/|g" coverage_app.out
@@ -76,12 +62,12 @@ pipeline {
 
         stage('SonarQube Analysis') {
             steps {
-                dir('/var/jenkins_home/workspace/mattermost') {
+                dir('.') {
                     sh '''
                         docker run --rm --network mattermost_mattermost-network \
                           -v $(pwd):/usr/src \
                           -e SONAR_HOST_URL="http://sonarqube:9000" \
-                          -e SONAR_TOKEN="sqp_40de1517ed87a9052364e7b1d3a78f1b1fa7d1cf" \
+                          -e SONAR_TOKEN="squ_76af51993ab2c2caa3694a8cf289e140642c2900" \
                           sonarsource/sonar-scanner-cli
                     '''
                 }
@@ -113,7 +99,7 @@ pipeline {
 
         stage('Docker Build') {
             steps {
-                dir('/var/jenkins_home/workspace/mattermost') {
+                dir('.') {
                     sh 'docker build -t ${DOCKER_IMAGE}:${BUILD_NUMBER} .'
                     sh 'docker tag ${DOCKER_IMAGE}:${BUILD_NUMBER} ${DOCKER_IMAGE}:latest'
                 }
