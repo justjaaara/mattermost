@@ -1127,8 +1127,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 sh '''
-                    # Clone repository from local path (update this URL for your environment)
-                    git clone /home/felipe/Documents/GitRepos/mattermost /workspace/mattermost || true
+                    # Clone repository from GitHub
+                    git clone https://github.com/justjaaara/mattermost.git /workspace/mattermost || true
                     cd /workspace/mattermost
                     git log --oneline -5
                 '''
